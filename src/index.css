@@ -11,3 +11,23 @@
   animation: slide 10s linear infinite;
   white-space: nowrap;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F1EFE6; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a3a3a3; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #737373; 
+}
