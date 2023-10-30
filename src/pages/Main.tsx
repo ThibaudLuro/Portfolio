@@ -3,6 +3,7 @@ import MainInfos from "../components/parts/MainInfos";
 import { FiChevronsDown } from "react-icons/fi";
 import MainPageProjects from "../components/parts/MainPageProjects";
 import { topBarItems } from "../utils/constants/TopBarItems";
+import VerticalTimeline from "../components/common/VerticalTimeline";
 
 export default function Main() {
 
@@ -23,6 +24,12 @@ export default function Main() {
       <div className="pt-20">
         <MainPageProjects />
       </div>
+
+      <div className="pt-20">
+        <h1 className="text-2xl font-bold mb-5">A PROPOS</h1>
+        <VerticalTimeline />
+      </div>
+
     </div>
   )
 }
