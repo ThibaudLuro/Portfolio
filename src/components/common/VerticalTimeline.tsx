@@ -1,23 +1,21 @@
-
-import React from "react";
 import { timelineItems } from "../../utils/constants/TimeLineItems";
 
-interface TimelineItemProps {
+interface IProps {
     index: number;
     date: string;
     title: string;
     description: string;
 }
 
-const TimelineItem: React.FC<TimelineItemProps> = ({ index, date, title, description }) => {
+function TimelineItem(props: IProps) {
     return (
         <div className="flex flex-col w-full md:flex-row items-start justify-center">
             <div className="flex flex-col w-full items-center justify-center pt-4 text-center md:items-end md:text-right md:pt-10">
-                {index % 2 !== 0 && (
+                {props.index % 2 !== 0 && (
                     <>
-                        <p className="text-gray-600">{date}</p>
-                        <h3 className="font-bold mb-1">{title}</h3>
-                        <p className="text-gray-600">{description}</p>
+                        <p className="text-gray-600">{props.date}</p>
+                        <h3 className="font-bold mb-1">{props.title}</h3>
+                        <p className="text-gray-600">{props.description}</p>
                     </>
                 )}
             </div>
@@ -28,11 +26,11 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ index, date, title, descrip
             </div>
 
             <div className="flex flex-col w-full items-center justify-center text-center pb-4 md:items-start md:text-left md:pb-10">
-                {index % 2 === 0 && (
+                {props.index % 2 === 0 && (
                     <>
-                        <p className="text-gray-600">{date}</p>
-                        <h3 className="font-bold mb-1">{title}</h3>
-                        <p className="text-gray-600">{description}</p>
+                        <p className="text-gray-600">{props.date}</p>
+                        <h3 className="font-bold mb-1">{props.title}</h3>
+                        <p className="text-gray-600">{props.description}</p>
                     </>
                 )}
             </div>
@@ -40,7 +38,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ index, date, title, descrip
     );
 };
 
-const VerticalTimeline: React.FC = () => {
+export default function VerticalTimeline() {
     return (
         <div className="grid items-start justify-center">
             {timelineItems.map((item, index) => (
@@ -49,6 +47,3 @@ const VerticalTimeline: React.FC = () => {
         </div>
     );
 };
-
-
-export default VerticalTimeline;

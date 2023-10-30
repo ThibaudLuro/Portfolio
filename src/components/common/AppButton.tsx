@@ -1,16 +1,11 @@
-
-import React from "react";
-
-interface AppButtonProps {
+interface IProps {
     placeholder: string;
 }
 
-const AppButton: React.FC<AppButtonProps> = ({ placeholder }) => {
+export default function AppButton(props: IProps) {
     return (
         <button className="bg-black text-white text-sm py-2 px-6 w-full hover:bg-zinc-800 transition duration-300 ease-in-out">
-            {placeholder}
+            {props.placeholder}
         </button>
     );
 };
-
-export default AppButton;

@@ -1,10 +1,13 @@
 import Topbar from "../components/common/Topbar";
 import MainInfos from "../components/parts/MainInfos";
-import { FiChevronsDown } from "react-icons/fi";
-import MainPageProjects from "../components/parts/MainPageProjects";
-import { topBarItems } from "../utils/constants/TopBarItems";
-import VerticalTimeline from "../components/common/VerticalTimeline";
 import Contact from "../components/parts/Contact";
+import MainPageProjects from "../components/parts/MainPageProjects";
+import VerticalTimeline from "../components/common/VerticalTimeline";
+
+import { topBarItems } from "../utils/constants/TopBarItems";
+
+import { FiChevronsDown } from "react-icons/fi";
+
 
 export default function Main() {
 
@@ -23,6 +26,7 @@ export default function Main() {
       </div>
 
       <div className="pt-20">
+        <h2 className="text-2xl font-bold mb-5">MES REALISATIONS</h2>
         <MainPageProjects />
       </div>
 
@@ -32,6 +36,7 @@ export default function Main() {
       </div>
 
       <div className="pt-20">
+        <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
         <Contact />
       </div>
 

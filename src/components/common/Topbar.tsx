@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-function TopBar(props: any) {
+interface IProps {
+    topBarItems: Array<{ name: string }>;
+}
+
+export default function TopBar(props: IProps) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <div>
             <div className="hidden md:flex items-center justify-start gap-10 text-xs text-zinc-400 font-montserrat">
                 {props.topBarItems.map((item: any) => (
-                    <h1 key={item.name}>{item.name}</h1>
+                    <h1 className='cursor-pointer select-none hover:text-zinc-800' key={item.name}>{item.name}</h1>
                 ))}
             </div>
 
@@ -25,5 +29,3 @@ function TopBar(props: any) {
         </div>
     );
 }
-
-export default TopBar;
