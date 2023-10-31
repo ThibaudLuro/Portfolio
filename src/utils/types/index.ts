@@ -6,3 +6,8 @@ export interface IProject {
     link: string;
     explanation: {element: string, content: string, illustration: string}[];
 }
+
+export interface ITopBarItem {
+    name: string;
+    link: string;
+}
