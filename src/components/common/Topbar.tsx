@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { topBarItems } from '../../utils/constants/TopBarItems';
 
 interface IProps {
-    topBarItems: Array<{ name: string }>;
 }
 
 export default function TopBar(props: IProps) {
@@ -9,9 +9,9 @@ export default function TopBar(props: IProps) {
 
     return (
         <div>
-            <div className="hidden md:flex items-center justify-start gap-10 text-xs text-zinc-400 font-montserrat">
-                {props.topBarItems.map((item: any) => (
-                    <h1 className='cursor-pointer select-none hover:text-zinc-800' key={item.name}>{item.name}</h1>
+            <div className="hidden md:flex items-center justify-start gap-10 text-xs text-neutral-400 font-montserrat">
+                {topBarItems.map((item: any) => (
+                    <h1 className='cursor-pointer select-none hover:text-neutral-800' key={item.name}>{item.name}</h1>
                 ))}
             </div>
 
@@ -20,8 +20,8 @@ export default function TopBar(props: IProps) {
             </div>
 
             {isOpen && (
-                <div className="flex flex-col text-xs bg-black absolute gap-2 p-4 w-1/2 z-10 text-zinc-400 font-montserrat md:hidden">
-                    {props.topBarItems.map((item: any) => (
+                <div className="flex flex-col text-xs bg-black absolute gap-2 p-4 w-1/2 z-10 text-neutral-400 font-montserrat md:hidden">
+                    {topBarItems.map((item: any) => (
                         <h1 key={item.name} onClick={() => setIsOpen(false)}>{item.name}</h1>
                     ))}
                 </div>
