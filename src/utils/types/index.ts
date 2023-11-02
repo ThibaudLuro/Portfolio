@@ -7,6 +7,12 @@ export interface IProject {
     explanation: {element: string, content: string, illustration: string}[];
 }
 
+export interface ISkill {
+    name: string;
+    icon: string;
+    explanation: {element: string, content: string, illustration: string}[];
+}
+
 export interface ITopBarItem {
     name: string;
     link: string;

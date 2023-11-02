@@ -28,20 +28,22 @@ export default function Main() {
                     </div>
                 </div>
 
-                <div className="flex flex-col mt-20 gap-20 md:gap-40">
-                    <div>
-                        <h2 className="text-2xl font-bold mb-5">MES REALISATIONS</h2>
-                        <ProjectsGrid projects={technicalProjects} />
-                    </div>
+                <div className="xl:p-40">
+                    <div className="flex flex-col mt-20 gap-20 md:gap-40">
+                        <div>
+                            <h2 className="text-2xl font-bold mb-5">MES REALISATIONS</h2>
+                            <ProjectsGrid projects={technicalProjects} />
+                        </div>
 
-                    <div>
-                        <h1 className="text-2xl font-bold mb-5">A PROPOS</h1>
-                        <VerticalTimeline />
-                    </div>
+                        <div>
+                            <h1 className="text-2xl font-bold mb-5">A PROPOS</h1>
+                            <VerticalTimeline />
+                        </div>
 
-                    <div>
-                        <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
-                        <Contact />
+                        <div>
+                            <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
+                            <Contact />
+                        </div>
                     </div>
                 </div>
 
