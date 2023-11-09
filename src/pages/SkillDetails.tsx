@@ -50,35 +50,23 @@ export default function SkillDetails() {
 
                     <div className="">
                         <h1 className="font-bold text-xl uppercase">{skill.explanation[2]?.element}</h1>
-
-                        <div className="mt-4">
                             <div className="md:text-justify">
                                 {SplitParagraphs(skill.explanation[2]?.content)}
                             </div>
-
-                        </div>
                     </div>
 
                     <div className="">
                         <h1 className="font-bold text-xl uppercase">{skill.explanation[3]?.element}</h1>
-
-                        <div className="mt-4">
                             <div className="md:text-justify">
                                 {SplitParagraphs(skill.explanation[3]?.content)}
                             </div>
-
-                        </div>
                     </div>
 
                     <div className="">
                         <h1 className="font-bold text-xl uppercase">{skill.explanation[4]?.element}</h1>
-
-                        <div className="mt-4">
                             <div className="md:text-justify">
                                 {SplitParagraphs(skill.explanation[4]?.content)}
                             </div>
-
-                        </div>
                     </div>
                 </div>
             </div>

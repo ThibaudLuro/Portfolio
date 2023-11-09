@@ -10,11 +10,14 @@ export default function Projects() {
 
             <h1 className="text-3xl font-bold text-center mt-20">MES REALISATIONS</h1>
 
-            <h1 className="mt-10 font-bold text-xl">TECHNIQUES</h1>
-            <ProjectsGrid projects={technicalProjects} />
+            <div className="xl:px-40">
+                <h1 className="mt-10 font-bold text-xl">TECHNIQUES</h1>
+                <ProjectsGrid projects={technicalProjects} />
 
-            <h1 className="mt-10 font-bold text-xl">HUMAINES</h1>
-            <ProjectsGrid projects={humanProjects} />
+                <h1 className="mt-10 font-bold text-xl">HUMAINES</h1>
+                <ProjectsGrid projects={humanProjects} />
+            </div>
+
         </div>
     )
 }

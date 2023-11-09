@@ -9,7 +9,7 @@ interface IProps {
 export default function SkillsGrid(props: IProps) {
     return (
         <div className="w-full flex justify-center items-center">
-            <div className="mt-10 w-fit grid justify-items-center grid-cols-1 lg:grid-cols-3 gap-4">
+            <div className="w-fit grid justify-items-center grid-cols-1 lg:grid-cols-3 gap-4">
                 {props.skills.map((skill, index) => {
                     return (
                         <Link to={`/skills/${skill.name}`} key={index} style={{ textDecoration: 'none' }}>
