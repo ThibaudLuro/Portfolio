@@ -4,13 +4,13 @@ export interface IProject {
     technologies: string[];
     image: string;
     link: string;
-    explanation: {element: string, content: string, illustration: string}[];
+    explanation: {element: string, content: string, illustration?: string}[];
 }
 
 export interface ISkill {
     name: string;
     icon: string;
-    explanation: {element: string, content: string, illustration: string}[];
+    explanation: {element: string, content: string, illustration?: string}[];
 }
 
 export interface ITopBarItem {

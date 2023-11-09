@@ -7,7 +7,7 @@ interface IProps {
 
 export default function SkillCard(props: IProps) {
     return (
-        <div className="group relative h-96 w-80 bg-neutral-300 hover:bg-neutral-400 hover:shadow-xl transition duration-300 ease-in-out">
+        <div className="group relative h-96 w-80 bg-neutral-900 hover:bg-black hover:shadow-xl transition duration-300 ease-in-out">
             <div className="h-full flex flex-col justify-center items-center cursor-pointer">
                 <img
                     className="h-16 rounded-md"
