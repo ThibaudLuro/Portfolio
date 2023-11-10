@@ -10,7 +10,7 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Main />} />
+                <Route path="/Portfolio/" element={<Main />} />
                 <Route path="projects" element={<Projects />} />
                 <Route path="projects/:name" element={<ProjectDetails />} />
                 <Route path="skills" element={<Skills />} />
