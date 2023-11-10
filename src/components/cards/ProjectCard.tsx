@@ -3,7 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 interface IProps {
     projectName: string;
     projectDescription: string;
-    projectLogo: string;
+    projectLogo?: string;
     colSpan?: number;
 }
 

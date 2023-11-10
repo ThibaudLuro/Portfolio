@@ -1,10 +1,6 @@
 import Worldwide from "../../assets/Worldwide.svg";
 
-interface IProps {
-
-}
-
-export default function MainInfos(props: IProps) {
+export default function MainInfos() {
     return (
         <>
             <div className="flex flex-col items-center justify-center">

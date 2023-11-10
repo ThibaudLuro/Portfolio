@@ -1,18 +1,12 @@
-import { useState } from "react"
-
 import AppInput from "../common/AppInput"
 import AppTextArea from "../common/AppTextArea"
 import AppButton from "../common/AppButton"
 
-interface IProps {
+export default function Contact() {
 
-}
-
-export default function Contact(props: IProps) {
-
-    const [name, setName] = useState<string>('')
-    const [email, setEmail] = useState<string>('')
-    const [message, setMessage] = useState<string>('')
+    // const [name, setName] = useState<string>('')
+    // const [email, setEmail] = useState<string>('')
+    // const [message, setMessage] = useState<string>('')
 
     return (
         <div className="flex flex-col justify-center items-center w-full mt-10 gap-4">
