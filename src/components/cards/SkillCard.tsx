@@ -11,7 +11,7 @@ export default function SkillCard(props: IProps) {
             <div className="h-full flex flex-col justify-center items-center cursor-pointer">
                 <img
                     className="h-16 rounded-md"
-                    src={props.skillIcon}
+                    src={import.meta.env.BASE_URL + props.skillIcon}
                     alt=""
                 />
             </div>
