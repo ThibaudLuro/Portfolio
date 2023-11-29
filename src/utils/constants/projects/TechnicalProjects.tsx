@@ -8,7 +8,7 @@ export const technicalProjects: IProject[] = [
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -21,7 +21,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projects/YourNight/1.png"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -39,7 +39,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                     `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projects/YourNight/GlobalScreens.png"
             }, {
                 element: "Résultat",
                 content: `
@@ -55,7 +55,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                     `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -69,7 +69,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                     `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -81,14 +81,14 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -101,7 +101,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -117,7 +117,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Résultat",
                 content: `
@@ -131,7 +131,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -145,7 +145,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -157,14 +157,14 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -177,7 +177,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -193,7 +193,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Résultat",
                 content: `
@@ -207,7 +207,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -221,7 +221,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -233,14 +233,14 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -253,7 +253,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -269,7 +269,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Résultat",
                 content: `
@@ -283,7 +283,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -297,7 +297,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -309,7 +309,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     },
@@ -317,7 +317,7 @@ export const technicalProjects: IProject[] = [
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -330,7 +330,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -346,7 +346,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Résultat",
                 content: `
@@ -360,7 +360,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -374,7 +374,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -386,14 +386,14 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
-        image: "/images/projects/yournight.png",
+        icon: "img/projectsIcon/YourNight.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -406,7 +406,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -422,7 +422,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Résultat",
                 content: `
@@ -436,7 +436,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
@@ -450,7 +450,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
@@ -462,7 +462,7 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
-                illustration: "/images/projects/yournight.png"
+                illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     }

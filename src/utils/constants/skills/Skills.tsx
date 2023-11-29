@@ -3,7 +3,7 @@ import { ISkill } from "../../types";
 export const skills: ISkill[] = [
     {
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",
@@ -51,7 +51,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",
@@ -94,7 +94,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",
@@ -137,7 +137,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",
@@ -180,7 +180,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",
@@ -223,7 +223,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "React",
-        icon: "img/skillIcons/React.svg",
+        icon: "img/skillsIcon/React.svg",
         explanation: [
             {
                 element: "Définition",

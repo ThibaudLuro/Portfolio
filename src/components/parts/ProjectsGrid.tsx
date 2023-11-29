@@ -18,6 +18,7 @@ export default function ProjectsGrid(props: IProps) {
                         <ProjectCard
                             projectName={project.name}
                             projectDescription={project.description}
+                            projectIcon={project.icon}
                             colSpan={isLastItem && totalItemsNotDivisibleByThree ? 2 : 1}
                         />
                     </Link>

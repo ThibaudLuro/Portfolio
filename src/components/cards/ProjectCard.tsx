@@ -3,7 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 interface IProps {
     projectName: string;
     projectDescription: string;
-    projectLogo?: string;
+    projectIcon?: string;
     colSpan?: number;
 }
 
@@ -13,7 +13,7 @@ export default function ProjectCard(props: IProps) {
             <div className="h-full flex flex-col justify-center items-center cursor-pointer">
                 <img
                     className="h-16 rounded-md"
-                    src={props.projectLogo}
+                    src={props.projectIcon}
                     alt=""
                 />
             </div>
