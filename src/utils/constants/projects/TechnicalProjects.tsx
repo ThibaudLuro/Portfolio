@@ -27,16 +27,18 @@ export const technicalProjects: IProject[] = [
                 content: `
                     La réalisation de YourNight s'est articulée autour de plusieurs axes : 
                     <br/><br/>
-                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France.
+                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France. 
                     <br/><br/>
                     Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
                     <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
+                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs via Photoshop, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables (boutons, champs de texte, les différentes “cards”) permettant de limiter toute duplication de code et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
                     <br/><br/>
-                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase, ce qui m’a permis après quelques mises à jour de pouvoir être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
+                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase comme par exemple au niveau des notifications qui fonctionnaient bien sur IOS mais pas sur Android, ou encore la possibilité d’entrer des nombres négatifs en tant que prix ou quantité d’un élément devant être présent à la soirée.
+                    <br/><br/>
+                    Après quelques mises à jour visant à corriger le genre de problèmes énoncés précédemment j’ai pu être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
                     <br/><br/>
                     Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
-                `,
+                    `,
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Résultat",
@@ -45,12 +47,14 @@ export const technicalProjects: IProject[] = [
                     <br/><br/>
                     Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
                     <br/><br/>
+                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
+                    <br/><br/>
                     J'ai développé une compréhension approfondie des subtilités du déploiement d'API, de la gestion de bases de données non relationnelles, et de l'intégration continue, ce qui a renforcé mes capacités techniques. De plus, les compétences en marketing que j'ai acquises en conceptualisant la campagne de publicité pour YourNight ont élargi mon expertise et ma polyvalence.
                     <br/><br/>
                     L'un des aspects les plus gratifiants fut sans doute la liberté créative qu'elle m'a offerte. Le processus de création, de l'élaboration de la charte graphique à l'architecture de l'expérience utilisateur, a été une occasion d’exprimer ma vision et mes idées sans contrainte. Cette expérience a non seulement renforcé ma confiance en ma capacité à innover, mais m'a également apporté une grande satisfaction personnelle. Voir mes concepts se concrétiser en une application fonctionnelle a été une source de joie immense et une validation de mon potentiel créatif.
                     <br/><br/>
                     Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
-                `,
+                    `,
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Regard critique",
@@ -64,7 +68,7 @@ export const technicalProjects: IProject[] = [
                     Une autre erreur a été de ne pas avoir assez anticiper le déploiement sur les différents stores d’applications. Cela m’a couté une certaine période de temps avant que YourNight soit acceptée et mise en libre téléchargement. Une meilleure connaissance de la politique des stores m’aurait permis d’adapter le développement en fonction et éviter toute perte de temps.
                     <br/><br/>
                     Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
-                `,
+                    `,
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Evolution",
@@ -80,7 +84,7 @@ export const technicalProjects: IProject[] = [
                 illustration: "/images/projects/yournight.png"
             }
         ]
-    },{
+    }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
@@ -156,7 +160,7 @@ export const technicalProjects: IProject[] = [
                 illustration: "/images/projects/yournight.png"
             }
         ]
-    },{
+    }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
@@ -232,7 +236,7 @@ export const technicalProjects: IProject[] = [
                 illustration: "/images/projects/yournight.png"
             }
         ]
-    },{
+    }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
@@ -385,7 +389,7 @@ export const technicalProjects: IProject[] = [
                 illustration: "/images/projects/yournight.png"
             }
         ]
-    },{
+    }, {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
