@@ -7,18 +7,18 @@ export const topBarItems: ITopBarItem[] = [
     },
     {
       name: "REALISATIONS",
-      link: "/projects",
+      link: "/Portfolio/projects",
     },
     {
       name: "COMPETENCES",
-      link: "/skills",
+      link: "/Portfolio/skills",
     },
     {
       name: "A PROPOS",
-      link: "/about",
+      link: "/Portfolio/about",
     },
     {
       name: "CONTACT",
-      link: "/contact",
+      link: "/Portfolio/contact",
     }
   ]

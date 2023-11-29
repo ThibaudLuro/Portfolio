@@ -14,7 +14,7 @@ export default function ProjectsGrid(props: IProps) {
                 const totalItemsNotDivisibleByThree = props.projects.length % 3 !== 0;
 
                 return (
-                    <Link to={`/projects/${project.name}`} key={index} style={{ textDecoration: 'none' }}>
+                    <Link to={`/Portfolio/projects/${project.name}`} key={index} style={{ textDecoration: 'none' }}>
                         <ProjectCard
                             projectName={project.name}
                             projectDescription={project.description}
