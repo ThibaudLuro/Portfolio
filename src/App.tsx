@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/Portfolio/" element={<Main />} />
                 <Route path="Portfolio/projects" element={<Projects />} />
@@ -17,6 +17,6 @@ export default function App() {
                 <Route path="Portfolio/skills/:name" element={<SkillDetails />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
