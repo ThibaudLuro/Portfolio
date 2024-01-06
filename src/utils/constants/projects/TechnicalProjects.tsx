@@ -88,7 +88,7 @@ export const technicalProjects: IProject[] = [
         name: "ISIS",
         description: "Application web servant au milieu de l'industrie",
         technologies: ["React", "NodeJS", "Base de données"],
-        icon: "img/projectsIcon/YourNight.svg",
+        icon: "img/projectsIcon/Isis.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {

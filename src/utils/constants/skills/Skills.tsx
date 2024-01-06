@@ -51,7 +51,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "Docker",
-        icon: "img/skillsIcon/React.svg",
+        icon: "img/skillsIcon/Docker.svg",
         explanation: [
             {
                 element: "Définition",
@@ -116,7 +116,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "Express JS",
-        icon: "img/skillsIcon/React.svg",
+        icon: "img/skillsIcon/NodeJS.svg",
         explanation: [
             {
                 element: "Définition",
@@ -177,7 +177,7 @@ export const skills: ISkill[] = [
         ]
     },{
         name: "Base de données",
-        icon: "img/skillsIcon/React.svg",
+        icon: "img/skillsIcon/Database.svg",
         explanation: [
             {
                 element: "Définition",
