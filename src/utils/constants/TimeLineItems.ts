@@ -1,22 +1,22 @@
 export const timelineItems = [
     {
         date: "2024",
-        title: "Project Started",
-        description: "We started working on the project and defining the requirements the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining the project and defining.",
-    },
-    {
-        date: "2023",
-        title: "Design Phase",
-        description: "We designed the architecture and user interface of the application.",
+        title: "Fin de l'alternance BAC +5",
+        description: "Alternance de 2 ans chez Holis Consulting terminée en aout 2024 validant la 5ème année au sein d'Intech Sud Dax.",
     },
     {
         date: "2022",
-        title: "Development Phase",
-        description: "We developed the application using React and TypeScript.",
+        title: "Fin du stage BAC +3",
+        description: "Fin du stage de 6 mois chez Holis Consulting validant la 3ème année de Bachelor.",
     },
     {
-        date: "2021",
-        title: "Testing and Deployment",
-        description: "We tested the application and deployed it to production.",
+        date: "2022",
+        title: "Fin des cours BAC +3",
+        description: "Fin des cours de la 3ème année de Bachelor.",
+    },
+    {
+        date: "2019",
+        title: "Obtenion du BAC S",
+        description: "Accompagné avec l'entrée à Intech Sud Dax.",
     },
 ];
