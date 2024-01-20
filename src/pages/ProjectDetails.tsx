@@ -9,7 +9,7 @@ export default function ProjectDetails() {
     const project: IProject = technicalProjects.find(project => project.name === name)!;
 
     return (
-        <div className="h-full w-full bg-primary font-montserrat">
+        <div className="h-full w-full bg-primary text-accent font-montserrat">
             <div className="p-10">
 
                 <TopBar />
@@ -18,7 +18,7 @@ export default function ProjectDetails() {
                 <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
                 <div className="w-full flex justify-center items-center">
-                    <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-neutral-900 mt-20">
+                    <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-20">
                         <img
                             className="h-16"
                             src={import.meta.env.BASE_URL + project.icon}
@@ -37,14 +37,14 @@ export default function ProjectDetails() {
                         </div>
 
                         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-                            <div className="h-96 w-full bg-neutral-900 shadow-xl">
+                            <div className="h-96 w-full bg-stone-900 shadow-xl">
                                 <img
                                     className="h-full w-full object-cover object-center"
                                     src={import.meta.env.BASE_URL + project.explanation[0].illustration}
                                     alt=""
                                 />
                             </div>
-                            <div className="h-96 w-full bg-neutral-900 shadow-xl md:col-span-2" />
+                            <div className="h-96 w-full bg-stone-900 shadow-xl md:col-span-2" />
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ export default function ProjectDetails() {
                                 {SplitParagraphs(project.explanation[1]?.content)}
                             </div>
 
-                            <div className="h-96 bg-neutral-900 shadow-xl">
+                            <div className="h-96 bg-stone-900 shadow-xl">
                                 <img
                                     className="h-full w-full object-cover object-center"
                                     src={import.meta.env.BASE_URL + project.explanation[1].illustration}

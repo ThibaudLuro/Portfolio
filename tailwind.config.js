@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#F1EFE6',
-        'secondary': '#0f2570'
+        'primary': '#0c0a09',
+        'secondary': '#3c3a39',
+        'accent': '#fafaf9'
       },
       fontFamily: {
         'montserrat': ['Montserrat'],
+        'league': ['League Spartan']
       },
     },
   },

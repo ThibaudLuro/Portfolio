@@ -9,7 +9,7 @@ export default function SkillDetails() {
     const skill: ISkill = skills.find(skill => skill.name === name)!;
 
     return (
-        <div className="h-full w-full bg-primary font-montserrat">
+        <div className="h-full w-full bg-primary text-accent font-montserrat">
             <div className="p-10">
 
                 <TopBar />
@@ -18,7 +18,7 @@ export default function SkillDetails() {
                 <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
                 <div className="w-full flex justify-center items-center">
-                    <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-neutral-900 mt-20">
+                    <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-20">
                         <img
                             className="h-16"
                             src={import.meta.env.BASE_URL + skill.icon}
@@ -44,7 +44,7 @@ export default function SkillDetails() {
                                 {SplitParagraphs(skill.explanation[1]?.content)}
                             </div>
 
-                            <div className="h-96 bg-neutral-900 shadow-xl" />
+                            <div className="h-96 bg-stone-900 shadow-xl" />
                         </div>
                     </div>
 

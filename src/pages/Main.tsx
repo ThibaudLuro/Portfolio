@@ -13,7 +13,7 @@ import { technicalProjects } from "../utils/constants/projects/TechnicalProjects
 export default function Main() {
 
     return (
-        <div className="h-full w-full bg-primary font-montserrat">
+        <div className="h-full w-full text-accent bg-primary font-montserrat">
             <div className="p-10">
 
                 <Topbar />
@@ -24,7 +24,7 @@ export default function Main() {
 
                 <div className="flex w-full items-center justify-center bg-primary">
                     <div className="animate-bounce">
-                        <FiChevronsDown size={22} className="text-neutral-600" />
+                        <FiChevronsDown size={22} />
                     </div>
                 </div>
 

@@ -4,7 +4,7 @@ interface IProps {
 
 export default function AppTextArea(props: IProps) {
     return (
-        <textarea rows={8} className="bg-neutral-300 w-full text-sm py-2 px-4 focus:outline-none placeholder:text-neutral-500 focus:ring-2 focus:ring-neutral-600 focus:border-transparent"
+        <textarea rows={8} className="bg-primary border-[1px] border-secondary rounded-md w-full text-sm py-2 px-4 focus:outline-none placeholder:text-stone-400 focus:border-accent"
             placeholder={props.placeholder}
         />
     );

@@ -5,7 +5,7 @@ interface IProps {
 
 export default function AppButton(props: IProps) {
     return (
-        <button onClick={props.onClick} className="bg-black text-white text-sm py-2 px-6 w-full hover:bg-neutral-800 transition duration-300 ease-in-out">
+        <button onClick={props.onClick} className="bg-accent border-[1px] rounded-md text-stone-900 text-sm font-medium py-2 px-6 w-full hover:bg-stone-200 transition duration-300 ease-in-out">
             {props.placeholder}
         </button>
     );

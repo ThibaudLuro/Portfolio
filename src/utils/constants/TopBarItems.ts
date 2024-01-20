@@ -3,7 +3,7 @@ import { ITopBarItem } from "../types";
 export const topBarItems: ITopBarItem[] = [
     {
       name: "THIBAUD LURO",
-      link: "/Portfolio",
+      link: "/Portfolio/",
     },
     {
       name: "REALISATIONS",

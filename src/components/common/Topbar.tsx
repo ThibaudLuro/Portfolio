@@ -12,10 +12,10 @@ export default function TopBar() {
 
     return (
         <div>
-            <div className="hidden md:flex items-center justify-start gap-10 text-xs text-neutral-400 font-montserrat">
+            <div className="hidden md:flex items-center justify-start gap-10 text-xs text-stone-400 font-montserrat">
                 {topBarItems.map((item: ITopBarItem, index: number) => (
                     <Link to={item.link} key={index} style={{ textDecoration: 'none' }}>
-                        <h1 className={`cursor-pointer select-none hover:text-neutral-800 ${isActive(item.link) ? 'font-bold text-black' : ''}`} key={item.name}>{item.name}</h1>
+                        <h1 className={`cursor-pointer select-none hover:text-stone-200 ${isActive(item.link) ? 'font-bold text-accent' : ''}`} key={item.name}>{item.name}</h1>
                     </Link>
                 ))}
             </div>
@@ -26,7 +26,7 @@ export default function TopBar() {
             </div>
 
             {isOpen && (
-                <div className="flex flex-col text-xs bg-black absolute gap-2 p-4 w-1/2 z-10 text-neutral-400 font-montserrat md:hidden">
+                <div className="flex flex-col text-xs bg-black absolute gap-2 p-4 w-1/2 z-10 text-stone-400 font-montserrat md:hidden">
                     {topBarItems.map((item: ITopBarItem, index: number) => (
                         <Link to={item.link} key={index} style={{ textDecoration: 'none' }}>
                             <h1 className={`${isActive(item.link) ? 'font-bold' : ''}`} key={item.name} onClick={() => setIsOpen(false)}>{item.name}</h1>

@@ -4,7 +4,7 @@ import { skills } from "../utils/constants/skills/Skills";
 
 export default function Skills() {
     return (
-        <div className="h-full w-full bg-primary font-montserrat p-10">
+        <div className="h-full w-full bg-primary text-accent font-montserrat p-10">
             <TopBar />
 
             <h1 className="text-3xl font-bold text-center mt-20">MES COMPETENCES</h1>
