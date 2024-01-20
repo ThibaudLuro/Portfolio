@@ -17,7 +17,7 @@ export default function MainInfos() {
                 <h2 className="md:text-2xl text-center">ETUDIANT EN INGENIERIE LOGICIELLE</h2>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-xs font-medium text-center">
+            <div className="flex flex-col mt-4 justify-center items-center text-xs font-medium text-center">
                 <p>
                     BIENVENUE SUR MON PORTFOLIO.
                 </p>
