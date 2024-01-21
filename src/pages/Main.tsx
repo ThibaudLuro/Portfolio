@@ -25,7 +25,7 @@ export default function Main() {
                 </div>
 
                 <div className="xl:p-40">
-                    <div className="flex flex-col mt-20 gap-20 md:gap-40">
+                    <div className="flex flex-col mt-20 gap-10">
 
                         <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
                             <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
