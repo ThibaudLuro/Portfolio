@@ -5,6 +5,8 @@ import ProjectDetails from "./pages/ProjectDetails";
 import Skills from "./pages/Skills";
 import SkillDetails from "./pages/SkillDetails";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 export default function App() {
     return (
@@ -15,6 +17,8 @@ export default function App() {
                 <Route path="Portfolio/projects/:name" element={<ProjectDetails />} />
                 <Route path="Portfolio/skills" element={<Skills />} />
                 <Route path="Portfolio/skills/:name" element={<SkillDetails />} />
+                <Route path="Portfolio/about" element={<About />} />
+                <Route path="Portfolio/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>

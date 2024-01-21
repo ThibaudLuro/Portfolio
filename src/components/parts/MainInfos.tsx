@@ -7,7 +7,7 @@ export default function MainInfos() {
         <>
             <div className="flex flex-col items-center justify-center space-y-10">
 
-                <div className="flex flex-row justify-center w-full space-x-4">
+                <div className="flex flex-row select-none justify-center w-full space-x-4">
                     <img className="w-20 md:w-30" src={PlanetA} />
                     <img className="w-20 md:w-30" src={PlanetC} />
                     <img className="w-20 md:w-30" src={PlanetB} />

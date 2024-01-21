@@ -1,14 +1,10 @@
 import Topbar from "../components/common/Topbar";
 import MainInfos from "../components/parts/MainInfos";
-import Contact from "../components/parts/Contact";
-import ProjectsGrid from "../components/parts/ProjectsGrid";
-import VerticalTimeline from "../components/common/VerticalTimeline";
 import Footer from "../components/common/Footer";
 
 import { FiChevronsDown } from "react-icons/fi";
-
-import { technicalProjects } from "../utils/constants/projects/TechnicalProjects";
-
+import InfoCard from "../components/cards/InfoCard";
+import StatiscticCard from "../components/cards/StatisticCard";
 
 export default function Main() {
 
@@ -30,20 +26,19 @@ export default function Main() {
 
                 <div className="xl:p-40">
                     <div className="flex flex-col mt-20 gap-20 md:gap-40">
-                        <div>
-                            <h2 className="text-2xl font-bold mb-5">MES REALISATIONS</h2>
-                            <ProjectsGrid projects={technicalProjects} />
+
+                        <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
+                            <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                            <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                            <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
                         </div>
 
-                        <div>
-                            <h1 className="text-2xl font-bold mb-5">A PROPOS</h1>
-                            <VerticalTimeline />
+                        <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
+                            <StatiscticCard number="5+" description="Projets" />
+                            <StatiscticCard number="10+" description="Compétences" />
+                            <StatiscticCard number="3+" description="Années d'expériences" />
                         </div>
 
-                        <div>
-                            <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
-                            <Contact />
-                        </div>
                     </div>
                 </div>
 

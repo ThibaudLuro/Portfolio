@@ -2,7 +2,7 @@ import AppInput from "../common/AppInput"
 import AppTextArea from "../common/AppTextArea"
 import AppButton from "../common/AppButton"
 
-export default function Contact() {
+export default function ContactForm() {
 
     // const [name, setName] = useState<string>('')
     // const [email, setEmail] = useState<string>('')
