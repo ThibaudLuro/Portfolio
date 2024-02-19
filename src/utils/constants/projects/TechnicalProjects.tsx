@@ -168,306 +168,269 @@ export const technicalProjects: IProject[] = [
             }
         ]
     }, {
-        name: "YourNight",
-        description: "Application mobile de gestion de soirées",
-        technologies: ["React Native", "NodeJS", "Base de données"],
-        icon: "img/projectsIcon/YourNight.svg",
+        name: "Premis DM",
+        description: "Application web servant au milieu de l'industrie",
+        technologies: ["React", "NodeJS", "Base de données"],
+        icon: "",
         link: "https://www.yournight.net/",
         explanation: [
             {
                 element: "Contexte",
                 content: `
-                    En tant qu’étudiant il m’arrive de participer et organiser des soirées entre amis.
-                    Lors de la préparation de ces soirées, un problème revenait souvent, nous ne savions pas quoi amener et une fois que chacun achetait ce qu’il voulait, il fallait que nous consacrions du temps pour définir le montant que chacun devait aux autres.
+                    Le monde de l’industrie peine encore à se digitaliser et adopte encore des méthodes de travail fonctionnelles mais chronophages, qui favorisent l’erreur humaine.
                     <br/><br/>
-                    La question qui s’est posée à un moment donné a été : Comment faire pour faciliter et fluidifier l’organisation de nos soirées ?
+                    De ce fait l’entreprise Holis consulting imagine des solutions digitales afin de faciliter la vie des travailleurs et de là est venue l’idée de PREMIS.
                     <br/><br/>
-                    C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    PREMIS avant de devenir une application web a été une solution développée par un collaborateur de la société avec la technologie Access ce qui ne permet pas une bonne scalabilité de celle-ci et limite l’ajout de nouvelles fonctionnalités 
+                    <br/><br/>
+                    C’est pour cette raison que l’entreprise a décidé de re développer la solution sous la forme d’une application web qui permettra aux utilisateurs d’accéder aux même fonctionnalités sur une interface plus claire et simpliste tout en ajouter des fonctionnalités permettant une meilleure visualisation de ses données à l’aide de dashboard par exemple.
+                    <br/><br/>
+                    L’application web est destinée à des clients venant du milieu de l’industrie et possédant des sites industriels puisque l’application vient corriger le format et la cohérence de nouvelles données concernant la plateforme industrielle.
+                    <br/><br/>
+                    Lorsque des travaux et ajouts sont faits sur le site, de nouvelles données concernant les nouveaux éléments sont générés et PREMIS vient justement aider au contrôle du format et de la cohérence de ces données qui si ajoutées avec des erreurs pourront créer des incompréhensions plus tard par les ingénieurs travaillant ou inspectant le site.
+                    <br/><br/>
+                    PREMIS DM a été la seconde application web sur laquelle j’ai contribué durant mon stage puis mon alternance au sein d’Holis Consulting.
+                    `,
+                illustration: ""
             }, {
                 element: "Mise en œuvre",
                 content: `
-                    La réalisation de YourNight s'est articulée autour de plusieurs axes : 
+                    Le projet représentait un défi stimulant et une opportunité de croissance professionnelle importante. Au moment où j'ai entamé ce projet, j'étais confronté à une page vierge : il était de mon devoir de conceptualiser et de construire l'architecture intégrale du système - de la base de données au backend, en passant par le frontend - en utilisant React, ExpressJS et PostgreSQL.
                     <br/><br/>
-                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France.
+                    La première étape cruciale a été la conception de l'architecture de la base de données. En tenant compte des directives et des besoins spécifiques exprimés par mes supérieurs ainsi que l’existant des modèles de données réalisés via Access qui m’ont été fournis, j'ai élaboré une structure de données qui non seulement répondait aux exigences fonctionnelles du projet, mais offrait également la flexibilité nécessaire pour des évolutions futures.
                     <br/><br/>
-                    Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
+                    Ensuite, j'ai abordé le développement du backend en utilisant ExpressJS. Cette étape impliquait la mise en place d'une API robuste et sécurisée, capable de gérer les requêtes et de communiquer efficacement avec la base de données. J'ai veillé à ce que chaque composant du backend soit optimisé pour les performances et la sécurité, tout en garantissant une intégration transparente avec le frontend.                    
                     <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
+                    Le développement du frontend a été réalisé avec React. J'ai me suis basé sur une interface utilisateur imaginé par l’un de mes supérieurs via le logiciel Figma. Mon objectif était de fournir une expérience utilisateur fluide, où la complexité de la solution initiale ne serait pas un problème pour l’utilisateur.
                     <br/><br/>
-                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase, ce qui m’a permis après quelques mises à jour de pouvoir être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
+                    Tout au long du processus de développement, j'ai constamment interagi avec mes supérieurs pour des feedbacks et des ajustements, assurant ainsi que le projet reste aligné avec les objectifs globaux et réponde précisément aux besoins identifiés. Cette approche itérative a permis de s'assurer que le projet évolue dans la bonne direction et que les résultats finaux soient en parfaite adéquation avec les attentes. La solution a été également été testé après chaque implémentation de fonctionnalité via le déploiement de celle-ci sur un environnement hébergé en ligne. 
                     <br/><br/>
-                    Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    J’ai travaillé en très grande majorité en autonomie sur ce projet, étant donné la petite taille de l’équipe de développement à ce moment-là (trois personnes au total).
+                    <br/><br/>
+                    Le développement de "PREMIS DM" a impliqué plusieurs défis techniques et fonctionnels, chacun nécessitant une approche méticuleuse pour garantir un fonctionnement optimal de l'application.
+                    <br/><br/>
+                    L'une des premières fonctionnalités clés développées a été l'importation de données à partir de fichiers Excel. Cette tâche a représenté un défi considérable, principalement en raison de la taille importante des fichiers importés. Pour gérer efficacement cette fonctionnalité, j'ai mis en place des workers côté frontend pour traiter les données et les envoyer par batch à l'API. Cette approche a non seulement facilité la gestion des grands volumes de données, mais a également optimisé la performance et la fiabilité de la fonctionnalité d'importation.
+                    <br/><br/>
+                    Une autre fonctionnalité importante a été la création de vues en base de données pour permettre la consultation de données interconnectées côté frontend. La complexité résidait dans l'optimisation des requêtes SQL, souvent très élaborées, et l'ajout d'index pour améliorer les performances de la base de données. La mise en œuvre de ces vues a été essentielle pour un accès rapide et efficace aux données.
+                    <br/><br/>
+                    L'affichage des vues en frontend nécessitait une gestion prudente de la mémoire pour éviter tout plantage. Pour cela, j'ai implémenté un système de lazy loading, chargeant les données progressivement à mesure que l'utilisateur en avait besoin. Cette méthode a assuré une expérience utilisateur fluide et stable.
+                    <br/><br/>
+                    Le développement d'un treeview pour la consultation des données a été un autre défi majeur. La construction de l'arbre de données, reliant les éléments parents aux enfants, a nécessité une réflexion approfondie et une logique de programmation complexe pour assurer une représentation précise et intuitive des relations entre les données.
+                    <br/><br/>
+                    La création d'un dashboard côté frontend a été une étape cruciale pour offrir une visualisation intuitive des données. J'ai développé des graphiques en bâtonnets et en camemberts, permettant aux utilisateurs d'obtenir des aperçus clairs et interactifs des informations pertinentes sur leur site industriel.
+                    <br/><br/>
+                    Enfin, l'implémentation d'un système de vérification des données importées a été essentielle pour assurer leur exactitude et leur conformité. Ce système vérifiait non seulement la forme des données (comme le nombre maximal de caractères) mais aussi leur logique en fonction des règles spécifiques définies par l’utilisateur pour chaque site industriel. En cas d'incohérence, une erreur était retournée à l'utilisateur avec des détails précis pour faciliter la correction.
+                    `,
+                illustration: ""
             }, {
                 element: "Résultat",
                 content: `
-                    Aujourd'hui, YourNight n’est pas encore la nouvelle application à succès qui comptabilise des millions de téléchargements. Actuellement, je peaufine ma stratégie marketing, une étape cruciale que je n'ai pas encore eu l'opportunité de déployer pleinement.
+                    Après un an et demi de développement intensif, réalisé en grande partie par moi-même, "PREMIS DM" a atteint un stade significatif de maturité. La première version de l'application web s'est avérée convaincante et est actuellement utilisée dans des démonstrations auprès de clients potentiels, auxquelles je participe parfois.
                     <br/><br/>
-                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
+                    La solution, bien que complexe, offre un fonctionnement général solide et fiable. Sa conception et son développement ont été guidés par une attention particulière aux détails et une compréhension approfondie des besoins des utilisateurs dans un contexte industriel. Cela se reflète dans la manière dont les utilisateurs interagissent avec l'application, exploitant ses fonctionnalités avancées facilement pour la gestion et l'analyse de données.
                     <br/><br/>
-                    J'ai développé une compréhension approfondie des subtilités du déploiement d'API, de la gestion de bases de données non relationnelles, et de l'intégration continue, ce qui a renforcé mes capacités techniques. De plus, les compétences en marketing que j'ai acquises en conceptualisant la campagne de publicité pour YourNight ont élargi mon expertise et ma polyvalence.
+                    Il est vrai que "PREMIS DM" présente encore quelques bugs, ce qui est attendu compte tenu de la complexité de la solution. Ces problèmes, lorsqu'ils surviennent, sont rapidement identifiés et résolus, assurant ainsi une amélioration continue de l'application. Ces défis sont une partie naturelle du processus de développement et offrent des opportunités précieuses pour affiner et perfectionner l'application.
                     <br/><br/>
-                    L'un des aspects les plus gratifiants fut sans doute la liberté créative qu'elle m'a offerte. Le processus de création, de l'élaboration de la charte graphique à l'architecture de l'expérience utilisateur, a été une occasion d’exprimer ma vision et mes idées sans contrainte. Cette expérience a non seulement renforcé ma confiance en ma capacité à innover, mais m'a également apporté une grande satisfaction personnelle. Voir mes concepts se concrétiser en une application fonctionnelle a été une source de joie immense et une validation de mon potentiel créatif.
-                    <br/><br/>
-                    Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
+                    À l'heure actuelle, "PREMIS DM" est en phase de test chez deux clients potentiels. Ces essais sont cruciaux pour recueillir des retours d'expérience, identifier des domaines d'amélioration et démontrer la valeur pratique de la solution dans des environnements réels. Ces phases de test sont également une étape importante dans le processus de commercialisation de la solution, nous permettant de prouver son efficacité et son adaptabilité aux besoins spécifiques de chaque client.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Regard critique",
                 content: `
-                    Avec le recul, mon regard sur le projet YourNight est teinté d'une reconnaissance pour les nombreuses leçons qu'il m'a enseignées. L'une des plus cruciales a été la nécessité d'anticiper précisément le fonctionnement et le flux de l'application dès le début. Concevoir le parcours utilisateur avant même d'écrire la première ligne de code a permis de guider le développement de manière cohérente et efficace. J'ai également appris l'importance de se fixer des deadlines réalistes, permettant de structurer le travail et de maintenir la dynamique du projet.
+                    En réfléchissant sur le parcours de développement de "PREMIS DM", je ressens une grande fierté pour tout ce que j'ai accompli, tout en reconnaissant les défis et les difficultés rencontrés, particulièrement au début du projet en raison de mon expérience limitée à l'époque.
                     <br/><br/>
-                    La gestion financière s'est révélée être un autre domaine d'apprentissage essentiel. Définir un budget détaillé et évaluer les options d'hébergement avant le lancement du développement a été fondamental pour maintenir les coûts sous contrôle et éviter les dépassements budgétaires imprévus.
+                    L'un des principaux obstacles a été la fonctionnalité d'importation des données. Au début, la solution que j'avais mise en place se heurtait à des difficultés avec les fichiers de grande taille, dépassant les capacités du système en place. Cette expérience m'a appris l'importance de l'optimisation et de la prévision des besoins futurs lors du codage. Initialement, je me concentrais sur le fait que le code fonctionne dans l'immédiat sans toujours considérer son évolutivité. Cette approche a été ajustée au fil du temps, me permettant désormais de développer avec une vision à long terme, en assurant que la solution puisse s'adapter et évoluer avec les exigences croissantes.
                     <br/><br/>
-                    J’ai également réalisé avoir fait certaines erreurs, notamment ma plus conséquente qui est d’avoir voulu sortir une première version parfaite, ce qui s’est avéré comme n’étant pas une bonne solution. Il aurait été préférable de sortir une première version minimaliste afin de corriger le plus tôt possible les premiers bugs et ne pas avoir à tous les gérer en même temps. Cela aurait également été une occasion de valider ou non un intérêt par de potentiels utilisateurs et de jauger de l’utilité et de l’engouement généré par les différentes fonctionnalités.
+                    Un autre aspect critique a été la sécurité de l'application. Dans les premières versions, l'application a été déployée avec certaines vulnérabilités, comme des failles permettant des injections SQL. Ces expériences m'ont poussé à revoir et à renforcer mes connaissances en matière de sécurité des applications web. La prise de conscience de l'importance de la sécurité dans le développement logiciel a été un point tournant, me menant à intégrer des pratiques de sécurité rigoureuses et à tester de manière exhaustive pour prévenir les failles potentielles.
                     <br/><br/>
-                    Une autre erreur a été de ne pas avoir assez anticiper le déploiement sur les différents stores d’applications. Cela m’a couté une certaine période de temps avant que YourNight soit acceptée et mise en libre téléchargement. Une meilleure connaissance de la politique des stores m’aurait permis d’adapter le développement en fonction et éviter toute perte de temps.
-                    <br/><br/>
-                    Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
+                    En somme, bien que le chemin parcouru avec "PREMIS DM" ait comporté son lot de défis, les leçons apprises ont été inestimables. Chaque obstacle a été une opportunité d'apprentissage, me permettant de renforcer mes compétences en développement, en optimisation et en sécurité des applications. Ces expériences ont façonné mon approche de développement, me rendant plus apte à gérer des projets complexes et à développer des solutions robustes et évolutives. Je reste déterminé à continuer d'apprendre et d'améliorer mes compétences, en vue de créer des applications toujours plus performantes et sécurisées.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
-                    Dans l'immédiat, YourNight s'oriente vers sa consolidation.
+                    La trajectoire de "PREMIS DM" se dirige vers une phase d'évolution significative, motivée par l'ambition de commercialiser l'application et de l'adapter en fonction des retours des premiers utilisateurs. L'objectif est de rendre cette solution encore plus complète, en la façonnant pour répondre à un éventail plus large de besoins spécifiques au secteur industriel.
                     <br/><br/>
-                    À court terme, l'objectif est d'instaurer un système de récompenses et de "gamification" pour fidéliser la base d'utilisateurs existants, en rendant leur expérience encore plus engageante et personnalisée. Parallèlement, une campagne marketing soutenue et créative est en train d’être finalisée et sera mise en place pour attirer de nouveaux utilisateurs, afin de bâtir une communauté dynamique autour de l'application.
+                    L'application, déjà riche en fonctionnalités, sera peaufinée et élargie en se basant sur les expériences et les feedbacks des premiers clients. Cette démarche permettra de cibler et de résoudre des problématiques précises rencontrées par les utilisateurs, tout en intégrant de nouvelles fonctionnalités qui amélioreront davantage l'efficacité et la pertinence de l'application dans son contexte d'utilisation. L'accent sera mis sur l'amélioration continue de l'expérience utilisateur, la performance du système, et l'ajout de nouvelles capacités répondant aux besoins évolutifs du secteur industriel.
                     <br/><br/>
-                    À long terme, le développement de YourNight s'envisage avec ambition à condition qu’une solide base d’utilisateurs existe : 
+                    Pour ma part, "PREMIS DM" reste ma mission principale. Je continue d'y apporter des améliorations, des ajustements et des corrections nécessaires. Cependant, je jongle également avec d'autres projets, ce qui m'offre l'opportunité d'élargir mes compétences et d'appliquer les leçons apprises à un éventail plus large de défis et de contextes. Cette expérience polyvalente me permet de rester flexible et adaptable, tout en me concentrant sur l'amélioration continue de "PREMIS DM" en tant que produit phare.
                     <br/><br/>
-                    L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
+                    En conclusion, l'avenir de "PREMIS DM" est prometteur, avec des plans d'expansion et d'amélioration guidés par les exigences et les retours des utilisateurs. La capacité à évoluer et à s'adapter reste au cœur de la stratégie de développement de cette solution, visant à en faire un outil encore plus indispensable dans le secteur industriel. Mon rôle dans ce processus reste central, me permettant de contribuer de manière significative à la croissance et au succès de l'application.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }
         ]
     }, {
-        name: "YourNight",
-        description: "Application mobile de gestion de soirées",
-        technologies: ["React Native", "NodeJS", "Base de données"],
-        icon: "img/projectsIcon/YourNight.svg",
+        name: "Mat’ Moi Ca",
+        description: "Tournoi caritatif d'échecs en ligne",
+        technologies: ["Chess.com", "UNICEF", "Gestion de projet"],
+        icon: "",
         link: "https://www.yournight.net/",
         explanation: [
             {
                 element: "Contexte",
                 content: `
-                    En tant qu’étudiant il m’arrive de participer et organiser des soirées entre amis.
-                    Lors de la préparation de ces soirées, un problème revenait souvent, nous ne savions pas quoi amener et une fois que chacun achetait ce qu’il voulait, il fallait que nous consacrions du temps pour définir le montant que chacun devait aux autres.
+                    Le projet "Mat' moi ça", mené dans le cadre de ma formation, avait pour but de valider le semestre 4 de mes études. Ce projet unique s'inscrivait dans le cadre d'une exigence académique où, chaque semestre, nous devions réaliser un projet technique et un projet de formation humaine. Le thème de ce dernier variait à chaque fois, et pour ce semestre particulier, il s'agissait d'organiser un événement visant à collecter des fonds pour une association.
                     <br/><br/>
-                    La question qui s’est posée à un moment donné a été : Comment faire pour faciliter et fluidifier l’organisation de nos soirées ?
+                    En tant que chef de projet d'un groupe de cinq personnes, l'idée de "Mat' moi ça" est née de mes réflexions pendant les vacances précédant le semestre. J'ai été inspiré par l'engouement mondial pour les échecs, notamment stimulé par la popularité de la série "Le Jeu de la Dame" sur Netflix. J'ai vu dans ce regain d'intérêt pour les échecs une opportunité unique de combiner ma passion pour ce jeu avec un objectif caritatif.
                     <br/><br/>
-                    C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
+                    "Mat' moi ça" a été conçu comme un tournoi caritatif d'échecs en ligne, en collaboration avec Chess.com et l'UNICEF. Chess.com, en tant que plateforme leader mondiale des échecs en ligne, offrait l'environnement idéal pour accueillir le tournoi, tandis que le partenariat avec l'UNICEF soulignait notre engagement envers une cause humanitaire, celle de soutenir les enfants dans le besoin à travers le monde.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Mise en œuvre",
                 content: `
-                    La réalisation de YourNight s'est articulée autour de plusieurs axes : 
+                    L'organisation de "Mat' moi ça" a débuté sans aucune base préexistante : ni contacts, ni expérience dans le domaine de l'événementiel. Face à cette page vierge, nous avons d'abord défini des rôles clairs au sein de notre équipe de cinq personnes : un chef de projet, un trésorier, et des secrétaires. Bien que chacun ait eu des responsabilités spécifiques, la collaboration et l'entraide entre les membres de l'équipe ont été essentielles, permettant une flexibilité et une efficacité accrues dans la réalisation de nos tâches respectives.
                     <br/><br/>
-                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France.
+                    La première étape a consisté à établir les règles du tournoi et les conditions de participation pour assurer à la fois une expérience de qualité et la génération de fonds. Compte tenu des restrictions liées à la pandémie de COVID-19, nous avons opté pour un format de tournoi en ligne. Cette décision s'est avérée judicieuse, non seulement pour des raisons sanitaires, mais aussi pour la facilité d'accès et le potentiel d'attirer un grand nombre de participants.
                     <br/><br/>
-                    Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
+                    La mise en place d'objectifs SMARTER (Spécifiques, Mesurables, Atteignables, Pertinents, Évaluables, Réalisables) a été fondamentale pour la conduite efficace du projet "Mat' moi ça". Cette méthode nous a aidés à structurer nos objectifs de manière claire et à orienter nos actions de manière cohérente tout au long du projet.
                     <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
+                    L'importance des objectifs SMARTER réside dans leur capacité à guider l'équipe avec des directives claires et réalisables, tout en permettant un suivi et une évaluation réguliers des progrès. Chaque objectif a été conçu pour aligner nos actions avec les résultats souhaités, assurant ainsi que chaque étape du projet contribuait de manière significative à sa réussite globale. Cette approche structurée a été essentielle pour naviguer efficacement dans les complexités de l'organisation d'un événement caritatif d'envergure, et a permis d'assurer que le projet "Mat' moi ça" atteignait ses objectifs avec succès et pertinence.
                     <br/><br/>
-                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase, ce qui m’a permis après quelques mises à jour de pouvoir être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
+                    Nous avons choisi le format Blitz pour le tournoi, un mode de jeu rapide et populaire aux échecs, où chaque joueur dispose d'un temps limité de 3 minutes pour l'ensemble de la partie. Ce format est idéal pour un tournoi en ligne car il permet de jouer de nombreuses parties en un temps réduit, rendant le tournoi dynamique et captivant. Le prix d'entrée a été fixé à 3 euros, un montant accessible pour encourager une large participation.
                     <br/><br/>
-                    Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    La mise en œuvre du tournoi nécessitait une plateforme d'accueil fiable avec un dispositif anti-triche, une association partenaire pour la gestion des fonds, et des lots attractifs pour les gagnants. Nous avons lancé une campagne d'emailing intensive, ciblant des plateformes d'échecs, des associations caritatives et des boutiques spécialisées pour acquérir des lots. Parallèlement, nous avons travaillé sur la création d'une identité visuelle et une stratégie de communication sur les réseaux sociaux pour bâtir une communauté et générer de l'engouement autour de l'événement à travers une page Facebook ainsi qu’un profil Twitter.
+                    <br/><br/>
+                    Après plusieurs démarches, nous avons réussi à établir un partenariat avec Chess.com, qui a accepté d'héberger le tournoi, d'en faire la promotion et de fournir des lots sous forme d'abonnements premium. Nous avons également conclu un partenariat avec l'UNICEF France, à qui les fonds seraient reversés. Malheureusement, une collaboration prévue avec le journal SudOuest n'a pas abouti par manque de temps.
+                    <br/><br/>
+                    La recherche de lots supplémentaires et la promotion du tournoi par des influenceurs d'échecs ont été plus difficiles que prévu, avec de nombreux refus et des engagements non tenus. Malgré ces obstacles, nous avons persévéré, concentrant nos efforts sur le marketing et la communication pour assurer le succès de l'événement.
+                    <br/><br/>
+                    À l'approche du tournoi "Mat' moi ça", le mois précédant l'événement a vu une intensification significative de nos efforts de communication. Conscients de l'importance cruciale de la promotion pour le succès de notre tournoi, nous avons mis en place une stratégie de communication dynamique, centrée autour de notre page Facebook et Twitter.
+                    <br/><br/>
+                    Des publications régulières étaient programmées pour maintenir l'engagement et étendre notre portée. Ces posts comprenaient des mises à jour sur l'actualité du tournoi, des annonces de nos partenaires Chess.com et UNICEF, ainsi que des explications détaillées des règles du tournoi.
+                    <br/><br/>
+                    De leur côté, nos partenaires de Chess.com ont joué un rôle clé dans la promotion de l'événement. Ils ont respecté leur engagement en faisant la publicité de notre tournoi sur leur page Facebook et en le mettant en avant sur la page d'accueil de la version française de leur site. Cette exposition a considérablement augmenté notre visibilité et attiré de nombreux participants.
+                    <br/><br/>
+                    À notre grande satisfaction, nos efforts de communication ont également attiré l'attention de la Fédération Française des Échecs. Grâce à notre présence active et notre engagement sur les réseaux sociaux, la Fédération a choisi de relayer l'information sur notre tournoi à travers leurs canaux officiels, notamment sur Twitter et Facebook. Cette reconnaissance par une institution aussi respectée a non seulement validé nos efforts, mais a également élargi notre audience et renforcé la crédibilité de l'événement. Nous avons également attiré l’intérêt de plusieurs pages Facebook consacrés aux échecs qui ont relayé le tournoi.
+                    <br/><br/>
+                    La gestion financière de "Mat' moi ça" a également joué un rôle crucial dans le déroulé global du projet, surtout compte tenu de son importance pour l'évaluation finale de notre semestre. Nous avons abordé cet aspect avec une rigueur et une précision méticuleuses, conscient que chaque euro comptait et devait être justifié.
+                    <br/><br/>
+                    Pour assurer une gestion transparente et efficace du budget, nous avons mis en place un plan de trésorerie détaillé sous forme d'un fichier Excel. Ce document était la pierre angulaire de notre suivi financier, où chaque sortie et entrée d'argent était consciencieusement recensée. Nous avions catégorisé les dépenses et les revenus pour faciliter le suivi et l'analyse : frais de marketing, coûts de communication, dépenses liées à la plateforme du tournoi, et bien sûr, les fonds collectés pour l'UNICEF.
+                    <br/><br/>
+                    Ce suivi rigoureux nous a permis de maintenir un contrôle strict sur le budget, d'identifier rapidement les écarts par rapport aux prévisions et de prendre des décisions éclairées sur l'allocation des ressources. Chaque dépense était soigneusement examinée et approuvée par l'équipe, assurant que nous maximisions l'impact de chaque euro dépensé.
+                    <br/><br/>
+                    La transparence était également un aspect clé de notre gestion financière. Nous nous sommes assurés que toutes les parties prenantes, y compris nos partenaires et les participants au tournoi, étaient informées de la manière dont les fonds étaient utilisés. Cette approche a renforcé la confiance dans notre gestion du projet et a souligné notre engagement envers la responsabilité et l'intégrité.
+                    `,
+                illustration: ""
             }, {
                 element: "Résultat",
                 content: `
-                    Aujourd'hui, YourNight n’est pas encore la nouvelle application à succès qui comptabilise des millions de téléchargements. Actuellement, je peaufine ma stratégie marketing, une étape cruciale que je n'ai pas encore eu l'opportunité de déployer pleinement.
+                    Le projet "Mat' moi ça", bien que mené avec détermination et passion, n'a pas atteint les objectifs initialement fixés en termes de collecte de fonds. Nous avions prévu de collecter 500 euros de bénéfices au profit de l'UNICEF, mais le montant final collecté s'est limité à 100 euros. Cette différence considérable entre l'objectif et le résultat est principalement due à un nombre insuffisant de participants au tournoi, qui n'a attiré que 8 joueurs.
                     <br/><br/>
-                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
+                    L'une des principales raisons de cette participation limitée a été la date de l'événement, qui coïncidait avec la fin du confinement et le début de l'été. Cette période a probablement incité de nombreuses personnes à privilégier d'autres activités après une longue période de restrictions. Bien que conscient de ce possible obstacle, notre équipe était contrainte par le calendrier académique, nécessitant que le tournoi soit organisé et évalué avant la fin du semestre.
                     <br/><br/>
-                    J'ai développé une compréhension approfondie des subtilités du déploiement d'API, de la gestion de bases de données non relationnelles, et de l'intégration continue, ce qui a renforcé mes capacités techniques. De plus, les compétences en marketing que j'ai acquises en conceptualisant la campagne de publicité pour YourNight ont élargi mon expertise et ma polyvalence.
-                    <br/><br/>
-                    L'un des aspects les plus gratifiants fut sans doute la liberté créative qu'elle m'a offerte. Le processus de création, de l'élaboration de la charte graphique à l'architecture de l'expérience utilisateur, a été une occasion d’exprimer ma vision et mes idées sans contrainte. Cette expérience a non seulement renforcé ma confiance en ma capacité à innover, mais m'a également apporté une grande satisfaction personnelle. Voir mes concepts se concrétiser en une application fonctionnelle a été une source de joie immense et une validation de mon potentiel créatif.
-                    <br/><br/>
-                    Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
+                    Outre ces circonstances extérieures, nous reconnaissons également que certaines erreurs de notre part ont contribué à ce résultat. Notre analyse post-événement a révélé des lacunes dans notre stratégie de communication et de marketing, ainsi que dans notre approche de mobilisation des joueurs et des sponsors. Bien que nos efforts de promotion sur les réseaux sociaux et la collaboration avec Chess.com et l'UNICEF aient été significatifs, ils n'ont pas suffi à attirer le nombre de participants escompté.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
                 content: `
-                    Avec le recul, mon regard sur le projet YourNight est teinté d'une reconnaissance pour les nombreuses leçons qu'il m'a enseignées. L'une des plus cruciales a été la nécessité d'anticiper précisément le fonctionnement et le flux de l'application dès le début. Concevoir le parcours utilisateur avant même d'écrire la première ligne de code a permis de guider le développement de manière cohérente et efficace. J'ai également appris l'importance de se fixer des deadlines réalistes, permettant de structurer le travail et de maintenir la dynamique du projet.
+                    En rétrospective, le projet "Mat' moi ça" a été une aventure riche en enseignements, malgré le non-atteinte des objectifs fixés. En tant que chef de projet, je reconnais qu'il y a eu plusieurs facteurs qui ont influencé le résultat final, et ce regard critique me permet de tirer des leçons précieuses pour l'avenir.
                     <br/><br/>
-                    La gestion financière s'est révélée être un autre domaine d'apprentissage essentiel. Définir un budget détaillé et évaluer les options d'hébergement avant le lancement du développement a été fondamental pour maintenir les coûts sous contrôle et éviter les dépassements budgétaires imprévus.
+                    Un des principaux défis rencontrés a été la synchronisation de notre tournoi avec la fin du confinement et le début de l'été. Cette période a probablement limité l'intérêt et la disponibilité des participants potentiels. De plus, notre stratégie de marketing et de communication aurait pu être plus robuste et ciblée. Bien que nous ayons réussi à créer un impact sur les réseaux sociaux, il semble que notre portée n'ait pas suffi à engager un large public. En outre, nous aurions pu explorer d'autres canaux et stratégies pour attirer des joueurs et des sponsors, tels que des partenariats plus étroits avec des clubs d'échecs locaux ou des interventions dans des événements communautaires.
                     <br/><br/>
-                    J’ai également réalisé avoir fait certaines erreurs, notamment ma plus conséquente qui est d’avoir voulu sortir une première version parfaite, ce qui s’est avéré comme n’étant pas une bonne solution. Il aurait été préférable de sortir une première version minimaliste afin de corriger le plus tôt possible les premiers bugs et ne pas avoir à tous les gérer en même temps. Cela aurait également été une occasion de valider ou non un intérêt par de potentiels utilisateurs et de jauger de l’utilité et de l’engouement généré par les différentes fonctionnalités.
+                    Cependant, je ne considère pas "Mat' moi ça" comme un échec total. Il est important de reconnaître les succès que nous avons réalisés, notamment notre collaboration fructueuse avec Chess.com et l'UNICEF. Travailler directement avec une plateforme d'échecs de renom et une organisation humanitaire internationale a été une réalisation remarquable, témoignant de notre capacité à établir des partenariats significatifs.
                     <br/><br/>
-                    Une autre erreur a été de ne pas avoir assez anticiper le déploiement sur les différents stores d’applications. Cela m’a couté une certaine période de temps avant que YourNight soit acceptée et mise en libre téléchargement. Une meilleure connaissance de la politique des stores m’aurait permis d’adapter le développement en fonction et éviter toute perte de temps.
-                    <br/><br/>
-                    Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
+                    De plus, le contenu que nous avons créé pour les réseaux sociaux a attiré l'attention de la Fédération Française des Échecs, un accomplissement non négligeable qui a donné une visibilité supplémentaire à notre projet. Cette reconnaissance par une institution aussi respectée souligne la qualité et l'impact de notre travail de communication.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
                 content: `
-                    Dans l'immédiat, YourNight s'oriente vers sa consolidation.
+                    Bien que "Mat' moi ça" n'ait pas connu de suite ou de renouvellement, l'expérience acquise au cours de ce projet a été d'une valeur inestimable, me dotant de compétences transférables et essentielles pour mon développement professionnel et personnel.
                     <br/><br/>
-                    À court terme, l'objectif est d'instaurer un système de récompenses et de "gamification" pour fidéliser la base d'utilisateurs existants, en rendant leur expérience encore plus engageante et personnalisée. Parallèlement, une campagne marketing soutenue et créative est en train d’être finalisée et sera mise en place pour attirer de nouveaux utilisateurs, afin de bâtir une communauté dynamique autour de l'application.
+                    L'une des compétences clés que j'ai pu affiner est la communication sur les réseaux sociaux. Ce projet m'a permis de comprendre les nuances de création et de partage de contenu engageant, ainsi que l'importance de bâtir une communauté en ligne. Ces compétences sont cruciales dans le monde moderne, où les plateformes numériques jouent un rôle prépondérant dans le succès de nombreux projets et entreprises.
                     <br/><br/>
-                    À long terme, le développement de YourNight s'envisage avec ambition à condition qu’une solide base d’utilisateurs existe : 
+                    Par ailleurs, mes interactions avec Chess.com m'ont permis de développer des compétences significatives en matière de relations humaines professionnelles et de négociation. La gestion des discussions, la présentation de nos objectifs de manière convaincante et la recherche d'un terrain d'entente ont été des aspects essentiels pour établir un partenariat fructueux. Ces compétences en négociation et en communication interpersonnelle sont des atouts majeurs pour toute future collaboration professionnelle.
                     <br/><br/>
-                    L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
-                `,
+                    De plus, la gestion du budget du projet a été une expérience formatrice, m'enseignant à gérer efficacement les ressources financières, à suivre les dépenses et les revenus, et à prendre des décisions financières judicieuses. La capacité à gérer un budget est une compétence fondamentale dans la gestion de projets de toutes sortes, qu'ils soient personnels ou professionnels.
+                    <br/><br/>
+                    En conclusion, bien que "Mat' moi ça" n'ait pas été poursuivi, les compétences que j'ai développées grâce à ce projet – communication digitale, négociation, relations professionnelles et gestion financière – sont des atouts précieux. Ces compétences me seront utiles dans tous mes projets futurs, me permettant de naviguer avec succès dans divers environnements professionnels et de mener à bien des initiatives ambitieuses.
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }
         ]
     },
     {
-        name: "YourNight",
-        description: "Application mobile de gestion de soirées",
-        technologies: ["React Native", "NodeJS", "Base de données"],
-        icon: "img/projectsIcon/YourNight.svg",
+        name: "Hypotech",
+        description: "Application Android de gestion de vente immbilière",
+        technologies: ["", "", "Base de données"],
+        icon: "",
         link: "https://www.yournight.net/",
         explanation: [
             {
                 element: "Contexte",
                 content: `
-                    En tant qu’étudiant il m’arrive de participer et organiser des soirées entre amis.
-                    Lors de la préparation de ces soirées, un problème revenait souvent, nous ne savions pas quoi amener et une fois que chacun achetait ce qu’il voulait, il fallait que nous consacrions du temps pour définir le montant que chacun devait aux autres.
+                    Le projet HYPOTECH a été réalisé dans le cadre de mes études au sein d’Intech Sud Dax, lors de ma troisième année au sein de l’école, en collaboration avec quatre camarades de classe. Cette application mobile Android native, développée en Java, est née de l'idée innovante d'un professionnel ayant une expérience de 15 ans dans le secteur immobilier. L'objectif principal d'HYPOTECH était de répondre à une question cruciale : "Comment faciliter et accélérer le suivi d'un projet de vente immobilière tout en automatisant certaines tâches chronophages ?”
                     <br/><br/>
-                    La question qui s’est posée à un moment donné a été : Comment faire pour faciliter et fluidifier l’organisation de nos soirées ?
+                    Ce projet académique s'inscrivait dans un contexte où le marché offrait déjà plusieurs solutions technologiques dédiées à l'immobilier. Toutefois, ces solutions existantes ne répondaient pas entièrement aux besoins spécifiques identifiés par notre collaborateur issu du domaine immobilier. Notre défi était donc de créer une application qui non seulement comble ces lacunes, mais offre également une valeur ajoutée unique aux professionnels de l'immobilier.
                     <br/><br/>
-                    C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
+                    L'application visait à simplifier la gestion des ventes immobilières, en proposant des fonctionnalités innovantes pour le suivi des projets et l'automatisation de tâches répétitives et fastidieuses. L'accent était mis sur l'efficacité, la facilité d'utilisation et l'apport d'outils permettant une meilleure gestion du temps pour les professionnels du secteur.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Mise en œuvre",
                 content: `
-                    La réalisation de YourNight s'est articulée autour de plusieurs axes : 
+                    Le développement d'HYPOTECH, en tant que projet académique, a impliqué une gestion autonome et directe des échanges avec notre client, qui était également l'initiateur de l'idée de l'application. Ces interactions se déroulaient principalement par courriel et lors de réunions régulières, nous permettant d'obtenir des retours directs et de comprendre précisément les attentes du client.
                     <br/><br/>
-                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France.
+                    Pour mener à bien ce projet, nous avons adopté la méthode Scrum, une approche agile de gestion de projet qui favorise la flexibilité, la collaboration et l'adaptation rapide aux changements. L'une des premières étapes clés a été la réunion de lancement avec le product owner, au cours de laquelle nous avons défini l'ensemble des user stories du projet. Ces user stories représentaient les différentes fonctionnalités et exigences que notre application devait satisfaire, et leur définition claire a été essentielle pour orienter notre travail de développement.
                     <br/><br/>
-                    Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
+                    Un de mes camarades a assumé le rôle de ScrumMaster pour ce projet. Sa responsabilité était de faciliter la communication avec le product owner, de s'assurer que les réunions Scrum se déroulent efficacement et que les obstacles éventuels à la progression du projet soient identifiés et résolus. J'ai également eu l'occasion d'expérimenter ce rôle dans le cadre d'un autre projet académique, ce qui m'a permis de développer des compétences complémentaires en matière de gestion de projet agile.
                     <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
+                    Notre équipe travaillait en sprints d'une durée d'une semaine, au cours desquels nous nous répartissions les user stories à développer. Cette méthode nous permettait de nous concentrer sur des tâches spécifiques et de progresser de manière efficace et structurée. Toutes les deux semaines, nous livrions une version de l'application au product owner pour évaluation et feedback. Cette fréquence de livraison bi-hebdomadaire nous aidait à rester alignés avec les attentes du client et à apporter rapidement les ajustements nécessaires.
                     <br/><br/>
-                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase, ce qui m’a permis après quelques mises à jour de pouvoir être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
+                    Lors de notre première livraison dans le cadre du projet HYPOTECH, nous avons présenté une version initiale de l'application qui comprenait plusieurs écrans conçus à partir de maquettes Figma. Ces maquettes avaient été imaginées en grande partie par moi-même, en tenant compte des besoins et des attentes du product owner ainsi que des utilisateurs finaux.
                     <br/><br/>
-                    Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    Cette première version de l'application était axée sur l'aspect visuel et l'expérience utilisateur. Elle consistait principalement en des interfaces utilisateur sans fonctionnalités opérationnelles sous-jacentes. L'objectif principal à ce stade était de valider le design général et le flow de l'application avec le product owner. Nous voulions nous assurer que l'aspect visuel et l'ergonomie de l'application correspondaient aux attentes et étaient suffisamment intuitifs pour l'utilisateur final.
+                    <br/><br/>
+                    Cette approche nous a permis de recueillir des retours précoces sur l'aspect visuel et la convivialité de l'application avant de nous plonger dans le développement des fonctionnalités réelles. Elle a également donné au product owner une vision claire de l'aspect que l'application aurait une fois terminée, et a offert une base solide pour les itérations futures.
+                    <br/><br/>
+                    Lors des sprints futurs, une des fonctionnalités clés que j'ai développées était un système de notification pour informer les notaires, les vendeurs, les agences immobilières et les acheteurs de l'avancement des dossiers immobiliers. Par exemple, lorsqu'un document était ajouté au dossier, une notification était envoyée aux parties concernées. Sur Android natif, cela a impliqué l'utilisation des services de notification intégrés à la plateforme. J'ai programmé des triggers au sein de l'application qui déclenchaient ces notifications en fonction de certaines actions, comme l'ajout de documents. Ces notifications étaient essentielles pour maintenir toutes les parties impliquées informées et engagées tout au long du processus de vente.
+                    <br/><br/>
+                    Une autre tâche importante a été de permettre aux agences immobilières de personnaliser leur espace sur l'application. Cela leur permettait d'incorporer leur identité visuelle et de créer un environnement plus personnalisé pour leurs clients. J'ai développé cette fonctionnalité en créant des options de personnalisation dans l'application, permettant aux agences de modifier les couleurs, les logos et d'autres éléments de design pour refléter leur marque. Cette personnalisation contribuait à une meilleure expérience utilisateur pour les clients des agences, renforçant ainsi l'attrait de l'application.
+                    <br/><br/>
+                    En outre, j'ai mis en place un système de connexion entre utilisateurs, semblable à celui de LinkedIn, pour faciliter l'interaction entre les parties prenantes d'un même projet immobilier. Cela permettait essentiellement aux utilisateurs de consulter les coordonnées des autres parties impliquées. La mise en œuvre de ce système nécessitait une planification minutieuse pour assurer la sécurité et la confidentialité des données des utilisateurs, tout en offrant une plateforme intuitive pour l'établissement de connexions professionnelles. Les données étaient toutes stockées sur une base de données Firebase.
+                    `,
+                illustration: ""
             }, {
                 element: "Résultat",
                 content: `
-                    Aujourd'hui, YourNight n’est pas encore la nouvelle application à succès qui comptabilise des millions de téléchargements. Actuellement, je peaufine ma stratégie marketing, une étape cruciale que je n'ai pas encore eu l'opportunité de déployer pleinement.
+                    Le projet HYPOTECH, bien qu'ambitieux, a rencontré des défis significatifs lors de sa mise en œuvre qui ont influencé le résultat final. Malgré nos efforts et notre engagement, certaines des fonctionnalités clés envisagées par le product owner n'ont pas pu être pleinement réalisées dans les délais impartis.
                     <br/><br/>
-                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
+                    L'une des fonctionnalités non fournies était la capacité de scanner directement des documents via l'application, avec une exigence supplémentaire de refuser les fichiers peu lisibles. Cette fonctionnalité, bien que techniquement intéressante, s'est avérée complexe à intégrer dans le temps imparti, compte tenu du nombre et de la complexité des autres fonctionnalités demandées.
                     <br/><br/>
-                    J'ai développé une compréhension approfondie des subtilités du déploiement d'API, de la gestion de bases de données non relationnelles, et de l'intégration continue, ce qui a renforcé mes capacités techniques. De plus, les compétences en marketing que j'ai acquises en conceptualisant la campagne de publicité pour YourNight ont élargi mon expertise et ma polyvalence.
+                    De plus, un mois avant la livraison finale, le product owner a modifié considérablement ses attentes en termes de design et d'expérience utilisateur. Alors que l'approche initiale était axée sur un design sobre et simple, il a souhaité intégrer des éléments plus extravagants, tels que l'ajout de GIFs sur tous les écrans. Ces changements tardifs ont posé des défis supplémentaires, car ils nécessitaient une refonte significative de l'interface utilisateur à un stade avancé du projet.
                     <br/><br/>
-                    L'un des aspects les plus gratifiants fut sans doute la liberté créative qu'elle m'a offerte. Le processus de création, de l'élaboration de la charte graphique à l'architecture de l'expérience utilisateur, a été une occasion d’exprimer ma vision et mes idées sans contrainte. Cette expérience a non seulement renforcé ma confiance en ma capacité à innover, mais m'a également apporté une grande satisfaction personnelle. Voir mes concepts se concrétiser en une application fonctionnelle a été une source de joie immense et une validation de mon potentiel créatif.
+                    En outre, l'application a été livrée sans tests automatisés. Bien que conscients de l'importance des tests pour assurer la qualité et la stabilité de l'application, le temps limité et les ressources disponibles ne nous ont pas permis d'implémenter un cadre de test complet.
                     <br/><br/>
-                    Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
+                    En conséquence, la version finale de l'application n'a pas totalement satisfait les attentes du product owner. Cependant, ce projet a été une expérience d'apprentissage précieuse pour notre équipe. Il a souligné l'importance de la communication claire et continue avec le client, de la gestion efficace du temps et des ressources, et de l'adaptabilité face aux changements inattendus. Bien que nous n'ayons pas pleinement atteint l'objectif initial, le projet HYPOTECH a contribué à développer nos compétences en développement d'applications mobiles et en gestion de projets, et nous a fourni des enseignements essentiels pour nos futures initiatives.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Regard critique",
                 content: `
-                    Avec le recul, mon regard sur le projet YourNight est teinté d'une reconnaissance pour les nombreuses leçons qu'il m'a enseignées. L'une des plus cruciales a été la nécessité d'anticiper précisément le fonctionnement et le flux de l'application dès le début. Concevoir le parcours utilisateur avant même d'écrire la première ligne de code a permis de guider le développement de manière cohérente et efficace. J'ai également appris l'importance de se fixer des deadlines réalistes, permettant de structurer le travail et de maintenir la dynamique du projet.
+                    En réfléchissant à mon expérience avec le projet HYPOTECH, je ressens une certaine déception vis-à-vis de mes réalisations personnelles. Malgré mon engagement et mes efforts, j'ai rencontré des difficultés qui ont affecté ma contribution au projet.
                     <br/><br/>
-                    La gestion financière s'est révélée être un autre domaine d'apprentissage essentiel. Définir un budget détaillé et évaluer les options d'hébergement avant le lancement du développement a été fondamental pour maintenir les coûts sous contrôle et éviter les dépassements budgétaires imprévus.
+                    Une des principales sources de frustration a été la gestion des bugs. J'ai souvent été ralenti par des problèmes techniques inattendus qui nécessitaient un temps considérable pour être résolus. De plus, la gestion de notre dépôt Git a été une source majeure de complications. L'utilisation limitée du système de branches a entraîné de fréquents conflits de merge, requérant des corrections importantes et prenant du temps précieux qui aurait pu être consacré au développement.
                     <br/><br/>
-                    J’ai également réalisé avoir fait certaines erreurs, notamment ma plus conséquente qui est d’avoir voulu sortir une première version parfaite, ce qui s’est avéré comme n’étant pas une bonne solution. Il aurait été préférable de sortir une première version minimaliste afin de corriger le plus tôt possible les premiers bugs et ne pas avoir à tous les gérer en même temps. Cela aurait également été une occasion de valider ou non un intérêt par de potentiels utilisateurs et de jauger de l’utilité et de l’engouement généré par les différentes fonctionnalités.
+                    Le volume élevé de user stories généré après chaque réunion était également une source de stress significative. La pression pour accomplir un grand nombre de tâches dans un laps de temps restreint m'a parfois conduit à bâcler mon travail. Cela s'est souvent traduit par l'apparition de bugs lors des tests effectués par mes camarades, ce qui m'a fait prendre conscience de l'importance de produire un travail solide et bien testé avant de passer à la tâche suivante.
                     <br/><br/>
-                    Une autre erreur a été de ne pas avoir assez anticiper le déploiement sur les différents stores d’applications. Cela m’a couté une certaine période de temps avant que YourNight soit acceptée et mise en libre téléchargement. Une meilleure connaissance de la politique des stores m’aurait permis d’adapter le développement en fonction et éviter toute perte de temps.
-                    <br/><br/>
-                    Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
+                    Cette expérience a été une leçon précieuse sur l'importance d'une gestion efficace du temps et des ressources, ainsi que sur la nécessité d'une approche méthodique et rigoureuse dans le développement logiciel. J'ai appris que la qualité ne doit pas être sacrifiée au profit de la quantité et que prendre le temps de bien faire les choses dès le début peut économiser beaucoup d'efforts et de frustrations par la suite.
                 `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Evolution",
                 content: `
-                    Dans l'immédiat, YourNight s'oriente vers sa consolidation.
+                    L'évolution du projet HYPOTECH a pris une tournure intéressante après la conclusion de notre phase de développement académique. Notre travail, bien qu'ayant rencontré des défis et des limitations, a jeté les bases pour une suite plus professionnelle du projet.
                     <br/><br/>
-                    À court terme, l'objectif est d'instaurer un système de récompenses et de "gamification" pour fidéliser la base d'utilisateurs existants, en rendant leur expérience encore plus engageante et personnalisée. Parallèlement, une campagne marketing soutenue et créative est en train d’être finalisée et sera mise en place pour attirer de nouveaux utilisateurs, afin de bâtir une communauté dynamique autour de l'application.
+                    Notre application a servi de maquette fonctionnelle. Elle a joué un rôle crucial en tant que démonstration technique et support pour illustrer le potentiel et les capacités de l'idée initiale. Cette maquette a été présentée à une équipe de développeurs professionnels engagés ultérieurement par notre ancien product owner.
                     <br/><br/>
-                    À long terme, le développement de YourNight s'envisage avec ambition à condition qu’une solide base d’utilisateurs existe : 
+                    Ces développeurs professionnels ont pris le relais pour transformer notre prototype académique en une application plus raffinée et commercialement viable. Ils ont pu s'appuyer sur la structure, les fonctionnalités et les idées que nous avions mises en place, en les améliorant et en les adaptant aux standards professionnels et aux exigences du marché.
                     <br/><br/>
-                    L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
-            }
-        ]
-    }, {
-        name: "YourNight",
-        description: "Application mobile de gestion de soirées",
-        technologies: ["React Native", "NodeJS", "Base de données"],
-        icon: "img/projectsIcon/YourNight.svg",
-        link: "https://www.yournight.net/",
-        explanation: [
-            {
-                element: "Contexte",
-                content: `
-                    En tant qu’étudiant il m’arrive de participer et organiser des soirées entre amis.
-                    Lors de la préparation de ces soirées, un problème revenait souvent, nous ne savions pas quoi amener et une fois que chacun achetait ce qu’il voulait, il fallait que nous consacrions du temps pour définir le montant que chacun devait aux autres.
+                    Pour ma part, voir notre travail initial servir de fondation pour un développement ultérieur a été une source de satisfaction. Cela a confirmé la valeur de notre contribution initiale et a démontré que nos idées et notre mise en œuvre pouvaient inspirer et guider le travail d'une équipe de développement plus expérimentée.
                     <br/><br/>
-                    La question qui s’est posée à un moment donné a été : Comment faire pour faciliter et fluidifier l’organisation de nos soirées ?
-                    <br/><br/>
-                    C’est à ce moment que j'ai conceptualisé YourNight. Cette application mobile est née de cette nécessité de rationaliser le processus de préparation des soirées en permettant une gestion collective des achats et la création collaborative d'une playlist musicale. L'objectif était de transformer les préparatifs souvent fastidieux en une expérience fluide et agréable.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
-            }, {
-                element: "Mise en œuvre",
-                content: `
-                    La réalisation de YourNight s'est articulée autour de plusieurs axes : 
-                    <br/><br/>
-                    La création d'une charte graphique évoquant l'atmosphère nocturne et festive, la conception d'une interface intuitive, la réalisation d'une application facile à utiliser tout en ayant défini les technologies utiles à son développement au préalable, avant de finalement mener une campagne marketing pour convaincre puis fidéliser de nouveaux utilisateurs en France.
-                    <br/><br/>
-                    Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
-                    <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
-                    <br/><br/>
-                    Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase, ce qui m’a permis après quelques mises à jour de pouvoir être fier de voir le résultat de mon travail disponible en libre téléchargement pour le grand public.
-                    <br/><br/>
-                    Malgré certains obstacles, une planification stratégique et une gestion de projet agile ont été cruciales pour naviguer à travers ces défis. La flexibilité et l'adaptabilité ont été mes alliés les plus fiables pour surmonter les problèmes rencontrés.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
-            }, {
-                element: "Résultat",
-                content: `
-                    Aujourd'hui, YourNight n’est pas encore la nouvelle application à succès qui comptabilise des millions de téléchargements. Actuellement, je peaufine ma stratégie marketing, une étape cruciale que je n'ai pas encore eu l'opportunité de déployer pleinement.
-                    <br/><br/>
-                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
-                    <br/><br/>
-                    J'ai développé une compréhension approfondie des subtilités du déploiement d'API, de la gestion de bases de données non relationnelles, et de l'intégration continue, ce qui a renforcé mes capacités techniques. De plus, les compétences en marketing que j'ai acquises en conceptualisant la campagne de publicité pour YourNight ont élargi mon expertise et ma polyvalence.
-                    <br/><br/>
-                    L'un des aspects les plus gratifiants fut sans doute la liberté créative qu'elle m'a offerte. Le processus de création, de l'élaboration de la charte graphique à l'architecture de l'expérience utilisateur, a été une occasion d’exprimer ma vision et mes idées sans contrainte. Cette expérience a non seulement renforcé ma confiance en ma capacité à innover, mais m'a également apporté une grande satisfaction personnelle. Voir mes concepts se concrétiser en une application fonctionnelle a été une source de joie immense et une validation de mon potentiel créatif.
-                    <br/><br/>
-                    Ce projet a également accru ma visibilité et ma crédibilité auprès de de futurs clients potentiels, établissant une base solide pour de futures opportunités professionnelles. Que ce soit à travers la complexité de la gestion de projet ou le raffinement du design et de l'expérience utilisateur, chaque étape a contribué à mon évolution en tant que professionnel du numérique.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
-            }, {
-                element: "Regard critique",
-                content: `
-                    Avec le recul, mon regard sur le projet YourNight est teinté d'une reconnaissance pour les nombreuses leçons qu'il m'a enseignées. L'une des plus cruciales a été la nécessité d'anticiper précisément le fonctionnement et le flux de l'application dès le début. Concevoir le parcours utilisateur avant même d'écrire la première ligne de code a permis de guider le développement de manière cohérente et efficace. J'ai également appris l'importance de se fixer des deadlines réalistes, permettant de structurer le travail et de maintenir la dynamique du projet.
-                    <br/><br/>
-                    La gestion financière s'est révélée être un autre domaine d'apprentissage essentiel. Définir un budget détaillé et évaluer les options d'hébergement avant le lancement du développement a été fondamental pour maintenir les coûts sous contrôle et éviter les dépassements budgétaires imprévus.
-                    <br/><br/>
-                    J’ai également réalisé avoir fait certaines erreurs, notamment ma plus conséquente qui est d’avoir voulu sortir une première version parfaite, ce qui s’est avéré comme n’étant pas une bonne solution. Il aurait été préférable de sortir une première version minimaliste afin de corriger le plus tôt possible les premiers bugs et ne pas avoir à tous les gérer en même temps. Cela aurait également été une occasion de valider ou non un intérêt par de potentiels utilisateurs et de jauger de l’utilité et de l’engouement généré par les différentes fonctionnalités.
-                    <br/><br/>
-                    Une autre erreur a été de ne pas avoir assez anticiper le déploiement sur les différents stores d’applications. Cela m’a couté une certaine période de temps avant que YourNight soit acceptée et mise en libre téléchargement. Une meilleure connaissance de la politique des stores m’aurait permis d’adapter le développement en fonction et éviter toute perte de temps.
-                    <br/><br/>
-                    Cependant ces erreurs me permettront de ne plus les commettre à l’avenir, je m’en servirai pour continuer de façonner ma démarche dans les projets futurs.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
-            }, {
-                element: "Evolution",
-                content: `
-                    Dans l'immédiat, YourNight s'oriente vers sa consolidation.
-                    <br/><br/>
-                    À court terme, l'objectif est d'instaurer un système de récompenses et de "gamification" pour fidéliser la base d'utilisateurs existants, en rendant leur expérience encore plus engageante et personnalisée. Parallèlement, une campagne marketing soutenue et créative est en train d’être finalisée et sera mise en place pour attirer de nouveaux utilisateurs, afin de bâtir une communauté dynamique autour de l'application.
-                    <br/><br/>
-                    À long terme, le développement de YourNight s'envisage avec ambition à condition qu’une solide base d’utilisateurs existe : 
-                    <br/><br/>
-                    L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
+                    Cette transition de notre projet académique à une initiative professionnelle souligne l'importance de la phase de conception et de développement préliminaire dans les projets de logiciel. Même si notre version n'était pas le produit final, elle a joué un rôle déterminant dans le cheminement du concept vers une réalisation plus aboutie. Cette expérience a renforcé ma compréhension de l'importance de la phase de prototypage et de la flexibilité dans le développement logiciel, des compétences précieuses pour mes futurs projets dans le domaine.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }
