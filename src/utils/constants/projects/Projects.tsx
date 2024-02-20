@@ -3,7 +3,7 @@ import { IProject } from "../../types";
 //TODO: Add images
 //TODO: Find a way to redirect to skills or projects page when clicking on a skill or a project
 
-export const technicalProjects: IProject[] = [
+export const projects: IProject[] = [
     {
         name: "YourNight",
         description: "Application mobile de gestion de soirées",
@@ -264,7 +264,7 @@ export const technicalProjects: IProject[] = [
         name: "Mat’ Moi Ca",
         description: "Tournoi caritatif d'échecs en ligne",
         technologies: ["Chess.com", "UNICEF", "Gestion de projet"],
-        icon: "",
+        icon: "img/projectsIcon/MatMoiCa.png",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -356,7 +356,7 @@ export const technicalProjects: IProject[] = [
         name: "Hypotech",
         description: "Application Android de gestion de vente immbilière",
         technologies: ["", "", "Base de données"],
-        icon: "",
+        icon: "img/projectsIcon/Hypotech.png",
         link: "https://www.yournight.net/",
         explanation: [
             {

@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
-import { technicalProjects } from "../utils/constants/projects/TechnicalProjects";
+import { projects } from "../utils/constants/projects/Projects";
 import { IProject } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
 
 export default function ProjectDetails() {
     let { name } = useParams();
-    const project: IProject = technicalProjects.find(project => project.name === name)!;
+    const project: IProject = projects.find(project => project.name === name)!;
 
     return (
         <div>

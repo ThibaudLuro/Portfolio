@@ -246,7 +246,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Git",
-        icon: "",
+        icon: "img/skillsIcon/Git.svg",
         category: "technical",
         explanation: [
             {
@@ -308,7 +308,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Intégration continue",
-        icon: "",
+        icon: "img/skillsIcon/Cicd.svg",
         category: "technical",
         explanation: [
             {
@@ -378,7 +378,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Commmunication Digitale",
-        icon: "",
+        icon: "img/skillsIcon/DigitalMarketing.svg",
         category: "soft",
         explanation: [
             {
@@ -457,7 +457,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion de Budget",
         category: "soft",
-        icon: "",
+        icon: "img/skillsIcon/Budget.svg",
         explanation: [
             {
                 element: "Définition",
@@ -539,7 +539,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion de Projet Agile et Scrum",
         category: "soft",
-        icon: "",
+        icon: "img/skillsIcon/ProjectGesture.svg",
         explanation: [
             {
                 element: "Définition",
@@ -621,7 +621,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion du Temps et Organisation",
         category: "soft",
-        icon: "",
+        icon: "img/skillsIcon/TimeManagement.svg",
         explanation: [
             {
                 element: "Définition",

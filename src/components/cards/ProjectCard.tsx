@@ -9,10 +9,10 @@ interface IProps {
 
 export default function ProjectCard(props: IProps) {
     return (
-        <div className={`group relative h-80 flex flex-col border-[1px] rounded-md border-secondary justify-center items-center cursor-pointer transition duration-300 ease-in-out ${props.colSpan && `md:col-span-${props.colSpan.toString()}`}`}>
+        <div className={`group relative h-80 flex flex-col border-[1px] border-secondary justify-center items-center cursor-pointer transition duration-300 ease-in-out ${props.colSpan && `md:col-span-${props.colSpan.toString()}`}`}>
             <div className="h-full flex flex-col justify-center items-center cursor-pointer">
                 <img
-                    className="h-16 rounded-md"
+                    className="h-16"
                     src={props.projectIcon}
                     alt=""
                 />
