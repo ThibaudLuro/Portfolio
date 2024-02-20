@@ -9,11 +9,7 @@ export default function ProjectDetails() {
     const project: IProject = technicalProjects.find(project => project.name === name)!;
 
     return (
-        <div className="h-full w-full bg-primary text-accent font-montserrat">
-            <div className="p-10">
-
-                <TopBar />
-
+        <div>
                 <h1 className="mt-20 text-center font-semibold">REALISATION</h1>
                 <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
@@ -92,6 +88,5 @@ export default function ProjectDetails() {
                 </div>
 
             </div>
-        </div>
     );
 }

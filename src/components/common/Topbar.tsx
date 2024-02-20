@@ -11,7 +11,7 @@ export default function TopBar() {
     const isActive = (path: string) => location.pathname === path;
 
     return (
-        <div>
+        <div className='fixed bg-primary w-full p-10 z-50'>
             <div className="hidden md:flex items-center justify-start gap-10 text-xs text-stone-400 font-montserrat">
                 {topBarItems.map((item: ITopBarItem, index: number) => (
                     <Link to={item.link} key={index} style={{ textDecoration: 'none' }}>

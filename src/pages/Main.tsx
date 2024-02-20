@@ -1,4 +1,3 @@
-import Topbar from "../components/common/Topbar";
 import MainInfos from "../components/parts/MainInfos";
 import Footer from "../components/common/Footer";
 
@@ -9,10 +8,7 @@ import StatiscticCard from "../components/cards/StatisticCard";
 export default function Main() {
 
     return (
-        <div className="h-full w-full text-accent bg-primary font-montserrat">
-            <div className="p-10">
-
-                <Topbar />
+        <div>
 
                 <div className=" h-[90vh] w-full flex flex-col items-center justify-center">
                     <MainInfos />
@@ -42,9 +38,7 @@ export default function Main() {
                     </div>
                 </div>
 
-            </div>
-
-            <div className="pt-20">
+            <div className="pt-10">
                 <Footer />
             </div>
 
