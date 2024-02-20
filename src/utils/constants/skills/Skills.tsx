@@ -4,6 +4,7 @@ export const skills: ISkill[] = [
     {
         name: "React",
         icon: "img/skillsIcon/React.svg",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -52,6 +53,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Docker",
         icon: "img/skillsIcon/Docker.svg",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -117,6 +119,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Express JS",
         icon: "img/skillsIcon/NodeJS.svg",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -178,6 +181,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Base de données",
         icon: "img/skillsIcon/Database.svg",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -243,6 +247,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Git",
         icon: "",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -304,6 +309,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Intégration continue",
         icon: "",
+        category: "technical",
         explanation: [
             {
                 element: "Définition",
@@ -373,6 +379,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Commmunication Digitale",
         icon: "",
+        category: "soft",
         explanation: [
             {
                 element: "Définition",
@@ -449,6 +456,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Gestion de Budget",
+        category: "soft",
         icon: "",
         explanation: [
             {
@@ -530,6 +538,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Gestion de Projet Agile et Scrum",
+        category: "soft",
         icon: "",
         explanation: [
             {
@@ -611,6 +620,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Gestion du Temps et Organisation",
+        category: "soft",
         icon: "",
         explanation: [
             {
