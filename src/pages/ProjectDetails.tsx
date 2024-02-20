@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import TopBar from "../components/common/Topbar";
 import { technicalProjects } from "../utils/constants/projects/TechnicalProjects";
 import { IProject } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
