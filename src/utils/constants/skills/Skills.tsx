@@ -46,7 +46,7 @@ export const skills: ISkill[] = [
             }, {
                 element: "Réalisations liées",
                 content: `
-                    YourNight, PREMIS, ISIS
+                    YourNight, PREMIS DM, ISIS
                 `
             }
         ]
@@ -112,7 +112,7 @@ export const skills: ISkill[] = [
             }, {
                 element: "Réalisations liées",
                 content: `
-                    YourNight, PREMIS, ISIS
+                    YourNight, PREMIS DM, ISIS
                 `
             }
         ]
@@ -174,7 +174,7 @@ export const skills: ISkill[] = [
             }, {
                 element: "Réalisations liées",
                 content: `
-                    YourNight, PREMIS, ISIS
+                    YourNight, PREMIS DM, ISIS
                 `
             }
         ]
@@ -239,9 +239,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `YourNight, PREMIS DM, ISIS, Hypotech`
             }
         ]
     }, {
@@ -301,9 +299,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `YourNight, PREMIS DM, ISIS, Hypotech`
             }
         ]
     }, {
@@ -371,9 +367,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `YourNight, PREMIS DM`
             }
         ]
     }, {
@@ -449,9 +443,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `YourNight, Mat’ Moi Ca`
             }
         ]
     }, {
@@ -531,9 +523,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `Mat’ Moi Ca, YourNight`
             }
         ]
     }, {
@@ -613,9 +603,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `Hypotech, ISIS`
             }
         ]
     }, {
@@ -671,9 +659,7 @@ export const skills: ISkill[] = [
                 illustration: "/images/projects/yournight.png"
             }, {
                 element: "Réalisations liées",
-                content: `
-                    YourNight, PREMIS, ISIS
-                `
+                content: `YourNight, PREMIS DM, ISIS, Mat’ Moi Ca, Hypotech`
             }
         ]
     },

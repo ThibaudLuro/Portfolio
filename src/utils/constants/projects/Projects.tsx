@@ -168,7 +168,7 @@ export const projects: IProject[] = [
             }
         ]
     }, {
-        name: "Premis DM",
+        name: "PREMIS DM",
         description: "Application web servant au milieu de l'industrie",
         technologies: ["React", "NodeJS", "Base de données"],
         icon: "",

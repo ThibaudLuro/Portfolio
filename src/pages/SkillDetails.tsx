@@ -1,7 +1,8 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { skills } from "../utils/constants/skills/Skills";
 import { ISkill } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
+import { Badge } from "@/components/ui/badge";
 
 export default function SkillDetails() {
     let { name } = useParams();
@@ -59,8 +60,13 @@ export default function SkillDetails() {
 
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{skill.explanation[4]?.element}</h1>
-                    <div className="md:text-justify">
-                        {SplitParagraphs(skill.explanation[4]?.content)}
+                    <div className="md:text-justify flex space-x-2 mt-4">
+                        {skill.explanation[4]?.content.split(',').map((item, index) => (
+                            console.log(item),
+                            <Link to={`/Portfolio/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                                <Badge key={index}>{item}</Badge>
+                            </Link>
+                        ))}
                     </div>
                 </div>
             </div>
