@@ -8,8 +8,19 @@ import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import TopBar from "./components/common/Topbar";
+import { useEffect } from "react";
 
 export default function App() {
+
+    // Dark mode
+    useEffect(() => {
+        document.body.classList.add('dark');
+        
+        return () => {
+          document.body.classList.remove('dark');
+        };
+      }, []);
+      
     return (
         <BrowserRouter>
             <div className="h-full w-full bg-primary text-accent font-montserrat">
