@@ -82,6 +82,9 @@ export const projects: IProject[] = [
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
+            }, {
+                element: "Compétences liées",
+                content: `React, Docker, Express JS, Base de données`
             }
         ]
     }, {
@@ -165,6 +168,9 @@ export const projects: IProject[] = [
                     Cette possibilité de commercialisation représente une opportunité significative pour Holis Consulting, non seulement en termes de nouvelles sources de revenus, mais également en tant que validation de ses capacités de développement interne. ISIS, ayant commencé comme un outil conçu pour répondre aux besoins internes, pourrait ainsi devenir un produit phare de l'entreprise, témoignant de son expertise et de sa capacité à créer des solutions logicielles innovantes et adaptées aux besoins du marché.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
+            }, {
+                element: "Compétences liées",
+                content: `React, Gestion de Projet Agile et Scrum, Express JS, Base de données`
             }
         ]
     }, {
@@ -258,6 +264,9 @@ export const projects: IProject[] = [
                     En conclusion, l'avenir de "PREMIS DM" est prometteur, avec des plans d'expansion et d'amélioration guidés par les exigences et les retours des utilisateurs. La capacité à évoluer et à s'adapter reste au cœur de la stratégie de développement de cette solution, visant à en faire un outil encore plus indispensable dans le secteur industriel. Mon rôle dans ce processus reste central, me permettant de contribuer de manière significative à la croissance et au succès de l'application.
                 `,
                 illustration: ""
+            }, {
+                element: "Compétences liées",
+                content: `React, Intégration continue, Express JS, Base de données`
             }
         ]
     }, {
@@ -349,6 +358,9 @@ export const projects: IProject[] = [
                     En conclusion, bien que "Mat' moi ça" n'ait pas été poursuivi, les compétences que j'ai développées grâce à ce projet – communication digitale, négociation, relations professionnelles et gestion financière – sont des atouts précieux. Ces compétences me seront utiles dans tous mes projets futurs, me permettant de naviguer avec succès dans divers environnements professionnels et de mener à bien des initiatives ambitieuses.
                     `,
                 illustration: "img/projectsIcon/YourNight.svg"
+            }, {
+                element: "Compétences liées",
+                content: `Gestion de Budget, Communication Digitale, Express JS, Base de données`
             }
         ]
     },
@@ -433,6 +445,9 @@ export const projects: IProject[] = [
                     Cette transition de notre projet académique à une initiative professionnelle souligne l'importance de la phase de conception et de développement préliminaire dans les projets de logiciel. Même si notre version n'était pas le produit final, elle a joué un rôle déterminant dans le cheminement du concept vers une réalisation plus aboutie. Cette expérience a renforcé ma compréhension de l'importance de la phase de prototypage et de la flexibilité dans le développement logiciel, des compétences précieuses pour mes futurs projets dans le domaine.
                 `,
                 illustration: "img/projectsIcon/YourNight.svg"
+            }, {
+                element: "Compétences liées",
+                content: `Gestion de Projet Agile et Scrum, Gestion du Temps et Organisation, Git`
             }
         ]
     }

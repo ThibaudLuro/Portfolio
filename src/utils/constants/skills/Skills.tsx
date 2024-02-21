@@ -371,7 +371,7 @@ export const skills: ISkill[] = [
             }
         ]
     }, {
-        name: "Commmunication Digitale",
+        name: "Communication Digitale",
         icon: "img/skillsIcon/DigitalMarketing.svg",
         category: "soft",
         explanation: [
