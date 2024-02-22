@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import TopBar from "./components/common/Topbar";
 import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from "./components/ui/toaster";
 
 export default function App() {
     return (
@@ -28,7 +29,7 @@ export default function App() {
                             <Route path="*" element={<NotFound />} />
                         </Routes>
                     </div>
-
+                    <Toaster />
                 </div>
             </BrowserRouter>
         </ThemeProvider>
