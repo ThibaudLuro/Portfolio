@@ -9,6 +9,7 @@ export interface IProject {
 
 export interface ISkill {
     name: string;
+    percentageOfMastery: number;
     icon: string;
     category: 'technical' | 'soft';
     explanation: {element: string, content: string, illustration?: string}[];

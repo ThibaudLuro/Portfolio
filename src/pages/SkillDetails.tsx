@@ -3,15 +3,30 @@ import { skills } from "../utils/constants/skills/Skills";
 import { ISkill } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
 import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
+import { useEffect, useState } from "react";
 
 export default function SkillDetails() {
     let { name } = useParams();
     const skill: ISkill = skills.find(skill => skill.name === name)!;
 
+    const [progress, setProgress] = useState(5);
+
+    useEffect(() => {
+        const timer = setTimeout(() => setProgress(skill.percentageOfMastery), 500)
+        return () => clearTimeout(timer)
+      }, []);
+
     return (
         <div>
             <h1 className="mt-20 text-center font-semibold">COMPETENCE</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
+
+            
+            <div className="flex flex-col w-full justify-center items-center mt-20">
+                <h1>Niveau de maîtrise</h1>
+                <Progress value={progress} className="w-[10%]" />
+            </div>
 
             <div className="w-full flex justify-center items-center">
                 <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-20">

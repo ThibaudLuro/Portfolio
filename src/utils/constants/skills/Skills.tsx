@@ -5,6 +5,7 @@ export const skills: ISkill[] = [
         name: "React",
         icon: "img/skillsIcon/React.svg",
         category: "technical",
+        percentageOfMastery: 75,
         explanation: [
             {
                 element: "Définition",
@@ -53,6 +54,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Docker",
         icon: "img/skillsIcon/Docker.svg",
+        percentageOfMastery: 75,
         category: "technical",
         explanation: [
             {
@@ -119,6 +121,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Express JS",
         icon: "img/skillsIcon/NodeJS.svg",
+        percentageOfMastery: 90,
         category: "technical",
         explanation: [
             {
@@ -181,6 +184,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Base de données",
         icon: "img/skillsIcon/Database.svg",
+        percentageOfMastery: 90,
         category: "technical",
         explanation: [
             {
@@ -245,6 +249,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Git",
         icon: "img/skillsIcon/Git.svg",
+        percentageOfMastery: 90,
         category: "technical",
         explanation: [
             {
@@ -305,6 +310,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Intégration continue",
         icon: "img/skillsIcon/Cicd.svg",
+        percentageOfMastery: 60,
         category: "technical",
         explanation: [
             {
@@ -373,6 +379,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Communication Digitale",
         icon: "img/skillsIcon/DigitalMarketing.svg",
+        percentageOfMastery: 55,
         category: "soft",
         explanation: [
             {
@@ -449,6 +456,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion de Budget",
         category: "soft",
+        percentageOfMastery: 70,
         icon: "img/skillsIcon/Budget.svg",
         explanation: [
             {
@@ -529,6 +537,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion de Projet Agile et Scrum",
         category: "soft",
+        percentageOfMastery: 90,
         icon: "img/skillsIcon/ProjectGesture.svg",
         explanation: [
             {
@@ -609,6 +618,7 @@ export const skills: ISkill[] = [
     }, {
         name: "Gestion du Temps et Organisation",
         category: "soft",
+        percentageOfMastery: 95,
         icon: "img/skillsIcon/TimeManagement.svg",
         explanation: [
             {
