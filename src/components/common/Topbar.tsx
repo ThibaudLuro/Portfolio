@@ -16,10 +16,11 @@ import {
 import { TokensIcon } from "@radix-ui/react-icons";
 import { projects } from "@/utils/constants/projects/Projects";
 import { skills } from "@/utils/constants/skills/Skills";
+import { ModeToggle } from "../mode-toggle";
 
 export default function TopBar() {
     return (
-        <div className='fixed bg-primary w-full p-10 z-50'>
+        <div className='fixed bg-primary w-full p-10 z-50 flex justify-between'>
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
@@ -123,6 +124,8 @@ export default function TopBar() {
                     </NavigationMenuItem>
                 </NavigationMenuList>
             </NavigationMenu>
+            
+            <ModeToggle />
         </div>
     )
 }
