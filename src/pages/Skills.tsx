@@ -1,4 +1,4 @@
-import SkillsGrid from "../components/parts/SkillsGrid";
+import GridDisplay from "../components/parts/GridDisplay";
 import { skills } from "../utils/constants/skills/Skills";
 
 export default function Skills() {
@@ -7,7 +7,7 @@ export default function Skills() {
             <h1 className="text-3xl font-bold text-center mt-20">MES COMPETENCES</h1>
 
             <div className="mt-10">
-                <SkillsGrid skills={skills} />
+                <GridDisplay items={skills} itemType="skills" />
             </div>
         </div>
     )

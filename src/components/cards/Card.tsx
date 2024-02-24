@@ -8,7 +8,7 @@ interface IProps {
 
 export default function Card(props: IProps) {
     return (
-        <div className={`group relative h-80 w-80 flex flex-col border-[1px] border-secondary justify-center items-center cursor-pointer transition duration-300 ease-in-out`}>
+        <div className={`group relative h-80 w-full flex flex-col border-[1px] border-secondary justify-center items-center cursor-pointer transition duration-300 ease-in-out`}>
             <div className="h-full flex flex-col justify-center items-center cursor-pointer">
                 <img
                     className="h-16"
