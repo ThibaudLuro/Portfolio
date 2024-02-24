@@ -15,7 +15,7 @@ export default function SkillDetails() {
     useEffect(() => {
         const timer = setTimeout(() => setProgress(skill.percentageOfMastery), 500)
         return () => clearTimeout(timer)
-      }, []);
+      }, [skill]);
 
     return (
         <div>
