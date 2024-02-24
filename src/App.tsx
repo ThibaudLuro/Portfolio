@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import TopBar from "./components/common/TopBar/Topbar";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "./components/ui/toaster";
+import ScrollToTop from "./utils/functions/ScrollToTop";
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
                 <div className="h-full w-full bg-primary text-accent font-montserrat">
                     <TopBar />
                     <div className="p-10">
+                        <ScrollToTop />
                         <Routes>
                             <Route path="/Portfolio/" element={<Main />} />
                             <Route path="Portfolio/projects" element={<Projects />} />
