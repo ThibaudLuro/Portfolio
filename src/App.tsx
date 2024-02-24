@@ -7,7 +7,7 @@ import SkillDetails from "./pages/SkillDetails";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import TopBar from "./components/common/Topbar";
+import TopBar from "./components/common/TopBar/Topbar";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "./components/ui/toaster";
 
