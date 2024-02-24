@@ -18,14 +18,14 @@ export default function SkillDetails() {
       }, [skill]);
 
     return (
-        <div>
+        <div className="text-justify">
             <h1 className="mt-20 text-center font-semibold">COMPETENCE</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
             
             <div className="flex flex-col w-full justify-center items-center mt-20">
                 <h1>Niveau de maîtrise</h1>
-                <Progress value={progress} className="w-[10%]" />
+                <Progress value={progress} className="w-[30%] md:w-[20%] xl:w-[10%]" />
             </div>
 
             <div className="w-full flex justify-center items-center">
@@ -75,10 +75,10 @@ export default function SkillDetails() {
 
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{skill.explanation[4]?.element}</h1>
-                    <div className="md:text-justify flex space-x-2 mt-4">
+                    <div className="md:text-justify flex space-x-2 mt-4 overflow-x-auto">
                         {skill.explanation[4]?.content.split(',').map((item, index) => (
                             <Link to={`/Portfolio/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
-                                <Badge key={index}>{item}</Badge>
+                                <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
                             </Link>
                         ))}
                     </div>

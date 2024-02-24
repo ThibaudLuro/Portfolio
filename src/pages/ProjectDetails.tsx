@@ -9,7 +9,7 @@ export default function ProjectDetails() {
     const project: IProject = projects.find(project => project.name === name)!;
 
     return (
-        <div>
+        <div className="text-justify">
             <h1 className="mt-20 text-center font-semibold">REALISATION</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
@@ -88,10 +88,10 @@ export default function ProjectDetails() {
 
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{project.explanation[5]?.element}</h1>
-                    <div className="md:text-justify flex space-x-2 mt-4">
+                    <div className="md:text-justify flex space-x-2 mt-4 overflow-x-auto">
                         {project.explanation[5]?.content.split(',').map((item, index) => (
                             <Link to={`/Portfolio/skills/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
-                                <Badge key={index}>{item}</Badge>
+                                <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
                             </Link>
                         ))}
                     </div>
