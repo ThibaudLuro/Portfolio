@@ -6,7 +6,7 @@ export default function Skills() {
         <div>
             <h1 className="text-3xl font-bold text-center mt-20">MES COMPETENCES</h1>
 
-            <div className="mt-20">
+            <div className="mt-10">
                 <SkillsGrid skills={skills} />
             </div>
         </div>

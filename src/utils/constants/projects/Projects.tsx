@@ -6,6 +6,7 @@ import { IProject } from "../../types";
 export const projects: IProject[] = [
     {
         name: "YourNight",
+        category: "technical",
         description: "Application mobile de gestion de soirées",
         technologies: ["React Native", "NodeJS", "Base de données"],
         icon: "img/projectsIcon/YourNight.svg",
@@ -89,6 +90,7 @@ export const projects: IProject[] = [
         ]
     }, {
         name: "ISIS",
+        category: "technical",
         description: "Application web servant au milieu de l'industrie",
         technologies: ["React", "NodeJS", "Base de données"],
         icon: "img/projectsIcon/Isis.svg",
@@ -175,9 +177,10 @@ export const projects: IProject[] = [
         ]
     }, {
         name: "PREMIS DM",
+        category: "technical",
         description: "Application web servant au milieu de l'industrie",
         technologies: ["React", "NodeJS", "Base de données"],
-        icon: "",
+        icon: "img/projectsIcon/PREMISDM.svg",
         link: "https://www.yournight.net/",
         explanation: [
             {
@@ -271,6 +274,7 @@ export const projects: IProject[] = [
         ]
     }, {
         name: "Mat’ Moi Ca",
+        category: "soft",
         description: "Tournoi caritatif d'échecs en ligne",
         technologies: ["Chess.com", "UNICEF", "Gestion de projet"],
         icon: "img/projectsIcon/MatMoiCa.png",
@@ -366,6 +370,7 @@ export const projects: IProject[] = [
     },
     {
         name: "Hypotech",
+        category: "technical",
         description: "Application Android de gestion de vente immbilière",
         technologies: ["", "", "Base de données"],
         icon: "img/projectsIcon/Hypotech.png",

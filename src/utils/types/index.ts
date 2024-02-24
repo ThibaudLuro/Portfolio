@@ -1,5 +1,6 @@
 export interface IProject {
     name: string;
+    category: 'technical' | 'soft';
     description: string;
     technologies: string[];
     icon: string;
