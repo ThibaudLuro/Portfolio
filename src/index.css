@@ -2,18 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3c3a39;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
 @keyframes scrollHorizontal {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0);
   }
-  
-  .animate-scrollHorizontal {
-    display: flex;
-    animation: scrollHorizontal 20s linear infinite;
+
+  100% {
+    transform: translateX(-50%);
   }
-  
-  
+}
+
+.animate-scrollHorizontal {
+  display: flex;
+  animation: scrollHorizontal 20s linear infinite;
+}
