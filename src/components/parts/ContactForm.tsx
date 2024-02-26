@@ -28,7 +28,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="flex flex-col justify-center items-center mt-10 gap-4">
+        <div className="w-full lg:w-1/3 flex flex-col justify-center items-center mt-10 gap-4">
             <Input
                 onChange={(e) => setName(e.target.value)}
                 value={name}
@@ -40,7 +40,8 @@ export default function ContactForm() {
             <Textarea
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
-                placeholder="MESSAGE" />
+                placeholder="MESSAGE"
+            />
 
             <div className="w-full md:w-fit self-start">
                 <Button onClick={() => send()}>

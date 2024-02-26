@@ -21,6 +21,31 @@ export default function Main() {
                 </div>
             </div>
 
+
+            <div className="xl:p-40">
+                <div className="flex flex-col mt-20 gap-10">
+
+                    {/* <div className="flex flex-col w-full items-start">
+                        <h1 className="text-4xl font-bold">MON</h1>
+                        <h1 className="text-4xl font-bold" style={{ WebkitTextStroke: '0.5px white', color: 'transparent' }}>PROFIL</h1>
+                    </div> */}
+
+
+                    <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
+                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                    </div>
+
+                    <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
+                        <StatiscticCard number="5+" description="Projets" />
+                        <StatiscticCard number="10+" description="Compétences" />
+                        <StatiscticCard number="3+" description="Années d'expériences" />
+                    </div>
+
+                </div>
+            </div>
+
             <HorizontalInfiniteScrollText
                 text="REALISATIONS RECENTES"
             />
@@ -40,31 +65,6 @@ export default function Main() {
                         name="YOURNIGHT"
                         description="Application mobile de gestion de soirées"
                     />
-                </div>
-            </div>
-
-
-            <div className="xl:p-40">
-                <div className="flex flex-col mt-20 gap-10">
-
-                    <div className="flex flex-col w-full items-start">
-                        <h1 className="text-4xl font-bold">MON</h1>
-                        <h1 className="text-4xl font-bold" style={{ WebkitTextStroke: '0.5px white', color: 'transparent' }}>PROFIL</h1>
-                    </div>
-
-
-                    <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
-                    </div>
-
-                    <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
-                        <StatiscticCard number="5+" description="Projets" />
-                        <StatiscticCard number="10+" description="Compétences" />
-                        <StatiscticCard number="3+" description="Années d'expériences" />
-                    </div>
-
                 </div>
             </div>
 

@@ -16,9 +16,9 @@ export default function App() {
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
             <BrowserRouter>
-                <div className="h-full w-full bg-primary text-accent font-montserrat">
+                <div className="min-h-screen w-full bg-primary text-accent font-montserrat">
                     <TopBar />
-                    <div className="p-10">
+                    <div className="p-10 min-h-screen w-full">
                         <ScrollToTop />
                         <Routes>
                             <Route path="/Portfolio/" element={<Main />} />
