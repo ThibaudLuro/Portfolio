@@ -14,7 +14,7 @@ export default function ProjectDetails() {
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
             <div className="w-full flex justify-center items-center">
-                <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-20">
+                <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-10">
                     <img
                         className="h-16"
                         src={import.meta.env.BASE_URL + project.icon}
@@ -23,7 +23,7 @@ export default function ProjectDetails() {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-10 xl:gap-20 mt-20 xl:px-40">
+            <div className="flex flex-col gap-10 xl:gap-20 mt-20 xl:px-80">
 
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{project.explanation[0].element}</h1>
