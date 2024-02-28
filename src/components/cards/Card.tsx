@@ -16,7 +16,7 @@ export default function Card(props: IProps) {
                     alt=""
                 />
             </div>
-            <div className="w-full px-4 py-6 text-white absolute flex justify-between items-center h-10 bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="w-full px-4 py-6 absolute flex justify-between items-center h-10 bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="flex flex-col">
                     <h1 className="text-xs uppercase font-bold">{props.name}</h1>
                     <h1 className="text-[10px] uppercase">{props.description}</h1>

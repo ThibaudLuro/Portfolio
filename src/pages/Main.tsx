@@ -15,7 +15,7 @@ export default function Main() {
                 <MainInfos />
             </div>
 
-            <div className="flex w-full items-center justify-center bg-primary">
+            <div className="flex w-full items-center justify-center">
                 <div className="animate-bounce">
                     <FiChevronsDown size={22} />
                 </div>
