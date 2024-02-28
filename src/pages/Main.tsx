@@ -6,6 +6,7 @@ import InfoCard from "../components/cards/InfoCard";
 import StatiscticCard from "../components/cards/StatisticCard";
 import HorizontalInfiniteScrollText from "@/components/ui/horizontalInfiniteScrollText";
 import Card from "@/components/cards/Card";
+import { projects } from "@/utils/constants/projects/Projects";
 
 export default function Main() {
 
@@ -52,18 +53,18 @@ export default function Main() {
 
             <div className="mt-10 w-full">
                 <Card
-                    name="YOURNIGHT"
-                    description="Application mobile de gestion de soirées"
+                    name={projects[0].name}
+                    description={projects[0].description}
                 />
 
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                     <Card
-                        name="YOURNIGHT"
-                        description="Application mobile de gestion de soirées"
+                        name={projects[1].name}
+                        description={projects[1].description}
                     />
                     <Card
-                        name="YOURNIGHT"
-                        description="Application mobile de gestion de soirées"
+                        name={projects[2].name}
+                        description={projects[2].description}
                     />
                 </div>
             </div>
