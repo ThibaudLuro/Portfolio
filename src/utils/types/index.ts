@@ -16,6 +16,10 @@ export interface ISkill {
     explanation: {element: string, content: string, illustration?: string}[];
 }
 
+export interface IPersonnalPresentation {
+    explanation: {title: string, content: string}[];
+}
+
 export interface ITopBarItem {
     name: string;
     link: string;

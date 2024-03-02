@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { projects } from "../utils/constants/projects/Projects";
+import { projects } from "../utils/constants/Projects";
 import { IProject } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
 import { Badge } from "@/components/ui/badge";

@@ -22,6 +22,7 @@
   background: #555555;
 }
 
+
 @keyframes scrollHorizontal {
   0% {
     transform: translateX(0);
@@ -34,5 +35,5 @@
 
 .animate-scrollHorizontal {
   display: flex;
-  animation: scrollHorizontal 20s linear infinite;
+  animation: scrollHorizontal 30s linear infinite;
 }

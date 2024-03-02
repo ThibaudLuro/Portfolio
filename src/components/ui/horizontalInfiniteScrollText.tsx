@@ -7,7 +7,7 @@ interface IProps {
 export default function HorizontalInfiniteScrollText(props: IProps) {
 
     const { theme } = useTheme();
-    const duplicationNumber = 4;
+    const duplicationNumber = 10;
 
     const strokeColor = theme === 'dark' ? 'white' : 'black';
 

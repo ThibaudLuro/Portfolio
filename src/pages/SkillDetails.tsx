@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { skills } from "../utils/constants/skills/Skills";
+import { skills } from "../utils/constants/Skills";
 import { ISkill } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
 import { Badge } from "@/components/ui/badge";

@@ -1,4 +1,4 @@
-import { IProject } from "../../types";
+import { IProject } from "../types";
 
 //TODO: Add images
 //TODO: Find a way to redirect to skills or projects page when clicking on a skill or a project

@@ -1,4 +1,4 @@
-import { ISkill } from "../../types";
+import { ISkill } from "../types";
 
 export const skills: ISkill[] = [
     {

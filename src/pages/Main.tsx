@@ -6,7 +6,7 @@ import InfoCard from "../components/cards/InfoCard";
 import StatiscticCard from "../components/cards/StatisticCard";
 import HorizontalInfiniteScrollText from "@/components/ui/horizontalInfiniteScrollText";
 import Card from "@/components/cards/Card";
-import { projects } from "@/utils/constants/projects/Projects";
+import { projects } from "@/utils/constants/Projects";
 
 export default function Main() {
 
@@ -22,15 +22,8 @@ export default function Main() {
                 </div>
             </div>
 
-
             <div className="xl:p-40">
                 <div className="flex flex-col mt-20 gap-10">
-
-                    {/* <div className="flex flex-col w-full items-start">
-                        <h1 className="text-4xl font-bold">MON</h1>
-                        <h1 className="text-4xl font-bold" style={{ WebkitTextStroke: '0.5px white', color: 'transparent' }}>PROFIL</h1>
-                    </div> */}
-
 
                     <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
                         <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />

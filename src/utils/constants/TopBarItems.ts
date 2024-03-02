@@ -14,7 +14,7 @@ export const topBarItems: ITopBarItem[] = [
       link: "/Portfolio/skills",
     },
     {
-      name: "A PROPOS",
+      name: "MON PARCOURS",
       link: "/Portfolio/about",
     },
     {

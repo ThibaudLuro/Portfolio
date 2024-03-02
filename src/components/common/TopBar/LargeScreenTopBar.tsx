@@ -1,8 +1,8 @@
 import React from "react"
 
 import logo from '../../../assets/Luro.png';
-import { projects } from "@/utils/constants/projects/Projects";
-import { skills } from "@/utils/constants/skills/Skills";
+import { projects } from "@/utils/constants/Projects";
+import { skills } from "@/utils/constants/Skills";
 
 import {
     NavigationMenu,
@@ -113,7 +113,7 @@ export default function LargeScreenTopBar() {
                 <NavigationMenuItem>
                     <Link to="/Portfolio/about">
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                            A PROPOS
+                            MON PARCOURS
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

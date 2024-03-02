@@ -6,7 +6,7 @@ function BoldTextRenderer (text: string) {
             {segments.map((segment, index) => {
                 const isBold = index % 2 === 1;
                 return isBold ? (
-                    <span key={index} className="font-bold">
+                    <span key={index} className="font-semibold">
                         {segment}
                     </span>
                 ) : (

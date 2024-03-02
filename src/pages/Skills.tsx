@@ -1,5 +1,5 @@
 import GridDisplay from "../components/parts/GridDisplay";
-import { skills } from "../utils/constants/skills/Skills";
+import { skills } from "../utils/constants/Skills";
 
 export default function Skills() {
     return (

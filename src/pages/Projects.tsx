@@ -1,5 +1,5 @@
 import GridDisplay from "../components/parts/GridDisplay";
-import { projects } from "../utils/constants/projects/Projects";
+import { projects } from "../utils/constants/Projects";
 
 export default function Projects() {
     return (
