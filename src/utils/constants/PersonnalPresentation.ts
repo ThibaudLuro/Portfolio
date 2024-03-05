@@ -28,7 +28,7 @@ export const personnalPresentation: IPersonnalPresentation = {
             content: `Ce portfolio est le miroir de mon parcours professionnel et personnel, mettant en lumière non seulement mon savoir-faire technique, mais aussi les valeurs et les passions qui me définissent. L
             'objectif est de <b>poursuivre mon évolution dans l'univers du développement web</b>, en privilégiant toujours l'excellence, l'innovation, et une approche humaine. 
             En parallèle, je prépare le terrain pour <b>concrétiser mon aspiration entrepreneuriale</b>, convaincu que le mariage entre compétences techniques aiguisées et une vision ambitieuse est la clé pour façonner mon avenir.
-            <br><br>
+            <br/><br/>
             Mon engagement est de <b>continuer à grandir, à apprendre, et à innover</b>, tout en préparant soigneusement les fondations de mes rêves entrepreneuriaux. 
             Avec une base solide bâtie sur des projets réussis, une soif d'apprendre, et une volonté de contribuer significativement aux projets dans lesquels je suis impliqué, 
             je suis prêt à relever les défis futurs et à atteindre pleinement mon potentiel.`
