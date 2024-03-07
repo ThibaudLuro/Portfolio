@@ -1,8 +1,5 @@
 import { IProject } from "../types";
 
-//TODO: Add images
-//TODO: Find a way to redirect to skills or projects page when clicking on a skill or a project
-
 export const projects: IProject[] = [
     {
         name: "YourNight",
@@ -32,7 +29,7 @@ export const projects: IProject[] = [
                     <br/><br/>
                     Cependant, ce projet n'était pas exempt de risques. Le premier défi résidait dans le financement. Un investissement initial était nécessaire pour couvrir les coûts de l'hébergement des services et le déploiement sur les stores. Même si ces coûts ne me mettaient dans une situation financière délicate, j’ai du les réfléchir afin que le modèle économique de l’application puisse les rembourser, ce qui est préférable en tant qu’étudiant et même plus généralement lorsque l’on se lance dans un projet. De plus, en tant que seul développeur, j'ai dû faire face à des défis de gestion de projet. Des estimations incorrectes auraient pu entraîner des retards significatifs, impactant le lancement de l'application qui été prévu pour l’été 2023. La limitation des ressources matérielles pouvait aussi restreindre la capacité de tester l'application sur différents appareils, un facteur critique pour assurer la compatibilité et la réactivité.
                     <br/><br/>
-                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs via Photoshop, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables (boutons, champs de texte, les différentes “cards”) permettant de limiter toute duplication de code et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
+                    Une fois réalisé une étude sur quelques jours des étapes et risques évoqués précédemment tout en étudiant d’autres éléments tels que le marché et concurrents auxquels j’allais me confronter afin de me démarquer de ceux-ci, il était temps pour moi d’imaginer une charte graphique cohérente avec l’univers de la nuit et des événements festifs via Photoshop, je travaillais en parallèle sur une première maquette de l’application à l’aide de l’outil Figma afin de traduire visuellement mes idées de fonctionnalités et le “workflow” général. Après avoir validé une première maquette UI/UX jugée par moi-même et mes amis, convaincante et défini les technologies de développement, il a été question de développer les premiers composants réutilisables (boutons, champs de texte, les différentes “cards”) permettant de limiter toute duplication de code et les premiers écrans. De là est venu une longue période de développement, plusieurs remises en questions et changements avant de voir venir au jour une première version dont j’ai déployé le backend sur un VPS via Docker et soumis le frontend au Google Play Store et à l’App Store.
                     <br/><br/>
                     Il était maintenant l’heure pour moi de faire appel pour la première fois à des externes et plus particulièrement à mes amis afin de tester l’application en situation réelle. Quelques bugs ont pu être décelés au cours de cette phase comme par exemple au niveau des notifications qui fonctionnaient bien sur IOS mais pas sur Android, ou encore la possibilité d’entrer des nombres négatifs en tant que prix ou quantité d’un élément devant être présent à la soirée.
                     <br/><br/>
@@ -45,8 +42,6 @@ export const projects: IProject[] = [
                 element: "Résultat",
                 content: `
                     Aujourd'hui, YourNight n’est pas encore la nouvelle application à succès qui comptabilise des millions de téléchargements. Actuellement, je peaufine ma stratégie marketing, une étape cruciale que je n'ai pas encore eu l'opportunité de déployer pleinement.
-                    <br/><br/>
-                    Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
                     <br/><br/>
                     Cependant, après presque 1 an de travail durant une partie mon temps libre, ce projet m’a énormément apporté sur bien d’autres aspects et c’est déjà une première victoire non négligeable. La création de l’application a premièrement été un gain d’expérience inestimable qui me servira tout au long de ma carrière professionnelle. Elle m'a permis de m'immerger pleinement dans la conduite d'un projet, depuis l'ébauche de la charte graphique et le design fonctionnel de l'application mobile, jusqu'à la maîtrise de compétences diverses en développement.
                     <br/><br/>
@@ -81,7 +76,7 @@ export const projects: IProject[] = [
                     À long terme, le développement de YourNight s'envisage avec ambition à condition qu’une solide base d’utilisateurs existe : 
                     <br/><br/>
                     L'application évoluera pour englober une palette plus large de fonctionnalités liées à l'organisation d'événements. L'introduction de systèmes de sondage est notamment prévue pour permettre aux utilisateurs de décider collectivement des activités de leur soirée, transformant YourNight en un outil complet pour la planification d'événements festifs. Ces avancées sont envisagées à fin de faire de l’application un moyen incontournable pour organiser ses soirées.
-                `,
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Compétences liées",
@@ -101,9 +96,9 @@ export const projects: IProject[] = [
                 content: `
                     Isis est le premier projet professionnel en entreprise sur lequel j’ai travaillé. C’est une application web sur laquelle j’ai participé au développement au cours de mon seul et unique stage. 
                     <br/><br/>
-                    L’idée du projet est émergée des dirigeants de la société Holis Consulting qui souhaitaient améliorer leur productivité lors de la réalisation de projets d’inspections industrielles afin de se démarquer d’autres entreprises proposant les mêmes services et ayant un nombre d’effectifs plus conséquent.
+                    L’idée du projet est émergée des dirigeants de la société Holis Consulting qui souhaitaient améliorer leur productivité lors de la réalisation de projets d’inspections industrielles afin de se démarquer des autres entreprises proposant les mêmes services et ayant un nombre d’effectifs plus conséquent.
                     <br/><br/>
-                    Un projet d’inspection industrielle s’articule principalement sur des mesures réalisées à partir de calculs en fonction de certains paramètres afin de connaître l’état général d’un site industriel (Exemple : Calcul de la corrosion d’un tuyau sachant que du gaz traverse celui-ci).
+                    Un projet d’inspection industrielle s’articule principalement sur des mesures réalisées à partir de calculs en fonction de certains paramètres afin de connaître l’état général d’un site industriel (Exemple : Calcul de la corrosion d’un tuyau sachant qu’un certain type de gaz traverse celui-ci).
                     <br/><br/>
                     La questions qu’ils se sont posés a été la suivante : Que pouvons nous automatiser afin d’améliorer notre efficacité ?
                     <br/><br/>
@@ -113,7 +108,7 @@ export const projects: IProject[] = [
                     <br/><br/>
                     Étant donné le fait que le logiciel est utilisé dans un contexte très technique et propre au milieu de l’ingénierie d’inspection, il me semble important d’en expliquer le fonctionnement plus en détail. Dans un premier temps, l’ingénieur en inspection industrielle importe des fichiers au format Excel et PDF dans ISIS (ce sont les fichiers contenant les données essentielles à l’élaboration d’un projet d’inspection). ISIS se charge dans un second temps d’extraire les données des fichiers Excel afin de les stocker en base de données et de stocker les fichiers au format PDF dans le NAS de l’entreprise. Le but principal du logiciel est d’obtenir un bien meilleur suivi de l’avancée d’un projet d’inspection tout en facilitant le travail en équipe sur un même projet tout en permettant la génération automatisée des livrables.
                     `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Mise en œuvre",
                 content: `
@@ -131,13 +126,11 @@ export const projects: IProject[] = [
                     <br/><br/>
                     Ma participation au projet ISIS chez Holis Consulting s'est caractérisée par une grande autonomie, confiée par l'entreprise suite à la reconnaissance de mes compétences et de ma capacité à livrer des résultats de qualité. J'ai principalement travaillé en solo sur ce projet, avec une intervention occasionnelle de mon maître de stage pour des tâches spécifiques ou des modifications majeures impliquant la base de données.
                     <br/><br/>
-                    Concernant la gestion du projet, nous avons adopté une approche s'inspirant de la méthode Scrum, tout en adaptant certains de ses principes à notre contexte. Nous avions des réunions hebdomadaires, chaque mercredi après-midi, pour examiner l'avancement des différentes user stories et pour que je puisse présenter mes contributions principales en termes de fonctionnalités. Cette structure flexible nous a permis de maintenir une progression constante sans les contraintes de réunions quotidiennes ou de livraisons formelles.
-                    <br/><br/>
-                    En l'absence d'un designer UI/UX dédié durant mon stage, j'ai également eu la responsabilité de traduire les maquettes fournies, initialement réalisées sur PowerPoint puis sur Figma, dans l'application web ISIS. Ce défi supplémentaire a renforcé ma compréhension des aspects visuels et fonctionnels du développement web.
+                    Concernant la gestion du projet, nous avons adopté une approche s'inspirant de la méthode Scrum, tout en adaptant certains de ses principes à notre contexte. Nous avions des réunions quotidiennes (daily meeting), pour examiner l'avancement des différentes user stories et pour que je puisse présenter mes contributions principales en termes de fonctionnalités. Cette structure flexible nous a permis de maintenir une progression constante.
                     <br/><br/>
                     Pour la gestion du code, GitHub et son système de branches ont été utilisés pour synchroniser nos travaux, minimisant ainsi les risques de conflits ou de bugs. J'ai également employé l'outil Notion pour la prise de notes et la définition d'objectifs personnels, ce qui m'a aidé à rester organisé, accélérant ainsi le développement du projet.
                     `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                illustration: ""
             }, {
                 element: "Résultat",
                 content: `
@@ -146,8 +139,8 @@ export const projects: IProject[] = [
                     Suite à deux semaines de travail, la solution a été optimisée et a finalement été mise en service avec succès. Les retours des utilisateurs ont été positifs, malgré quelques demandes de fonctionnalités supplémentaires non prévues initialement. À ce jour, la solution est toujours utilisée chez Holis Consulting, offrant un gain de temps considérable pour les salariés, et atteignant ainsi l'objectif principal du projet.
                     <br/><br/>
                     Travailler sur ISIS a significativement amélioré ma compréhension et ma maîtrise de technologies clés comme React pour le développement frontend et NodeJS pour le backend. J'ai acquis une expérience précieuse dans la gestion des cycles de vie des applications, depuis la conception initiale jusqu'aux phases de déploiement et de maintenance. De plus, la résolution des défis techniques rencontrés et l'interaction avec les utilisateurs finaux m'ont permis de développer des compétences en communication et en résolution de problèmes, essentielles dans ma carrière de développeur. Ce projet a non seulement renforcé mes compétences techniques, mais a également contribué à ma croissance en tant que professionnel polyvalent et adaptable.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    `,
+                illustration: ""
             }, {
                 element: "Regard critique",
                 content: `
@@ -158,8 +151,8 @@ export const projects: IProject[] = [
                     En outre, cette expérience m'a enseigné l'importance de la flexibilité et de l'adaptabilité. Bien que le projet ait connu des défis initiaux, la capacité à répondre rapidement aux retours des utilisateurs et à ajuster l'application en conséquence a été un facteur clé dans son succès final.
                     <br/><br/>
                     En somme, travailler sur ISIS a été une expérience précieuse, m'offrant une perspective réaliste sur le développement de logiciels dans un environnement professionnel. J'ai acquis non seulement des compétences techniques, mais aussi une compréhension plus profonde de l'importance de la planification détaillée, des tests rigoureux et de l'adaptation rapide aux retours des utilisateurs. Ces leçons seront essentielles pour mes futurs projets et mon développement professionnel continu.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    `,
+                illustration: ""
             }, {
                 element: "Evolution",
                 content: `
@@ -168,8 +161,8 @@ export const projects: IProject[] = [
                     Parallèlement, l'avenir du logiciel ISIS chez Holis Consulting est envisagé avec un potentiel commercial plus large. Alors que l'entreprise se développe et diversifie ses activités, l'opportunité de commercialiser ISIS devient de plus en plus tangible. Si l'entreprise diminue sa dépendance aux contrats d'inspection industrielle et étend ses horizons, ISIS pourrait être adapté pour répondre à un marché plus vaste, offrant ainsi une solution robuste et éprouvée à d'autres sociétés et secteurs d'activité.
                     <br/><br/>
                     Cette possibilité de commercialisation représente une opportunité significative pour Holis Consulting, non seulement en termes de nouvelles sources de revenus, mais également en tant que validation de ses capacités de développement interne. ISIS, ayant commencé comme un outil conçu pour répondre aux besoins internes, pourrait ainsi devenir un produit phare de l'entreprise, témoignant de son expertise et de sa capacité à créer des solutions logicielles innovantes et adaptées aux besoins du marché.
-                `,
-                illustration: "img/projectsIcon/YourNight.svg"
+                    `,
+                illustration: ""
             }, {
                 element: "Compétences liées",
                 content: `React, Gestion de Projet Agile et Scrum, Express JS, Base de données`
@@ -204,11 +197,11 @@ export const projects: IProject[] = [
             }, {
                 element: "Mise en œuvre",
                 content: `
-                    Le projet représentait un défi stimulant et une opportunité de croissance professionnelle importante. Au moment où j'ai entamé ce projet, j'étais confronté à une page vierge : il était de mon devoir de conceptualiser et de construire l'architecture intégrale du système - de la base de données au backend, en passant par le frontend - en utilisant React, ExpressJS et PostgreSQL.
+                    Le projet représentait un défi stimulant et une opportunité de croissance professionnelle importante. Au moment où j'ai entamé ce projet, j'étais confronté à une page vierge : il était de mon devoir de conceptualiser et de construire l'architecture intégrale du système de la base de données au backend, en passant par le frontend, en utilisant React, ExpressJS et PostgreSQL.
                     <br/><br/>
                     La première étape cruciale a été la conception de l'architecture de la base de données. En tenant compte des directives et des besoins spécifiques exprimés par mes supérieurs ainsi que l’existant des modèles de données réalisés via Access qui m’ont été fournis, j'ai élaboré une structure de données qui non seulement répondait aux exigences fonctionnelles du projet, mais offrait également la flexibilité nécessaire pour des évolutions futures.
                     <br/><br/>
-                    Ensuite, j'ai abordé le développement du backend en utilisant ExpressJS. Cette étape impliquait la mise en place d'une API robuste et sécurisée, capable de gérer les requêtes et de communiquer efficacement avec la base de données. J'ai veillé à ce que chaque composant du backend soit optimisé pour les performances et la sécurité, tout en garantissant une intégration transparente avec le frontend.                    
+                    Ensuite, j'ai abordé le développement du backend en utilisant ExpressJS. Cette étape impliquait la mise en place d'une API robuste et sécurisée, capable de gérer les requêtes et de communiquer efficacement avec la base de données. J'ai veillé à ce que chaque composant du backend soit optimisé pour les performances et la sécurité, tout en garantissant une intégration transparente avec le frontend.
                     <br/><br/>
                     Le développement du frontend a été réalisé avec React. J'ai me suis basé sur une interface utilisateur imaginé par l’un de mes supérieurs via le logiciel Figma. Mon objectif était de fournir une expérience utilisateur fluide, où la complexité de la solution initiale ne serait pas un problème pour l’utilisateur.
                     <br/><br/>
@@ -241,19 +234,19 @@ export const projects: IProject[] = [
                     Il est vrai que "PREMIS DM" présente encore quelques bugs, ce qui est attendu compte tenu de la complexité de la solution. Ces problèmes, lorsqu'ils surviennent, sont rapidement identifiés et résolus, assurant ainsi une amélioration continue de l'application. Ces défis sont une partie naturelle du processus de développement et offrent des opportunités précieuses pour affiner et perfectionner l'application.
                     <br/><br/>
                     À l'heure actuelle, "PREMIS DM" est en phase de test chez deux clients potentiels. Ces essais sont cruciaux pour recueillir des retours d'expérience, identifier des domaines d'amélioration et démontrer la valeur pratique de la solution dans des environnements réels. Ces phases de test sont également une étape importante dans le processus de commercialisation de la solution, nous permettant de prouver son efficacité et son adaptabilité aux besoins spécifiques de chaque client.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Regard critique",
                 content: `
                     En réfléchissant sur le parcours de développement de "PREMIS DM", je ressens une grande fierté pour tout ce que j'ai accompli, tout en reconnaissant les défis et les difficultés rencontrés, particulièrement au début du projet en raison de mon expérience limitée à l'époque.
                     <br/><br/>
-                    L'un des principaux obstacles a été la fonctionnalité d'importation des données. Au début, la solution que j'avais mise en place se heurtait à des difficultés avec les fichiers de grande taille, dépassant les capacités du système en place. Cette expérience m'a appris l'importance de l'optimisation et de la prévision des besoins futurs lors du codage. Initialement, je me concentrais sur le fait que le code fonctionne dans l'immédiat sans toujours considérer son évolutivité. Cette approche a été ajustée au fil du temps, me permettant désormais de développer avec une vision à long terme, en assurant que la solution puisse s'adapter et évoluer avec les exigences croissantes.
+                    L'un des principaux obstacles a été la fonctionnalité d'importation des données. Au début, la solution que j'avais mise en place se heurtait à des difficultés avec les fichiers de grande taille, dépassant les capacités du système en place. Cette expérience m'a appris l'importance de l'optimisation et de la prévision des besoins futurs lors du développement. Initialement, je me concentrais sur le fait que le code fonctionne dans l'immédiat sans toujours considérer son évolutivité. Cette approche a été ajustée au fil du temps, me permettant désormais de développer avec une vision à long terme, en assurant que la solution puisse s'adapter et évoluer avec les exigences croissantes.
                     <br/><br/>
                     Un autre aspect critique a été la sécurité de l'application. Dans les premières versions, l'application a été déployée avec certaines vulnérabilités, comme des failles permettant des injections SQL. Ces expériences m'ont poussé à revoir et à renforcer mes connaissances en matière de sécurité des applications web. La prise de conscience de l'importance de la sécurité dans le développement logiciel a été un point tournant, me menant à intégrer des pratiques de sécurité rigoureuses et à tester de manière exhaustive pour prévenir les failles potentielles.
                     <br/><br/>
                     En somme, bien que le chemin parcouru avec "PREMIS DM" ait comporté son lot de défis, les leçons apprises ont été inestimables. Chaque obstacle a été une opportunité d'apprentissage, me permettant de renforcer mes compétences en développement, en optimisation et en sécurité des applications. Ces expériences ont façonné mon approche de développement, me rendant plus apte à gérer des projets complexes et à développer des solutions robustes et évolutives. Je reste déterminé à continuer d'apprendre et d'améliorer mes compétences, en vue de créer des applications toujours plus performantes et sécurisées.
-                `,
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
@@ -265,7 +258,7 @@ export const projects: IProject[] = [
                     Pour ma part, "PREMIS DM" reste ma mission principale. Je continue d'y apporter des améliorations, des ajustements et des corrections nécessaires. Cependant, je jongle également avec d'autres projets, ce qui m'offre l'opportunité d'élargir mes compétences et d'appliquer les leçons apprises à un éventail plus large de défis et de contextes. Cette expérience polyvalente me permet de rester flexible et adaptable, tout en me concentrant sur l'amélioration continue de "PREMIS DM" en tant que produit phare.
                     <br/><br/>
                     En conclusion, l'avenir de "PREMIS DM" est prometteur, avec des plans d'expansion et d'amélioration guidés par les exigences et les retours des utilisateurs. La capacité à évoluer et à s'adapter reste au cœur de la stratégie de développement de cette solution, visant à en faire un outil encore plus indispensable dans le secteur industriel. Mon rôle dans ce processus reste central, me permettant de contribuer de manière significative à la croissance et au succès de l'application.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Compétences liées",
@@ -285,10 +278,10 @@ export const projects: IProject[] = [
                 content: `
                     Le projet "Mat' moi ça", mené dans le cadre de ma formation, avait pour but de valider le semestre 4 de mes études. Ce projet unique s'inscrivait dans le cadre d'une exigence académique où, chaque semestre, nous devions réaliser un projet technique et un projet de formation humaine. Le thème de ce dernier variait à chaque fois, et pour ce semestre particulier, il s'agissait d'organiser un événement visant à collecter des fonds pour une association.
                     <br/><br/>
-                    En tant que chef de projet d'un groupe de cinq personnes, l'idée de "Mat' moi ça" est née de mes réflexions pendant les vacances précédant le semestre. J'ai été inspiré par l'engouement mondial pour les échecs, notamment stimulé par la popularité de la série "Le Jeu de la Dame" sur Netflix. J'ai vu dans ce regain d'intérêt pour les échecs une opportunité unique de combiner ma passion pour ce jeu avec un objectif caritatif.
+                    En tant que chef de projet d'un groupe de cinq personnes, l'idée de "Mat' moi ça" est née de mes réflexions pendant les vacances précédant le semestre. J'ai été inspiré par l'engouement mondial pour les échecs, notamment stimulé par la popularité de la série "Le Jeu de la Dame" sur Netflix. J'ai vu dans ce regain d'intérêt pour les échecs une opportunité unique de combiner mon attrait pour ce jeu avec un objectif caritatif.
                     <br/><br/>
                     "Mat' moi ça" a été conçu comme un tournoi caritatif d'échecs en ligne, en collaboration avec Chess.com et l'UNICEF. Chess.com, en tant que plateforme leader mondiale des échecs en ligne, offrait l'environnement idéal pour accueillir le tournoi, tandis que le partenariat avec l'UNICEF soulignait notre engagement envers une cause humanitaire, celle de soutenir les enfants dans le besoin à travers le monde.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Mise en œuvre",
@@ -310,20 +303,20 @@ export const projects: IProject[] = [
                     La recherche de lots supplémentaires et la promotion du tournoi par des influenceurs d'échecs ont été plus difficiles que prévu, avec de nombreux refus et des engagements non tenus. Malgré ces obstacles, nous avons persévéré, concentrant nos efforts sur le marketing et la communication pour assurer le succès de l'événement.
                     <br/><br/>
                     À l'approche du tournoi "Mat' moi ça", le mois précédant l'événement a vu une intensification significative de nos efforts de communication. Conscients de l'importance cruciale de la promotion pour le succès de notre tournoi, nous avons mis en place une stratégie de communication dynamique, centrée autour de notre page Facebook et Twitter.
-                    <br/><br/>
+                    br/><br/>
                     Des publications régulières étaient programmées pour maintenir l'engagement et étendre notre portée. Ces posts comprenaient des mises à jour sur l'actualité du tournoi, des annonces de nos partenaires Chess.com et UNICEF, ainsi que des explications détaillées des règles du tournoi.
                     <br/><br/>
                     De leur côté, nos partenaires de Chess.com ont joué un rôle clé dans la promotion de l'événement. Ils ont respecté leur engagement en faisant la publicité de notre tournoi sur leur page Facebook et en le mettant en avant sur la page d'accueil de la version française de leur site. Cette exposition a considérablement augmenté notre visibilité et attiré de nombreux participants.
                     <br/><br/>
                     À notre grande satisfaction, nos efforts de communication ont également attiré l'attention de la Fédération Française des Échecs. Grâce à notre présence active et notre engagement sur les réseaux sociaux, la Fédération a choisi de relayer l'information sur notre tournoi à travers leurs canaux officiels, notamment sur Twitter et Facebook. Cette reconnaissance par une institution aussi respectée a non seulement validé nos efforts, mais a également élargi notre audience et renforcé la crédibilité de l'événement. Nous avons également attiré l’intérêt de plusieurs pages Facebook consacrés aux échecs qui ont relayé le tournoi.
                     <br/><br/>
-                    La gestion financière de "Mat' moi ça" a également joué un rôle crucial dans le déroulé global du projet, surtout compte tenu de son importance pour l'évaluation finale de notre semestre. Nous avons abordé cet aspect avec une rigueur et une précision méticuleuses, conscient que chaque euro comptait et devait être justifié.
+                    La gestion financière de "Mat' moi ça" a également joué un rôle crucial dans le déroulé global du projet, surtout compte tenu de son importance pour l'évaluation finale de notre semestre. Nous avons abordé cet aspect avec rigueur, conscient que chaque euro comptait et devait être justifié.
                     <br/><br/>
-                    Pour assurer une gestion transparente et efficace du budget, nous avons mis en place un plan de trésorerie détaillé sous forme d'un fichier Excel. Ce document était la pierre angulaire de notre suivi financier, où chaque sortie et entrée d'argent était consciencieusement recensée. Nous avions catégorisé les dépenses et les revenus pour faciliter le suivi et l'analyse : frais de marketing, coûts de communication, dépenses liées à la plateforme du tournoi, et bien sûr, les fonds collectés pour l'UNICEF.
+                    Pour assurer une gestion transparente et efficace du budget, nous avons mis en place un plan de trésorerie détaillé sous forme d'un fichier Excel. Ce document était la base de notre suivi financier, où chaque sortie et entrée d'argent était recensée. Nous avions catégorisé les dépenses et les revenus pour faciliter le suivi et l'analyse : frais de marketing, coûts de communication, dépenses liées à la plateforme du tournoi, et bien sûr, les fonds collectés pour l'UNICEF.
                     <br/><br/>
                     Ce suivi rigoureux nous a permis de maintenir un contrôle strict sur le budget, d'identifier rapidement les écarts par rapport aux prévisions et de prendre des décisions éclairées sur l'allocation des ressources. Chaque dépense était soigneusement examinée et approuvée par l'équipe, assurant que nous maximisions l'impact de chaque euro dépensé.
                     <br/><br/>
-                    La transparence était également un aspect clé de notre gestion financière. Nous nous sommes assurés que toutes les parties prenantes, y compris nos partenaires et les participants au tournoi, étaient informées de la manière dont les fonds étaient utilisés. Cette approche a renforcé la confiance dans notre gestion du projet et a souligné notre engagement envers la responsabilité et l'intégrité.
+                    La transparence était également un aspect clé de notre gestion financière. Nous nous sommes assurés que toutes les parties prenantes, y compris nos partenaires et les participants au tournoi, étaient informées de la manière dont les fonds étaient utilisés à l’aide de documents nous ayant été fournis par l’UNICEF. Cette approche a renforcé la confiance dans notre gestion du projet et a souligné notre engagement envers la responsabilité et l'intégrité.
                     `,
                 illustration: ""
             }, {
@@ -334,7 +327,7 @@ export const projects: IProject[] = [
                     L'une des principales raisons de cette participation limitée a été la date de l'événement, qui coïncidait avec la fin du confinement et le début de l'été. Cette période a probablement incité de nombreuses personnes à privilégier d'autres activités après une longue période de restrictions. Bien que conscient de ce possible obstacle, notre équipe était contrainte par le calendrier académique, nécessitant que le tournoi soit organisé et évalué avant la fin du semestre.
                     <br/><br/>
                     Outre ces circonstances extérieures, nous reconnaissons également que certaines erreurs de notre part ont contribué à ce résultat. Notre analyse post-événement a révélé des lacunes dans notre stratégie de communication et de marketing, ainsi que dans notre approche de mobilisation des joueurs et des sponsors. Bien que nos efforts de promotion sur les réseaux sociaux et la collaboration avec Chess.com et l'UNICEF aient été significatifs, ils n'ont pas suffi à attirer le nombre de participants escompté.
-                `,
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Regard critique",
@@ -346,7 +339,7 @@ export const projects: IProject[] = [
                     Cependant, je ne considère pas "Mat' moi ça" comme un échec total. Il est important de reconnaître les succès que nous avons réalisés, notamment notre collaboration fructueuse avec Chess.com et l'UNICEF. Travailler directement avec une plateforme d'échecs de renom et une organisation humanitaire internationale a été une réalisation remarquable, témoignant de notre capacité à établir des partenariats significatifs.
                     <br/><br/>
                     De plus, le contenu que nous avons créé pour les réseaux sociaux a attiré l'attention de la Fédération Française des Échecs, un accomplissement non négligeable qui a donné une visibilité supplémentaire à notre projet. Cette reconnaissance par une institution aussi respectée souligne la qualité et l'impact de notre travail de communication.
-                `,
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Evolution",
@@ -384,7 +377,7 @@ export const projects: IProject[] = [
                     Ce projet académique s'inscrivait dans un contexte où le marché offrait déjà plusieurs solutions technologiques dédiées à l'immobilier. Toutefois, ces solutions existantes ne répondaient pas entièrement aux besoins spécifiques identifiés par notre collaborateur issu du domaine immobilier. Notre défi était donc de créer une application qui non seulement comble ces lacunes, mais offre également une valeur ajoutée unique aux professionnels de l'immobilier.
                     <br/><br/>
                     L'application visait à simplifier la gestion des ventes immobilières, en proposant des fonctionnalités innovantes pour le suivi des projets et l'automatisation de tâches répétitives et fastidieuses. L'accent était mis sur l'efficacité, la facilité d'utilisation et l'apport d'outils permettant une meilleure gestion du temps pour les professionnels du secteur.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Mise en œuvre",
@@ -422,7 +415,7 @@ export const projects: IProject[] = [
                     En outre, l'application a été livrée sans tests automatisés. Bien que conscients de l'importance des tests pour assurer la qualité et la stabilité de l'application, le temps limité et les ressources disponibles ne nous ont pas permis d'implémenter un cadre de test complet.
                     <br/><br/>
                     En conséquence, la version finale de l'application n'a pas totalement satisfait les attentes du product owner. Cependant, ce projet a été une expérience d'apprentissage précieuse pour notre équipe. Il a souligné l'importance de la communication claire et continue avec le client, de la gestion efficace du temps et des ressources, et de l'adaptabilité face aux changements inattendus. Bien que nous n'ayons pas pleinement atteint l'objectif initial, le projet HYPOTECH a contribué à développer nos compétences en développement d'applications mobiles et en gestion de projets, et nous a fourni des enseignements essentiels pour nos futures initiatives.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Regard critique",
@@ -434,7 +427,7 @@ export const projects: IProject[] = [
                     Le volume élevé de user stories généré après chaque réunion était également une source de stress significative. La pression pour accomplir un grand nombre de tâches dans un laps de temps restreint m'a parfois conduit à bâcler mon travail. Cela s'est souvent traduit par l'apparition de bugs lors des tests effectués par mes camarades, ce qui m'a fait prendre conscience de l'importance de produire un travail solide et bien testé avant de passer à la tâche suivante.
                     <br/><br/>
                     Cette expérience a été une leçon précieuse sur l'importance d'une gestion efficace du temps et des ressources, ainsi que sur la nécessité d'une approche méthodique et rigoureuse dans le développement logiciel. J'ai appris que la qualité ne doit pas être sacrifiée au profit de la quantité et que prendre le temps de bien faire les choses dès le début peut économiser beaucoup d'efforts et de frustrations par la suite.
-                `,
+                    `,
                 illustration: ""
             }, {
                 element: "Evolution",
@@ -448,7 +441,7 @@ export const projects: IProject[] = [
                     Pour ma part, voir notre travail initial servir de fondation pour un développement ultérieur a été une source de satisfaction. Cela a confirmé la valeur de notre contribution initiale et a démontré que nos idées et notre mise en œuvre pouvaient inspirer et guider le travail d'une équipe de développement plus expérimentée.
                     <br/><br/>
                     Cette transition de notre projet académique à une initiative professionnelle souligne l'importance de la phase de conception et de développement préliminaire dans les projets de logiciel. Même si notre version n'était pas le produit final, elle a joué un rôle déterminant dans le cheminement du concept vers une réalisation plus aboutie. Cette expérience a renforcé ma compréhension de l'importance de la phase de prototypage et de la flexibilité dans le développement logiciel, des compétences précieuses pour mes futurs projets dans le domaine.
-                `,
+                    `,
                 illustration: "img/projectsIcon/YourNight.svg"
             }, {
                 element: "Compétences liées",
