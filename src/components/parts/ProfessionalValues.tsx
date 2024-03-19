@@ -9,12 +9,12 @@ export default function ProfessionnalValues() {
         <div className="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-40">
             <div className="flex flex-col flex-1">
                 <h1 className="uppercase text-3xl font-bold">Mes valeurs professionnelles</h1>
-                <h1 className="text-sm font-light mt-2">
-                    Il est important pour moi de travailler dans un environnement où je peux m'épanouir et où je peux apprendre de nouvelles choses. J'aime travailler en équipe et partager mes connaissances avec les autres. Je suis passionné par le développement web et mobile et je suis toujours à la recherche de nouveaux défis.
+                <h1 className="text-sm font-light mt-4">
+                    Mes valeurs professionnelles sont les piliers sur lesquels je bâtis ma carrière dans le développement web, me permettant d'aborder avec assurance et efficacité les projets variés qui me sont confiés. Grâce à une rigueur professionnelle et une capacité à envisager des solutions créatives, je suis capable de transformer les défis techniques en réussites concrètes, contribuant ainsi à la réalisation de solutions innovantes et performantes.
                 </h1>
                 <Button
                     onClick={() => window.location.href = "/Portfolio/about/"}
-                    className="w-fit text-xs mt-4 gap-2">
+                    className="w-fit text-xs mt-6 gap-2">
                     <MdArrowOutward />
                     En Savoir plus
                 </Button>
