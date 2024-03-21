@@ -8,6 +8,10 @@ import HorizontalInfiniteScrollText from "@/components/ui/horizontalInfiniteScro
 import Card from "@/components/cards/Card";
 import { projects } from "@/utils/constants/Projects";
 
+import { Link } from "react-router-dom";
+import ProfessionnalValues from "@/components/parts/ProfessionalValues";
+
+
 export default function Main() {
 
     return (
@@ -44,22 +48,32 @@ export default function Main() {
                 text="REALISATIONS RECENTES"
             />
 
-            <div className="mt-10 w-full">
-                <Card
-                    name={projects[0].name}
-                    description={projects[0].description}
-                />
+            <div className="py-10 w-full">
+                <Link className="w-full" to={`/Portfolio/projects/${projects[0].name}`} key={0} style={{ textDecoration: 'none' }}>
+                    <Card
+                        name={projects[0].name}
+                        description={projects[0].description}
+                    />
+                </Link>
 
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-                    <Card
-                        name={projects[1].name}
-                        description={projects[1].description}
-                    />
-                    <Card
-                        name={projects[2].name}
-                        description={projects[2].description}
-                    />
+                    <Link className="w-full" to={`/Portfolio/projects/${projects[1].name}`} key={1} style={{ textDecoration: 'none' }}>
+                        <Card
+                            name={projects[1].name}
+                            description={projects[1].description}
+                        />
+                    </Link>
+                    <Link className="w-full" to={`/Portfolio/projects/${projects[2].name}`} key={2} style={{ textDecoration: 'none' }}>
+                        <Card
+                            name={projects[2].name}
+                            description={projects[2].description}
+                        />
+                    </Link>
                 </div>
+            </div>
+
+            <div className="py-10 xl:py-60 xl:px-40 w-full">
+                <ProfessionnalValues />
             </div>
 
             <div className="pt-10">
