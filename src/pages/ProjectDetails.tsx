@@ -3,6 +3,7 @@ import { projects } from "../utils/constants/Projects";
 import { IProject } from "../utils/types";
 import SplitParagraphs from "../utils/functions/SplitParagraph";
 import { Badge } from "@/components/ui/badge";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 export default function ProjectDetails() {
     let { name } = useParams();
@@ -13,15 +14,30 @@ export default function ProjectDetails() {
             <h1 className="mt-20 text-center font-semibold">REALISATION</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
-            <div className="w-full flex justify-center items-center">
-                <div className="h-44 w-full flex justify-center items-center md:h-96 md:w-3/4 lg:w-1/2 shadow-2xl bg-stone-900 mt-10">
-                    <img
-                        className="h-16"
-                        src={import.meta.env.BASE_URL + project.icon}
-                        alt=""
-                    />
-                </div>
+            <div className="flex flex-col xl:px-80 px-6 items-center mt-10">
+                <Carousel
+                    opts={{
+                        align: "center",
+                    }}
+                    className="w-full">
+                    <CarouselContent>
+                        {Array.from({ length: 5 }).map((_, index) => (
+                            <CarouselItem key={index}>
+                                <div className="h-44 w-full flex justify-center items-center md:h-96 shadow-2xl bg-stone-900">
+                                    <img
+                                        className="h-16"
+                                        src={import.meta.env.BASE_URL + project.icon}
+                                        alt=""
+                                    />
+                                </div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
             </div>
+
 
             <div className="flex flex-col gap-10 xl:gap-20 mt-20 xl:px-80">
 
