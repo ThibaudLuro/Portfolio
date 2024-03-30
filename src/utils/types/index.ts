@@ -24,3 +24,14 @@ export interface ITopBarItem {
     name: string;
     link: string;
 }
+
+export interface ITimeLineItem {
+    date: string;
+    link?: string;
+    logo: string;
+    title: string;
+    shortDescription: string;
+    longDescription: string;
+    projectsLinked?: string[];
+    skillsLinked?: string[];
+}

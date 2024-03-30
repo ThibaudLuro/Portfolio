@@ -1,36 +1,62 @@
 import { timelineItems } from "../../utils/constants/TimeLineItems";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+import SplitParagraphs from "@/utils/functions/SplitParagraph";
+import { ITimeLineItem } from "@/utils/types";
 import { CalendarIcon } from "@radix-ui/react-icons";
+import { Link } from "react-router-dom";
+import { Badge } from "../ui/badge";
+import { Separator } from "../ui/separator";
 
 interface IProps {
-    index: number;
-    date: string;
-    title: string;
-    description: string;
+    index: number
+    item: ITimeLineItem
 }
 
-function TimelineItem(props: IProps) {
+function TimelineItem({ index, item }: IProps) {
 
     const displayedItem =
-        <HoverCard>
-            <HoverCardTrigger className="cursor-pointer">
-                <p className="text-stone-400">{props.date}</p>
-                <h3 className="font-bold mb-1">{props.title}</h3>
-                <p className="text-stone-400">{props.description}</p>
+        <HoverCard openDelay={1} closeDelay={1}>
+            <HoverCardTrigger className={`cursor-pointer flex flex-col items-center justify-center text-center ${index % 2 !== 0 ? "md:justify-end md:items-end md:text-right" : "md:justify-start md:items-start md:text-left"}`}>
+                <p className="text-stone-400">{item.date}</p>
+                <img onClick={
+                    () => {
+                        if (item.link) {
+                            window.open(item.link, "_blank");
+                        }
+                    }}
+                    src={timelineItems[index].logo} alt={item.title} className="h-8 my-1" />
+                <h3 className="font-bold mb-1">{item.title}</h3>
+                <p className="text-stone-400 text-sm">{item.shortDescription}</p>
             </HoverCardTrigger>
-            <HoverCardContent className="w-96 text-start items-start">
-                <div className="flex justify-between space-x-4">
-                    <div className="space-y-1">
-                        <h4 className="text-sm font-semibold">{props.title}</h4>
-                        <p className="text-sm text-stone-400">
-                            {props.description}
-                        </p>
-                        <div className="flex items-center pt-2">
-                            <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
-                            <span className="text-xs text-muted-foreground">
-                                {props.date}
-                            </span>
+            <HoverCardContent className="w-auto max-w-[500px] text-start items-start">
+                <div className="flex flex-col gap-1">
+                    <h4 className="text-sm font-semibold">{item.title}</h4>
+                    <p className="text-sm text-stone-400">
+                        {SplitParagraphs(item.longDescription)}
+                    </p>
+                    {
+                        item.projectsLinked && item.skillsLinked &&
+                        <div className="md:text-justify flex space-x-2 my-2 overflow-x-auto no-scrollbar h-full w-full">
+                            {item.projectsLinked.map((item, index) => (
+                                <Link to={`/Portfolio/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                                    <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
+                                </Link>
+                            ))}
+
+                            <Separator orientation="vertical" className="w-[0.8px] h-7" />
+
+                            {item.skillsLinked.map((item, index) => (
+                                <Link to={`/Portfolio/skills/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                                    <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
+                                </Link>
+                            ))}
                         </div>
+                    }
+                    <div className="flex items-center pt-2">
+                        <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
+                        <span className="text-xs text-muted-foreground">
+                            {item.date}
+                        </span>
                     </div>
                 </div>
             </HoverCardContent>
@@ -38,8 +64,8 @@ function TimelineItem(props: IProps) {
 
     return (
         <div className="flex flex-col w-full md:flex-row items-start justify-center">
-            <div className="flex flex-col w-full items-center justify-center pt-4 text-center md:items-end md:text-right md:pt-10">
-                {props.index % 2 !== 0 && (
+            <div className="w-full pt-4 md:pt-10">
+                {index % 2 !== 0 && (
                     displayedItem
                 )}
             </div>
@@ -49,8 +75,8 @@ function TimelineItem(props: IProps) {
                 <div className="h-3 w-3 bg-stone-400 rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
             </div>
 
-            <div className="flex flex-col w-full items-center justify-center text-center pb-4 md:items-start md:text-left md:pb-10">
-                {props.index % 2 === 0 && (
+            <div className="w-full md:pb-10">
+                {index % 2 === 0 && (
                     displayedItem
                 )}
             </div>
@@ -62,7 +88,7 @@ export default function VerticalTimeline() {
     return (
         <div className="grid items-start justify-center">
             {timelineItems.map((item, index) => (
-                <TimelineItem key={index} index={index} date={item.date} title={item.title} description={item.description} />
+                <TimelineItem key={index} index={index} item={item} />
             ))}
         </div>
     );
