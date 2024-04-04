@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator"
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
 import { professionalValues } from "@/utils/constants/ProfessionnalValues";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 import SplitParagraphs from "@/utils/functions/SplitParagraph";
 import { personnalPresentation } from "@/utils/constants/PersonnalPresentation";
 
