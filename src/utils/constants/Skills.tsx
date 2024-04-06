@@ -252,7 +252,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Intégration continue",
-        icon: "img/skillsIcon/Cicd.svg",
+        icon: "img/skillsIcon/Cicd.webp",
         percentageOfMastery: 60,
         category: "technical",
         explanation: [
@@ -303,7 +303,7 @@ export const skills: ISkill[] = [
         ]
     }, {
         name: "Communication Digitale",
-        icon: "img/skillsIcon/DigitalMarketing.svg",
+        icon: "img/skillsIcon/DigitalMarketing.png",
         percentageOfMastery: 55,
         category: "soft",
         explanation: [
@@ -354,7 +354,7 @@ export const skills: ISkill[] = [
         name: "Gestion de Budget",
         category: "soft",
         percentageOfMastery: 70,
-        icon: "img/skillsIcon/Budget.svg",
+        icon: "img/skillsIcon/Budget.png",
         explanation: [
             {
                 element: "Définition",

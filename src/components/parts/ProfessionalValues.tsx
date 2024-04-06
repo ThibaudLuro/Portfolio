@@ -13,7 +13,7 @@ export default function ProfessionnalValues() {
             <div className="flex flex-col flex-1 items-start">
                 <h1 className="uppercase text-3xl font-bold">Présentation Personnelle</h1>
                 <h1 className="text-sm font-light mt-4">
-                    Mes valeurs professionnelles sont les piliers sur lesquels je bâtis ma carrière dans le développement web, me permettant d'aborder avec assurance et efficacité les projets variés qui me sont confiés. Grâce à une rigueur professionnelle et une capacité à envisager des solutions créatives, je suis capable de transformer les défis techniques en réussites concrètes, contribuant ainsi à la réalisation de solutions innovantes et performantes.
+                    Animé par une profonde passion pour le développement web fullstack, je cultive des valeurs de détermination, d'optimisme, et de solidarité, visant l'excellence dans le domaine technologique et aspirant à créer une entreprise autour d'un projet personnel. Reconnu pour mon assiduité, autonomie, organisation, et fiabilité, je gère avec succès des projets complexes, innovants grâce à un esprit créatif stimulé par mes passions diverses comme la musique, le sport, et les voyages. Ce portfolio, reflet de mon parcours professionnel et personnel, souligne mon engagement à évoluer continuellement dans le développement web, tout en préparant minutieusement le terrain pour réaliser mes ambitions entrepreneuriales.
                 </h1>
 
                 <Dialog>
