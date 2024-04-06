@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
@@ -15,7 +15,7 @@ import ScrollToTop from "./utils/functions/ScrollToTop";
 export default function App() {
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-            <BrowserRouter>
+            <Router>
                 <div className="min-h-screen w-full bg-stone-50 text-stone-800 dark:bg-stone-950 dark:text-stone-200 font-montserrat">
                     <TopBar />
                     <div className="p-10 min-h-screen w-full">
@@ -33,7 +33,7 @@ export default function App() {
                     </div>
                     <Toaster />
                 </div>
-            </BrowserRouter>
+            </Router>
         </ThemeProvider>
     );
 }

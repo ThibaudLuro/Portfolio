@@ -2,23 +2,23 @@ import { ITopBarItem } from "../types";
 
 export const topBarItems: ITopBarItem[] = [
     {
-      name: "ACCUEIL",
+      name: "Accueil",
       link: "/Portfolio/",
     },
     {
-      name: "REALISATIONS",
+      name: "Réalisations",
       link: "/Portfolio/projects",
     },
     {
-      name: "COMPETENCES",
+      name: "Compétences",
       link: "/Portfolio/skills",
     },
     {
-      name: "MON PARCOURS",
+      name: "Mon Parcours",
       link: "/Portfolio/about",
     },
     {
-      name: "CONTACT",
+      name: "Contact",
       link: "/Portfolio/contact",
     }
   ]
