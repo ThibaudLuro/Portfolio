@@ -29,7 +29,7 @@ export default function LargeScreenTopBar() {
                         <ul className="p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                             <li className="">
                                 <NavigationMenuLink asChild>
-                                    <Link to={"/Portfolio/"} style={{ textDecoration: 'none' }}>
+                                    <Link to={"/"} style={{ textDecoration: 'none' }}>
                                         <a
                                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                                         >
@@ -48,11 +48,11 @@ export default function LargeScreenTopBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="uppercase">Rélisations</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="uppercase">Réalisations</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <div className="p-4 space-y-4">
                             <NavigationMenuLink asChild>
-                                <Link to={"/Portfolio/projects"} style={{ textDecoration: 'none' }}>
+                                <Link to={"/projects"} style={{ textDecoration: 'none' }}>
                                     <a
                                         className={cn(
                                             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground dark:hover:bg-stone-800"
@@ -84,7 +84,7 @@ export default function LargeScreenTopBar() {
                     <NavigationMenuContent>
                         <div className="p-4 space-y-4">
                             <NavigationMenuLink asChild>
-                                <Link to={"/Portfolio/skills"} style={{ textDecoration: 'none' }}>
+                                <Link to={"/skills"} style={{ textDecoration: 'none' }}>
                                     <a
                                         className={cn(
                                             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground dark:hover:bg-stone-800"
@@ -111,14 +111,14 @@ export default function LargeScreenTopBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link to="/Portfolio/about">
+                    <Link to="/about">
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             MON PARCOURS
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link to="/Portfolio/contact">
+                    <Link to="/contact">
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             CONTACT
                         </NavigationMenuLink>
@@ -135,7 +135,7 @@ const ListItem = React.forwardRef<
 >(({ className, title, children, type, ...props }, ref) => {
     return (
         <li>
-            <Link to={`/Portfolio/${type}/` + title} style={{ textDecoration: 'none' }}>
+            <Link to={`/${type}/` + title} style={{ textDecoration: 'none' }}>
                 <NavigationMenuLink asChild>
                     <a
                         ref={ref}

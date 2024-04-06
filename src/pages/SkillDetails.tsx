@@ -20,7 +20,7 @@ export default function SkillDetails() {
 
     return (
         <div className="text-justify">
-            <h1 className="mt-20 text-center font-semibold">COMPETENCE</h1>
+            <h1 className="mt-20 text-center font-semibold uppercase">Compétence</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
             <TooltipProvider delayDuration={100}>
@@ -83,7 +83,7 @@ export default function SkillDetails() {
                     <h1 className="font-bold text-xl uppercase">{skill.explanation[4]?.element}</h1>
                     <div className="md:text-justify flex space-x-2 mt-4 overflow-x-auto">
                         {skill.explanation[4]?.content.split(',').map((item, index) => (
-                            <Link to={`/Portfolio/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                            <Link to={`/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
                                 <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
                             </Link>
                         ))}

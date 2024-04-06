@@ -20,7 +20,7 @@ export default function GridDisplay({ items, itemType }: IProps) {
             <h1 className="text-lg font-semibold w-full my-10">TECHNIQUES</h1>
             <div className="w-full grid justify-items-center grid-cols-1 xl:grid-cols-3 gap-4">
                 {items.filter(item => item.category === "technical").map((item, index) => (
-                    <Link className="w-full" to={`/Portfolio/${itemType}/${item.name}`} key={index} style={{ textDecoration: 'none' }}>
+                    <Link className="w-full" to={`/${itemType}/${item.name}`} key={index} style={{ textDecoration: 'none' }}>
                         <Card
                             name={item.name}
                             icon={item.icon}
@@ -33,7 +33,7 @@ export default function GridDisplay({ items, itemType }: IProps) {
             <h1 className="text-lg font-semibold w-full my-10">HUMAINES</h1>
             <div className="w-full grid justify-items-center grid-cols-1 xl:grid-cols-3 gap-4">
                 {items.filter(item => item.category === "soft").map((item, index) => (
-                    <Link className="w-full" to={`/Portfolio/${itemType}/${item.name}`} key={index} style={{ textDecoration: 'none' }}>
+                    <Link className="w-full" to={`/${itemType}/${item.name}`} key={index} style={{ textDecoration: 'none' }}>
                         <Card
                             name={item.name}
                             icon={item.icon}

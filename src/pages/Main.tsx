@@ -51,7 +51,7 @@ export default function Main() {
             />
 
             <div className="py-10 w-full">
-                <Link className="w-full" to={`/Portfolio/projects/${projects[0].name}`} key={0} style={{ textDecoration: 'none' }}>
+                <Link className="w-full" to={`/projects/${projects[0].name}`} key={0} style={{ textDecoration: 'none' }}>
                     <Card
                         name={projects[0].name}
                         description={projects[0].description}
@@ -60,14 +60,14 @@ export default function Main() {
                 </Link>
 
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-                    <Link className="w-full" to={`/Portfolio/projects/${projects[1].name}`} key={1} style={{ textDecoration: 'none' }}>
+                    <Link className="w-full" to={`/projects/${projects[1].name}`} key={1} style={{ textDecoration: 'none' }}>
                         <Card
                             name={projects[1].name}
                             description={projects[1].description}
                             icon={projects[1].icon}
                         />
                     </Link>
-                    <Link className="w-full" to={`/Portfolio/projects/${projects[2].name}`} key={2} style={{ textDecoration: 'none' }}>
+                    <Link className="w-full" to={`/projects/${projects[2].name}`} key={2} style={{ textDecoration: 'none' }}>
                         <Card
                             name={projects[2].name}
                             description={projects[2].description}

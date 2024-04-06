@@ -38,7 +38,7 @@ function TimelineItem({ index, item }: IProps) {
                         item.projectsLinked && item.skillsLinked &&
                         <div className="md:text-justify flex space-x-2 my-2 overflow-x-auto no-scrollbar h-full w-full">
                             {item.projectsLinked.map((item, index) => (
-                                <Link to={`/Portfolio/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                                <Link to={`/projects/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
                                     <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
                                 </Link>
                             ))}
@@ -46,7 +46,7 @@ function TimelineItem({ index, item }: IProps) {
                             <Separator orientation="vertical" className="w-[0.8px] h-7" />
 
                             {item.skillsLinked.map((item, index) => (
-                                <Link to={`/Portfolio/skills/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
+                                <Link to={`/skills/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
                                     <Badge className="whitespace-nowrap" key={index}>{item}</Badge>
                                 </Link>
                             ))}

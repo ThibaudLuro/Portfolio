@@ -21,13 +21,13 @@ export default function App() {
                     <div className="p-10 min-h-screen w-full">
                         <ScrollToTop />
                         <Routes>
-                            <Route path="/Portfolio/" element={<Main />} />
-                            <Route path="Portfolio/projects" element={<Projects />} />
-                            <Route path="Portfolio/projects/:name" element={<ProjectDetails />} />
-                            <Route path="Portfolio/skills" element={<Skills />} />
-                            <Route path="Portfolio/skills/:name" element={<SkillDetails />} />
-                            <Route path="Portfolio/about" element={<About />} />
-                            <Route path="Portfolio/contact" element={<Contact />} />
+                            <Route path="/" element={<Main />} />
+                            <Route path="/projects" element={<Projects />} />
+                            <Route path="/projects/:name" element={<ProjectDetails />} />
+                            <Route path="/skills" element={<Skills />} />
+                            <Route path="/skills/:name" element={<SkillDetails />} />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/contact" element={<Contact />} />
                             <Route path="*" element={<NotFound />} />
                         </Routes>
                     </div>
