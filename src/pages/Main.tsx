@@ -53,6 +53,7 @@ export default function Main() {
                     <Card
                         name={projects[0].name}
                         description={projects[0].description}
+                        icon={projects[0].icon}
                     />
                 </Link>
 
@@ -61,12 +62,14 @@ export default function Main() {
                         <Card
                             name={projects[1].name}
                             description={projects[1].description}
+                            icon={projects[1].icon}
                         />
                     </Link>
                     <Link className="w-full" to={`/Portfolio/projects/${projects[2].name}`} key={2} style={{ textDecoration: 'none' }}>
                         <Card
                             name={projects[2].name}
                             description={projects[2].description}
+                            icon={projects[2].icon}
                         />
                     </Link>
                 </div>
