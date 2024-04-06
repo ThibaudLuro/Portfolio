@@ -30,9 +30,7 @@ export default function Main() {
                 <div className="flex flex-col mt-20 gap-10">
 
                     <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
-                        <InfoCard title="FULL STACK DEVELOPPER" description="Web and mobile development" />
+                        <InfoCard title="Full Stack Développeur" description="Web et mobile" />
                     </div>
 
                     <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
@@ -42,6 +40,10 @@ export default function Main() {
                     </div>
 
                 </div>
+            </div>
+
+            <div className="py-10 xl:py-60 xl:px-40 w-full">
+                <ProfessionnalValues />
             </div>
 
             <HorizontalInfiniteScrollText
@@ -73,10 +75,6 @@ export default function Main() {
                         />
                     </Link>
                 </div>
-            </div>
-
-            <div className="py-10 xl:py-60 xl:px-40 w-full">
-                <ProfessionnalValues />
             </div>
 
             <div className="pt-10">
