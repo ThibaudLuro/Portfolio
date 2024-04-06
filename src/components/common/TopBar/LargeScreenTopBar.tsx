@@ -48,7 +48,7 @@ export default function LargeScreenTopBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>REALISATIONS</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="uppercase">Rélisations</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <div className="p-4 space-y-4">
                             <NavigationMenuLink asChild>
@@ -60,7 +60,7 @@ export default function LargeScreenTopBar() {
                                     >
                                         <div className="text-sm font-medium leading-none flex items-center justify-center">
                                             <TokensIcon className="h-5 w-5" />
-                                            <p className="ml-2">VOIR TOUTES MES REALISATIONS</p>
+                                            <p className="ml-2 uppercase">Voir toutes mes réalisations</p>
                                         </div>
                                     </a>
                                 </Link>
@@ -80,7 +80,7 @@ export default function LargeScreenTopBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>COMPETENCES</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="uppercase">Compétences</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <div className="p-4 space-y-4">
                             <NavigationMenuLink asChild>
@@ -92,7 +92,7 @@ export default function LargeScreenTopBar() {
                                     >
                                         <div className="text-sm font-medium leading-none flex items-center justify-center">
                                             <TokensIcon className="h-5 w-5" />
-                                            <p className="ml-2">VOIR TOUTES MES COMPETENCES</p>
+                                            <p className="ml-2 uppercase">Voir toutes mes compétences</p>
                                         </div>
                                     </a>
                                 </Link>
