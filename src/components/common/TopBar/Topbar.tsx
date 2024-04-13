@@ -5,7 +5,7 @@ import MobileTopBar from './MobileTopBar';
 
 export default function TopBar() {
     return (
-        <div className='fixed bg-stone-50 dark:bg-stone-950 w-full p-10 z-50 flex justify-between items-center'>
+        <div className='fixed bg-stone-50 dark:bg-stone-950 w-full px-10 py-7 z-50 flex justify-between items-center'>
 
             <div className="hidden md:block">
                 <LargeScreenTopBar />

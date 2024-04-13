@@ -24,7 +24,7 @@ export default function ProfessionnalValues() {
                             En Savoir plus
                         </Button>
                     </DialogTrigger>
-                    <DialogContent className="h-3/4 w-3/4 xl:w-2/4 overflow-y-auto text-stone-800 dark:text-stone-200">
+                    <DialogContent className="h-5/6 w-3/4 xl:px-60 overflow-y-auto text-stone-800 dark:text-stone-200">
                         <div className="flex flex-col gap-8 justify-center text-justify font-montserrat pt-10">
                             <h1 className="uppercase text-2xl font-bold text-center mb-10">Présentation Personnelle</h1>
                             {personnalPresentation.explanation.map((element, index) => (

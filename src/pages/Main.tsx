@@ -26,7 +26,7 @@ export default function Main() {
                 </div>
             </div>
 
-            <div className="xl:p-40">
+            <div className="py-20 xl:px-40 2xl:px-96 xl:py-40">
                 <div className="flex flex-col mt-20 gap-10">
 
                     <div className="flex flex-col w-full lg:flex-row justify-center items-center gap-10">
@@ -76,11 +76,6 @@ export default function Main() {
                     </Link>
                 </div>
             </div>
-
-            <div className="pt-10">
-                <Footer />
-            </div>
-
         </div>
     )
 }

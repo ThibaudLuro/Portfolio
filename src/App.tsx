@@ -11,6 +11,7 @@ import TopBar from "./components/common/TopBar/Topbar";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "./components/ui/toaster";
 import ScrollToTop from "./utils/functions/ScrollToTop";
+import Footer from "./components/common/Footer";
 
 export default function App() {
     return (
@@ -30,6 +31,9 @@ export default function App() {
                             <Route path="/contact" element={<Contact />} />
                             <Route path="*" element={<NotFound />} />
                         </Routes>
+                        <div className="pt-20">
+                        <Footer />
+                        </div>
                     </div>
                     <Toaster />
                 </div>
