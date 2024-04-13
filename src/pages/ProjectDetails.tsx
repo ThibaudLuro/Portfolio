@@ -14,19 +14,20 @@ export default function ProjectDetails() {
             <h1 className="mt-20 text-center font-semibold uppercase">Réalisation</h1>
             <h1 className="text-center font-bold uppercase text-4xl">{name}</h1>
 
-            <div className="flex flex-col xl:px-80 px-6 items-center mt-10">
+            {project.illustrations &&
+            <div className="flex xl:px-80 px-6 items-center mt-10">
                 <Carousel
                     opts={{
                         align: "center",
                     }}
                     className="w-full">
                     <CarouselContent>
-                        {Array.from({ length: 5 }).map((_, index) => (
-                            <CarouselItem key={index}>
-                                <div className="h-44 w-full flex justify-center items-center md:h-96 shadow-2xl bg-stone-900">
+                        {project.illustrations.map((illustration, index) => (
+                            <CarouselItem key={index} className="flex items-center justify-center">
+                                <div className="">
                                     <img
-                                        className="h-16"
-                                        src={import.meta.env.BASE_URL + project.icon}
+                                        className="h-full max-h-[700px]"
+                                        src={import.meta.env.BASE_URL + illustration}
                                         alt=""
                                     />
                                 </div>
@@ -37,10 +38,10 @@ export default function ProjectDetails() {
                     <CarouselNext />
                 </Carousel>
             </div>
+}
 
 
             <div className="flex flex-col gap-10 xl:gap-20 mt-20 xl:px-80">
-
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{project.explanation[0].element}</h1>
 
@@ -48,16 +49,6 @@ export default function ProjectDetails() {
                         {SplitParagraphs(project.explanation[0].content)}
                     </div>
 
-                    <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-                        <div className="h-96 w-full bg-stone-900 shadow-xl">
-                            <img
-                                className="h-full w-full object-cover object-center"
-                                src={import.meta.env.BASE_URL + project.explanation[0].illustration}
-                                alt=""
-                            />
-                        </div>
-                        <div className="h-96 w-full bg-stone-900 shadow-xl md:col-span-2" />
-                    </div>
                 </div>
 
                 <div className="">
@@ -68,13 +59,6 @@ export default function ProjectDetails() {
                             {SplitParagraphs(project.explanation[1]?.content)}
                         </div>
 
-                        <div className="h-96 bg-stone-900 shadow-xl">
-                            <img
-                                className="h-full w-full object-cover object-center"
-                                src={import.meta.env.BASE_URL + project.explanation[1].illustration}
-                                alt=""
-                            />
-                        </div>
                     </div>
                 </div>
 

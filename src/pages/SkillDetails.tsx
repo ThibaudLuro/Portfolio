@@ -60,8 +60,6 @@ export default function SkillDetails() {
                         <div className="md:text-justify">
                             {SplitParagraphs(skill.explanation[1]?.content)}
                         </div>
-
-                        <div className="h-96 bg-stone-900 shadow-xl" />
                     </div>
                 </div>
 

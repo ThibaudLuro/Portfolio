@@ -14,23 +14,23 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 L'actualité récente dans la presse spécialisée en technologie et les médias met en évidence <b>l'adoption croissante</b> de React par les grandes entreprises et les startups innovantes, attestant de sa popularité et de sa pertinence dans l'écosystème du développement web. Cette tendance est également reflétée dans mes réalisations, où l'utilisation de React a transformé mon approche du développement frontend, en me permettant de répondre plus efficacement aux exigences changeantes du marché et aux besoins des utilisateurs.       
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Lorsque j’ai travaillé sur PREMIS DM qui est une application web ayant pour but pour de gérer de grands volumes de données liés au domaine de l’industrie afin de les consulter, de les analyser et les visualiser sous forme de graphiques, j’ai eu comme première tâche de <b>concevoir l’architecture frontend</b>. J'ai conçu des composants réutilisables pour minimiser la redondance du code, tout en développant des fonctionnalités classiques et courantes au sein d’applications web (Comme par exemple un <b>Dashboard d’analyse de données</b> sous forme de graphiques ou bien un système de routes protégées par rôles utilisateurs) en totale autonomie. Le projet nécessitant d’énormes volumes de données pour pouvoir fonctionner, j’ai du mettre en place des solutions moins communes que les implémentations classiques de React. Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage <b>l’implémentation de Workers</b> qu’il a tout de suite acquiescé. L'implémentation de Workers est arrivée comme une solution ingénieuse à un problème de performance critique que nous avons rencontré lors du développement de Premis. En travaillant sur ce projet au sein de Holis Consulting, le traitement et l'analyse de données massives, extraites de fichiers Excel, étaient au cœur de l'application. Cependant, lors de tests avec des volumes de données importants, nous avons été confrontés à un obstacle majeur : le front-end de l'application, malgré une conception initialement robuste, la mémoire était rapidement saturé et se retrouvait en état de crash en raison de surcharge. L'adoption de cette approche a marqué un tournant dans le développement de Premis. En déléguant le lourd traitement des données des fichiers Excel à des Workers, j’ai non seulement <b>résolu le problème de surcharge de mémoire</b> mais j’ai également amélioré significativement les performances de l'application. L’application était à ce moment-là fonctionnelle et performante pour le volume de données que nous connaissions.
+                    Lorsque j’ai travaillé sur PREMIS DM qui est une application web ayant pour but de gérer de grands volumes de données liés au domaine de l’industrie afin de les consulter, de les analyser et les visualiser sous forme de graphiques. J’ai eu comme première tâche de <b>concevoir l’architecture frontend</b>. J'ai conçu des composants réutilisables pour minimiser la redondance du code, tout en développant des fonctionnalités classiques et courantes au sein d’applications web (Comme par exemple un <b>Dashboard d’analyse de données</b> sous forme de graphiques ou bien un système de routes protégées par rôles utilisateurs) en totale autonomie. Le projet nécessitant d’énormes volumes de données pour pouvoir fonctionner, j’ai dû mettre en place des solutions moins communes que les implémentations classiques de React. Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage <b>l’implémentation de Workers</b> qu’il a tout de suite acquiescée. L'implémentation de Workers est arrivée comme une solution ingénieuse à un problème de performance critique que nous avons rencontré lors du développement de Premis. En travaillant sur ce projet au sein de Holis Consulting, le traitement et l'analyse de données massives, extraites de fichiers Excel, étaient au cœur de l'application. Cependant, lors de tests avec des volumes de données importants, nous avons été confrontés à un obstacle majeur : le front-end de l'application, malgré une conception initialement robuste, la mémoire était rapidement saturé et se retrouvait en état de crash en raison de surcharge. L'adoption de cette approche a marqué un tournant dans le développement de Premis. En déléguant le lourd traitement des données des fichiers Excel à des Workers, j’ai non seulement <b>résolu le problème de surcharge de mémoire</b> mais j’ai également amélioré significativement les performances de l'application. L’application était à ce moment-là fonctionnelle et performante pour le volume de données que nous connaissions.
                     <br/><br/>
-                    Toujours sur PREMIS DM, nous avons eu plus tard l’injection de données supplémentaires qui mettaient en péril les performances existantes. La gestion de volumes de données massifs a été un défi particulier, me permettant de démontrer ma capacité à mettre en œuvre des solutions efficaces avec React pour assurer une performance optimale de l'application. Les clés m'autorisant à surmonter ce défi ont été la mise en place d’un <b>environnement de test</b>, l'utilisation judicieuse de la virtualisation des listes pour gérer efficacement l'affichage de grands ensembles de données, et l'implémentation du <b>lazy loading</b> pour charger les composants uniquement quand ils sont nécessaires. J'ai également optimisé les rendus en utilisant React.memo pour éviter les re-rendus inutiles, et en appliquant le debouncing sur les événements de saisie pour réduire les calculs superflus. J'ai également exploité le <b>Context API</b> pour une gestion globale de l'état plus performante, évitant ainsi les prop drilling inutiles. L'adoption de hooks personnalisés m'a permis de réutiliser la logique d'état complexe à travers différents composants, contribuant ainsi à une meilleure organisation et à des performances accrues. Ces améliorations techniques, combinées à une analyse régulière des performances via les outils de profilage de React, ont joué un rôle crucial dans l'optimisation de l'application pour gérer les grands volumes de données avec efficacité. Aujourd’hui <b>l’application web est globalement solide et performante</b>. Elle possède une marge qui favorise l’acceptation de données supplémentaires sans problèmes qu’elle ne connaissait pas avant.
+                    Toujours sur PREMIS DM, nous avons eu plus tard l’injection de données supplémentaires qui mettaient en péril les performances existantes. La gestion de volumes de données massifs a été un défi particulier, me permettant de démontrer ma capacité à mettre en œuvre des solutions efficaces avec React pour assurer une performance optimale de l'application. Les clés m'autorisant à surmonter ce défi ont été la mise en place d’un <b>environnement de test</b>, l'utilisation judicieuse de la virtualisation des listes pour gérer efficacement l'affichage de grands ensembles de données, et l'implémentation du <b>lazy loading</b> pour charger les composants uniquement quand ils sont nécessaires. J'ai également optimisé les rendus en utilisant React.memo pour éviter les re-rendus inutiles, et en appliquant le debouncing sur les événements de saisie pour réduire les calculs superflus. J'ai également exploité le <b>Context API</b> pour une gestion globale de l'état plus performante, évitant ainsi les prop drilling inutiles. L'adoption de hooks personnalisés m'a permis de réutiliser la logique d'état complexe à travers différents composants, contribuant ainsi à une meilleure organisation et à des performances accrues. Ces améliorations techniques, combinées à une analyse régulière des performances via les outils de profilage de React, ont joué un rôle crucial dans l'optimisation de l'application pour gérer les grands volumes de données avec efficacité. Aujourd’hui <b>l’application web est globalement solide et performante</b>. Elle possède une marge qui favorise l’acceptation de données supplémentaires sans problème.
                     <br/><br/>
-                    Mon projet personnel YourNight qui est une application mobile ayant pour but de faciliter l’organisation de soirées. Il m'a donné l'occasion d'approfondir ma maîtrise de React à travers l'utilisation de React Native. J'ai développé l'interface utilisateur complète de l'application en utilisant React Native, ce qui comprenait la <b>conception des divers écrans de l’application</b> et des composants réutilisables, la gestion de l'état de l'application, l'intégration avec des <b>APIs externes</b> pour la création de playlist musicales (API de Spotify), et la mise en œuvre d'un système de <b>chat en temps réel</b> pour les utilisateurs. Pour assurer une expérience utilisateur fluide et réactive, j'ai utilisé le contexte et les hooks de React Native pour gérer efficacement l'état global de l'application, permettant ainsi des mises à jour en temps réel sans rechargement. L'une des plus grandes réussites techniques du projet a été l'optimisation des performances de l'application sur les dispositifs mobiles. J'ai mis en œuvre le <b>lazy loading</b> pour les images et les données, ce qui a considérablement réduit le temps de chargement initial de l'application et amélioré l'expérience utilisateur sur les appareils avec des connexions internet lentes. De plus, j'ai utilisé <b>Redux</b> pour une gestion d'état plus avancée, qui contribue à une synchronisation efficace entre les différents composants de l'application et assurant une expérience utilisateur cohérente. Aujourd'hui, YourNight <b>fonctionne extrêmement bien</b> pour le nombre actuel d'utilisateurs actifs. Les retours des utilisateurs sont positifs. Ils mettent en avant la facilité d'utilisation et la réactivité de l'application.
+                    Mon projet personnel YourNight est une application mobile qui a pour but de faciliter l’organisation de soirées. Il m'a donné l'occasion d'approfondir ma maîtrise de React à travers l'utilisation de React Native. J'ai développé l'interface utilisateur complète de l'application en utilisant React Native, ce qui comprenait la <b>conception des divers écrans de l’application</b> et des composants réutilisables, la gestion de l'état de l'application, l'intégration avec des <b>APIs externes</b> pour la création de playlist musicales (API de Spotify), et la mise en œuvre d'un système de <b>chat en temps réel</b> pour les utilisateurs. Pour assurer une expérience utilisateur fluide et réactive, j'ai utilisé le contexte et les hooks de React Native pour gérer efficacement l'état global de l'application, permettant ainsi des mises à jour en temps réel sans rechargement. L'une des plus grandes réussites techniques du projet a été l'optimisation des performances de l'application sur les dispositifs mobiles. J'ai mis en œuvre le <b>lazy loading</b> pour les images et les données, ce qui a considérablement réduit le temps de chargement initial de l'application et qui a amélioré l'expérience utilisateur sur les appareils avec des connexions internet lentes. De plus, j'ai utilisé <b>Redux</b> pour une gestion d'état plus avancée, qui contribue à une synchronisation efficace entre les différents composants de l'application et assurant une expérience utilisateur cohérente. Aujourd'hui, YourNight <b>fonctionne extrêmement bien</b> pour le nombre actuel d'utilisateurs actifs. Les retours des utilisateurs sont positifs. Ils mettent en avant la facilité d'utilisation et la réactivité de l'application.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Regard critique",
                 content: `
                 Ma maîtrise de React, actuellement à un <b>niveau intermédiaire avancé</b>, reconnaît une marge de progression, en particulier dans l'optimisation des performances des applications. L'efficacité de mon intégration de React dans mon arsenal de compétences a été particulièrement visible lors de ma rapide adaptation au projet ISIS chez Holis Consulting. En moins de deux semaines, j'étais déjà en train de contribuer de manière significative au code, résolvant des bugs complexes et proposant des améliorations fonctionnelles. Cette <b>capacité d'apprentissage et d'adaptation rapide a été reconnue par mon entreprise elle-même</b>, qui a salué mon approche proactive et ma compréhension rapide des exigences du projet. Cependant, en tant qu'autocritique constructive, je reconnais le besoin constant de me perfectionner, notamment dans les aspects avancés tels que le state management et le rendering conditionnel complexe, pour atteindre un niveau d'expertise.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -38,7 +38,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Si je devais me prodiguer un conseil, ce serait de continuer à chercher des opportunités qui me poussent hors de ma zone de confort avec React en réalisant de nouveaux projets personnels toujours plus techniques et passionnants. C'est dans la résolution des défis les plus complexes que je trouve les leçons les plus précieuses et que je peux vraiment mesurer la profondeur de ma compréhension de React. Ceci, combiné à une veille technologique régulière, assurera que ma courbe de progression reste ascendante et que ma compétence reste pertinente dans un environnement technologique qui évolue rapidement.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `
@@ -59,7 +59,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Dans les actualités récentes et les publications spécialisées en technologie, Docker est souvent mentionné pour son <b>adoption croissante</b> par les grandes entreprises technologiques et les startups innovantes. Cette tendance souligne l'importance et la pertinence de Docker dans le domaine de l'ingénierie logicielle moderne, en particulier pour le développement, la livraison et l'exploitation d'applications de manière efficace et scalable.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -67,7 +67,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Lorsque j’ai travaillé sur mon projet personnel YourNight qui est une application mobile destinée à fluidifier l’organisation de soirées, est venu un moment où j’ai voulu <b>héberger</b> le serveur et la base de données de l’application <b>sur un VPS via Docker</b>. Il faut savoir que cette application fonctionnait sur trois technologies clés : React Native pour le frontend, ExpressJS pour le backend et MongoDB comme système de gestion de base de données. Pour relever ce défi, j'ai mis en place <b>Docker Compose</b>, un outil qui permet de définir et de gérer des applications multi-conteneurs. J'ai créé un fichier <b>docker-compose.yml</b> pour orchestrer ces trois services, en m'assurant que chaque composant était correctement configuré pour interagir avec les autres. Dans ce fichier, j'ai défini les services, les volumes et les réseaux nécessaires, en veillant à ce que chaque service soit construit à partir de son propre Dockerfile et qu’ils soient instanciés dans le bon ordre en faisant attention aux “depends_on”. Pour le service React Native, j'ai configuré un Dockerfile pour construire une image contenant le code source du frontend, tandis que pour ExpressJS, j'ai fait en sorte que le Dockerfile comprenne toutes les dépendances requises pour exécuter le serveur backend. Pour MongoDB, j'ai utilisé une image standard de Docker Hub, en m'assurant de configurer les <b>variables d'environnement</b> nécessaires pour chaque service et en permettant leur extériorisation pour me permettre de les modifier à ma guise à l’intérieur de <b>fichers .env</b>. J'ai également configuré des réseaux Docker pour faciliter la communication entre les conteneurs de manière sécurisée. Je suis ensuite passé à l'aspect le plus crucial de ce projet qu’a été le déploiement de l'application que j’ai effectué moi-même sur un serveur privé virtuel (VPS) Linux. Docker a joué un rôle essentiel dans ce processus, en me permettant de déployer facilement l'application sur le serveur. En utilisant Docker, j'ai pu garantir que l'environnement de production sur le VPS était identique à l'environnement de développement sur mon ordinateur local, évitant ainsi les problèmes courants liés aux différences d'environnement. Après <b>une soirée d’implémentation</b> j’ai pu me servir de mon serveur et base de données hébergé sur le VPS pour faire des premiers tests de l’application avec mes amis.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -81,7 +81,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 En somme, bien que j'aie acquis une base solide dans l'utilisation de Docker pour le développement et le déploiement d'applications, je suis conscient de <b>l'étendue de ce que je dois encore apprendre</b> pour maîtriser pleinement cette technologie et pour l'exploiter de manière optimale dans une variété de contextes de projet. Cela représente pour moi une voie claire pour le développement professionnel et une motivation pour continuer à explorer et à maîtriser les aspects avancés de la conteneurisation et de l'orchestration des applications.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -93,7 +93,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     En conclusion, Docker a déjà façonné de manière significative mon approche du développement logiciel, et avec l'ajout de Kubernetes à mon ensemble de compétences, je m'attends à franchir de nouvelles frontières dans le domaine de la conteneurisation et de l'orchestration d'applications.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `
@@ -110,33 +110,33 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                ExpressJS est un <b>framework web pour Node.js</b>, reconnu pour sa flexibilité et sa minimalité. Il permet de construire des applications web et des API de manière rapide et efficace. En tant que middleware et système de routage, ExpressJS facilite la création d'applications web robustes et scalables en offrant un ensemble de fonctionnalités essentielles pour le développement backend. Il est particulièrement apprécié pour sa facilité d'utilisation et sa capacité à s'intégrer avec d'autres technologies et frameworks.
+                ExpressJS est un <b>framework web pour Node.js</b>, reconnu pour sa flexibilité et sa minimalité. Il permet de construire des applications web et des API de manière rapide et efficace. En tant que middleware et système de routage, ExpressJS facilite la création d'applications web robustes et scalables en offrant un ensemble de fonctionnalités essentielles pour le développement backend. Il est particulièrement apprécié pour sa facilité d'utilisation et pour sa capacité à s'intégrer avec d'autres technologies et frameworks.
                 <br/><br/>
                 La popularité d'ExpressJS <b>continue de croître</b> dans le milieu professionnel, comme en témoignent les nombreuses références dans les médias spécialisés en technologie. Son adoption par de grandes entreprises technologiques ainsi que par des startups innovantes souligne son importance dans l'écosystème du développement logiciel. ExpressJS est souvent choisi pour sa rapidité de mise en œuvre et pour sa grande adaptabilité, ce qui en fait un outil de choix pour le développement d'applications web modernes, en particulier dans des environnements où la performance et l'efficacité sont primordiales.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Pour mon premier projet en entreprise qui a été ISIS (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), mon travail avec ExpressJS s'est concentré sur le développement de fonctionnalités assez classiques sur un projet déjà existant. J'ai intégré et j'ai mis en place des modèles de données en utilisant <b>l'ORM Sequelize</b>. J’ai également créé une variété de <b>contrôleurs et de routes</b> pour gérer les requêtes entrantes. Cela incluait des routes pour <b>l'authentification</b> des utilisateurs, la manipulation des données, et la réponse aux requêtes spécifiques liées à l'application. La <b>mise en œuvre de middleware</b> pour la gestion des erreurs et la validation des requêtes a également été un aspect important de mon travail, renforçant la sécurité et la fiabilité de l'application (notamment pour vérifier si sur des requêtes réservées aux administrateurs, l’utilisateur faisant l’appel possédait bien ce statut). J’ai pu délivrer une api comportant toutes les fonctionnalités au bout de deux mois, celle-ci comprenait quelques problèmes qui ont été résolus par mes soins les jours suivant la livraison finale. Mes supérieurs représentant les clients du projet étaient <b>satisfaits du résultat</b>.
+                    Pour mon premier projet en entreprise qui a été ISIS (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), mon travail avec ExpressJS s'est concentré sur le développement de fonctionnalités assez classiques sur un projet déjà existant. J'ai intégré et j'ai mis en place des modèles de données en utilisant <b>l'ORM Sequelize</b>. J’ai également créé une variété de <b>contrôleurs et de routes</b> pour gérer les requêtes entrantes. Cela incluait des routes pour <b>l'authentification</b> des utilisateurs, la manipulation des données, et la réponse aux requêtes spécifiques liées à l'application. La <b>mise en œuvre de middleware</b> pour la gestion des erreurs et la validation des requêtes a également été un aspect important de mon travail, renforçant la sécurité et la fiabilité de l'application (notamment pour vérifier si sur des requêtes réservées aux administrateurs, l’utilisateur faisant l’appel possédait bien ce statut). J’ai pu délivrer une api comportant toutes les fonctionnalités au bout de deux mois, celle-ci comprenait quelques problèmes qui ont été résolus par mes soins les jours suivant la livraison finale. Mes supérieurs qui représentaient les clients du projet étaient <b>satisfaits du résultat</b>.
                     <br/><br/>
-                    Sur un autre projet professionnel nommé PREMIS DM qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, j’ai été chargé <b>d’imaginer et de développer l’architecture backend complète</b>. Pour ce faire je me suis inspiré de l’architecture d’ISIS qui avait des similarités avec le fonctionnement futur de PREMIS DM. Cependant je devais anticiper certains détails comme le fait que l’application allait fonctionner avec d’énormes volumes de données. Une fois la première version fonctionnelle avec les routes et modèles essentiels au fonctionnement de l’application mis en place, j’ai implémenté une solution de <b>stockage en cache</b> pour améliorer les performances globales de la délivrance et traitement général des données (je devais initialement utiliser le service Redis mais après un benchmark le cache nodeJS de base suffisait). J’ai également pensé et mis en place un <b>système de pagination des résultats</b>. Cela a permis de limiter le nombre de données chargées et affichées simultanément, réduisant ainsi la charge sur le navigateur. Le dernier atout majeur influant dans la performance du backend que j’ai pu mettre en place a été la mise en place d'un <b>système de files d'attente</b> pour les tâches lourdes. Certaines opérations, comme l’insertion des massifs volumes de données, ont été déplacées vers des files d'attente de tâches asynchrones grâce à un système de token permettant le bloquage de tâches similaires simultanément. Cela a permis de ne pas geler les processus principaux de l'application pendant ces opérations gourmandes en ressource et éviter toute saturation du système. <b>L’API a bien répondu aux besoins initiaux</b> même si celle-ci connaitra des améliorations pour permettre encore plus de performance qu’actuellement.
+                    Sur un autre projet professionnel nommé PREMIS DM qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, j’ai été chargé <b>d’imaginer et de développer l’architecture backend complète</b>. Pour ce faire je me suis inspiré de l’architecture d’ISIS qui avait des similarités avec le fonctionnement futur de PREMIS DM. Cependant je devais anticiper certains détails étant donné que l’application allait fonctionner avec d’énormes volumes de données. Une fois la première version fonctionnelle avec les routes et modèles essentiels au fonctionnement de l’application mis en place, j’ai implémenté une solution de <b>stockage en cache</b> pour améliorer les performances globales de la délivrance et traitement général des données (je devais initialement utiliser le service Redis mais après un benchmark le cache nodeJS de base suffisait). J’ai également pensé et mis en place un <b>système de pagination des résultats</b>. Cela a permis de limiter le nombre de données chargées et affichées simultanément, réduisant ainsi la charge sur le navigateur. Le dernier atout majeur influant dans la performance du backend que j’ai pu mettre en place a été la mise en place d'un <b>système de files d'attente</b> pour les tâches lourdes. Certaines opérations, comme l’insertion des massifs volumes de données, ont été déplacées vers des files d'attente de tâches asynchrones grâce à un système de token permettant le bloquage de tâches similaires simultanément. Cela a permis de ne pas geler les processus principaux de l'application pendant ces opérations gourmandes en ressource et à éviter toute saturation du système. <b>L’API a bien répondu aux besoins initiaux</b>. Cette dernière connaitra des améliorations pour permettre encore plus de performance qu’actuellement.
                     <br/><br/>
                     Au cours des mes réalisations professionnelles j’ai développé un attrait pour cette technologie. C'est cette attirance pour ExpressJS qui m'a motivé à choisir cette technologie pour mon projet personnel, YourNight qui est un projet personnel d’application mobile destiné à fluidifier l’organisation de soirées. Pour YourNight, j'ai assumé la responsabilité complète de construire l'architecture et la logique backend de l'application. Travaillant seul sur ce projet, j'ai eu l'occasion de mettre en pratique mes compétences en conception et en développement de manière indépendante. La mise en place de l’API a été assez succincte avec une première version fonctionnelle robuste et sans bug au bout d’une semaine en raison de l’expérience acquise au cours des projets réalisés en entreprise. Sa réalisation n’a pas énormément différencié de celle de PREMIS DM même si moins technique. J’ai cependant dû penser à des problèmes différents tels que la mise en place d’un <b>bouclier anti DDOS</b> en limitant le nombre d’appels API par adresses IP. J’ai également mis des <b>notifications push</b> côté backend en interrogeant l’API expo push et l’une des choses les plus importantes a été une attention particulière portée à <b>l'authentification des utilisateurs</b> et à la sécurité des données. Des protocoles d'authentification robustes ont été mis en place pour protéger les comptes utilisateurs et les informations sensibles, notamment le <b>protocole JWT</b> (JSON Web Tokens). Lorsqu'un utilisateur se connecte avec succès, le serveur génère un token JWT signé avec une clé secrète. Ce token contient des informations d'identification de l'utilisateur ainsi qu'une date d'expiration. Pour l’instant <b>mon API est fonctionnelle et amplement suffisante</b> pour les besoins actuels de l’application mobile.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Regard critique",
                 content: `
                     En évaluant de manière critique mes compétences en ExpressJS, je me sens globalement à l'aise avec cette technologie m'attriburant <b>un niveau avancé</b>, bien que conscient de ne pas la maîtriser entièrement. Mon expérience avec ExpressJS, à la fois chez Holis Consulting et sur mon projet personnel YourNight, m'a permis de développer une bonne compréhension de la construction et de la gestion des architectures backend. Cela inclut la création de routes API, la gestion des sessions, et l'implémentation de mesures de sécurité telles que l'authentification avec token JWT et la validation des données.
                     <br/><br/>
-                    Cette technologie occupe <b>une place centrale au sein de mon profil professionnel</b> étant donné que la majorité de mes projets utilisent ExpressJS. J'ai pu rapidement assimiler les concepts clés et les meilleures pratiques de cette technologie, ce qui m'a permis de contribuer de manière significative aux projets en entreprise et de réaliser mon projet personnel avec succès.
+                    Cette technologie occupe <b>une place centrale au sein de mon profil professionnel</b> car la majorité de mes projets utilisent ExpressJS. J'ai pu rapidement assimiler les concepts clés et les meilleures pratiques de cette technologie, ce qui m'a permis de contribuer de manière significative aux projets en entreprise et de réaliser mon projet personnel avec succès.
                     <br/><br/>
                     Cependant, je reconnais qu'il existe des aspects d'ExpressJS que je n'ai pas encore explorés en profondeur. Par exemple, les subtilités de <b>l'optimisation des performances</b> et de la <b>gestion avancée des erreurs</b> sont des domaines où je vois un <b>potentiel de croissance</b>. De plus, bien que j'aie réussi à implémenter un certain nombre de fonctionnalités, je n'ai pas eu l'occasion de travailler sur des projets qui nécessitent une utilisation très avancée d'ExpressJS, comme l'intégration avec des systèmes complexes ou la gestion de charges de travail très importantes.
                     <br/><br/>
                     Je suis également conscient que le domaine du développement backend évolue rapidement, avec de nouvelles pratiques et technologies émergentes. Pour atteindre une maîtrise complète d'ExpressJS, je dois continuer à me former, à expérimenter et à rester à jour avec les dernières tendances et meilleures pratiques.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -146,7 +146,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     L'apprentissage de frameworks comme AdonisJS me permettra non seulement de rester à jour avec les dernières innovations dans le développement backend, mais aussi <b>d'approfondir ma compréhension des architectures d'applications</b> et de découvrir de nouvelles manières de résoudre des problèmes complexes. Cela enrichira mes outils de développement, me rendant plus polyvalent et adaptable dans mes projets futurs. Cette démarche s'inscrit dans mon engagement à long terme pour l'apprentissage continu dans le développement logiciel, me permettant de rester pertinent et efficace dans un domaine technologique en constante évolution.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `
@@ -169,7 +169,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Leur <b>popularité n'est plus à prouver</b>, comme en témoigne l'intérêt constant dans les médias spécialisés en technologie. Les grandes entreprises technologiques et les startups innovantes adoptent des bases de données avancées pour gérer d'énormes volumes de données, assurer des performances élevées et maintenir la scalabilité. Dans les environnements où la gestion des données est critique, le choix de la base de données appropriée est crucial pour la réussite du projet.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -231,7 +231,7 @@ export const skills: ISkill[] = [
                         d’utilisateurs de l’application, je n’ai jamais pu constater les résultats de cette optimisation en production. Aujourd'hui
                         ma base de données <b>fonctionne extrêmement bien</b> pour le volume de données actuel.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -256,7 +256,7 @@ export const skills: ISkill[] = [
                     partitionnement des données, du tuning des performances et de la gestion efficace des transactions,
                     surtout dans des environnements où la rapidité d'accès et la cohérence des données sont primordiales.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -282,7 +282,7 @@ export const skills: ISkill[] = [
                     Database pour les solutions basées sur SQL, ainsi que des services comme MongoDB Atlas pour les
                     solutions NoSQL.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `YourNight, PREMIS DM, ISIS, Hypotech`
@@ -297,13 +297,13 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                GIT est un système de <b>contrôle de version décentralisé</b>, largement reconnu pour sa robustesse et sa flexibilité. Il est conçu pour gérer tout, des petits aux très grands projets, avec rapidité et efficacité. GIT facilite le suivi des modifications dans les fichiers, permettant aux développeurs de collaborer sur le code de manière coordonnée et sécurisée. Il fournit des outils pour naviguer et visualiser l'historique des modifications, et gère efficacement les branches et les fusions.
+                GIT est un système de <b>contrôle de version décentralisé</b>, largement reconnu pour sa robustesse et sa flexibilité. Il est conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité. GIT facilite le suivi des modifications dans les fichiers, permettant aux développeurs de collaborer sur le code de manière coordonnée et sécurisée. Il fournit des outils pour naviguer et visualiser l'historique des modifications, et gère efficacement les branches et les fusions.
                 <br/><br/>
                 La <b>popularité</b> de GIT dans le milieu professionnel est <b>indéniable</b>, comme le montrent les nombreuses références dans les médias spécialisés en technologie. Sa présence est omniprésente dans le monde du développement logiciel, adoptée par des grandes entreprises technologiques et des startups innovantes. L'importance de GIT réside dans sa capacité à faciliter la collaboration entre les développeurs et à gérer efficacement les versions du code dans un environnement de développement moderne.
                 <br/><br/>
                 GIT est souvent choisi pour sa capacité à <b>gérer efficacement les projets de développement logiciel</b> de toutes tailles, offrant une solution fiable et évolutive pour le contrôle de version. Sa facilité d'intégration avec d'autres outils de développement et sa capacité à s'adapter à divers workflows en font un élément essentiel dans les pratiques modernes de développement logiciel, en particulier dans des environnements où la collaboration et la gestion efficace du code sont primordiales.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -343,11 +343,11 @@ export const skills: ISkill[] = [
                     m'encourageant à écrire des tests unitaires complets et à penser davantage aux potentiels impacts des
                     changements de code.
                 `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
-                    En évaluant mes compétences et mon expérience avec GIT, je me considère comme ayant des
+                    En évaluant mes compétences et mon expérience avec GIT, je dispose de
                     <b>connaissances solides</b>, particulièrement en ce qui concerne l'utilisation de GitHub. J'ai rapidement acquis
                     une <b>bonne maîtrise des opérations de base et avancées de GIT</b>, comme la gestion des branches, la
                     résolution de conflits, l'utilisation de hooks pour l'automatisation des tests, et la collaboration efficace via
@@ -365,7 +365,7 @@ export const skills: ISkill[] = [
                     automatique des tests, mais aussi l'intégration de l'analyse de code, le déploiement automatique dans
                     différents environnements et la gestion efficace des versions.
                 `,
-                illustration: ""
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -389,7 +389,7 @@ export const skills: ISkill[] = [
                         logiciel, me rendant plus compétent dans la gestion de projets complexes et dans la réponse aux
                         besoins des environnements de développement dynamiques.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `YourNight, PREMIS DM, ISIS, Hypotech`
@@ -412,7 +412,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 En résumé, l'intégration continue est une pierre angulaire des pratiques de développement moderne, permettant aux équipes de maintenir un rythme de développement élevé tout en assurant la qualité et la stabilité du logiciel produit.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -420,7 +420,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Pour mon projet personnel YourNight qui est une application mobile visant à fluidifier l’organisation de soirées, j'ai également pris l'initiative de mettre en place un <b>système d'intégration continue automatisé, en utilisant GitHub</b> pour gérer le code source et automatiser les déploiements de mon API sur un VPS Ubuntu. Ce workflow incluait <b>l'exécution automatique de tests</b> pour assurer la qualité du code, ainsi que <b>l'application de ESLint</b> pour maintenir une cohérence de style de codage et détecter les erreurs potentielles avant le déploiement. Cependant à chaque déploiement de l'application, un problème récurrent entraînait la perte des photos de profil des utilisateurs. Après investigation, il s'est avéré que le problème était lié à la gestion des volumes dans Docker. En effet, lors du déploiement de nouvelles versions de l'application via Docker, les données stockées localement dans le conteneur, y compris les photos de profil, étaient effacées, car le volume contenant ces données n'était pas correctement configuré pour persister au-delà du cycle de vie du conteneur. La mise en place d'un système d'intégration continue automatisé pour YourNight a considérablement <b>transformé ma façon de gérer les déploiements</b>, les rendant non seulement <b>plus fiables mais aussi beaucoup moins stressants</b>. L'automatisation du processus de déploiement, incluant l'exécution des tests, l'application de ESLint, et la gestion correcte des volumes Docker, a éliminé une grande part d'incertitude et de tâches manuelles qui pouvaient auparavant mener à des erreurs ou des oublis. Ce gain de temps est non négligeable, il me permet désormais de me concentrer davantage sur le développement de nouvelles fonctionnalités et l'amélioration de l'expérience utilisateur, plutôt que de me préoccuper des détails techniques du déploiement. La confiance accrue dans la fiabilité et la stabilité des déploiements automatisés a également réduit le stress associé à la mise en ligne de nouvelles versions de l'application. <b>Je peux maintenant effectuer des mises à jour fréquentes et réactives</b>, en réponse aux besoins des utilisateurs ou pour corriger des bugs, avec l'assurance que chaque déploiement est préalablement testé et vérifié.
                     `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -434,7 +434,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 En somme, bien que je sois capable de gérer efficacement les déploiements et d'apprécier les avantages de l'intégration continue avec les outils que j'ai utilisés jusqu'à présent, je reste conscient de l'étendue de ce que j'ai encore à apprendre.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -442,7 +442,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Cette formation se fera au travers de contenus en ligne, tels que des tutoriels, des cours, et des webinaires dédiés, qui me permettront d'acquérir les connaissances et compétences nécessaires pour implémenter des pipelines CI/CD plus complexes et plus efficaces. Mon objectif est de pouvoir non seulement appliquer ces compétences accrues à mes futurs projets personnels, en maximisant leur efficacité et leur fiabilité, mais aussi de contribuer de manière plus significative à l'entreprise où je réalise mon alternance. En aidant à résoudre des problèmes liés à l'intégration et au déploiement continu, je souhaite apporter une valeur ajoutée à mon équipe et améliorer les processus de développement au sein de l'entreprise.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `YourNight, PREMIS DM`
@@ -463,7 +463,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Ma compétence en communication sur les réseaux sociaux s'appuie sur une compréhension approfondie des différentes plateformes (Facebook, Twitter, Instagram, etc.) et de leurs spécificités, permettant de choisir les stratégies les plus adaptées pour chaque canal. Cela inclut la création de contenu visuel et textuel engageant, la planification de campagnes publicitaires ciblées, l'analyse des données pour optimiser les stratégies de publication et l'interaction en temps réel avec la communauté pour renforcer la fidélité et l'engagement.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -471,7 +471,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Pour la campagne de communication de YourNight, mon application mobile dédiée à la gestion de soirées, j'ai adopté une stratégie fondamentalement différente, reflétant le changement de plateforme et de public cible. Reconnaissant que YourNight s'adressait principalement à une audience jeune, âgée de 18 à 30 ans, j'ai choisi de concentrer mes efforts sur <b>Instagram et TikTok</b>, des plateformes particulièrement populaires auprès de cette tranche d'âge. Sur Instagram, j'ai opté pour <b>une approche visuelle forte</b>, en publiant régulièrement des contenus engageants qui reflètent l'esprit et l'ambiance des soirées en respectant la charte graphique que j’avais définie pour l’application. Cela inclut des stories <b>mettant en avant les fonctionnalités de l'app</b>, comme la création collaborative de playlists ou la gestion simplifiée des dépenses, ainsi que des posts présentant des témoignages d'utilisateurs satisfaits. L'utilisation de hashtags pertinents et ciblés, a aidé à augmenter la visibilité de nos publications et à attirer des followers intéressés par l'univers des soirées et des rencontres entre amis. J’ai utilisé <b>Photoshop, Premiere Pro ainsi que Canva pour produire les posts</b>. Pour TikTok, j'ai misé sur la création de <b>contenus dynamiques et divertissants</b> qui exploitent les tendances actuelles et encouragent la participation de la communauté. En partageant des vidéos animées sur After Effects et Premiere Pro, le but est ici de réaliser de belles vidéos attrayantes montrant l’utilité de l’application et la rendant désirable auprès du public. L'objectif était de montrer que YourNight est réellement un outil pratique. J'ai suivi une stratégie similaire pour instagram en publiant les mêmes contenus que sur TikTok en plus d'y ajouter des posts sous forme d'images. Bien que cette campagne soit encore à ses débuts, <b>les premiers retours sont prometteurs</b> avec une première communauté d'une centaine de personnes. L'accent mis sur l'engagement direct avec l'audience, à travers des contenus qui résonnent avec leurs intérêts et leurs habitudes sur les réseaux sociaux, a permis d'établir une base solide pour la croissance de YourNight. A terme avec de potentiels revenus engendrés avec l’application il serait intéressant de mettre en place des partenariats avec des personnalités publiques ou de <b>payer des mises en avant des publications</b> via la plateforme instagram afin d’améliorer considérablement la visibilité de mon contenu.
                     `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -483,7 +483,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Je suis tout de même fier de ce que j'ai accompli, notamment d'avoir réussi à travailler avec des organisations de renom et d'avoir capté l'attention de communautés importantes. Néanmoins, je suis conscient que ma route vers la maîtrise de la communication sur les réseaux sociaux est encore longue. 
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -493,7 +493,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     De cette manière, je m'assure que ma compétence en communication sur les réseaux sociaux <b>continue de se développer sans en devenir un expert</b> ce qui me permettra tout de même d'exploiter le potentiel de ces plateformes pour atteindre et engager des audiences variées.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `YourNight, Mat’ Moi Ca`
@@ -514,7 +514,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Dans un environnement de travail de plus en plus axé sur les résultats et l'optimisation des coûts, savoir gérer un budget devient une compétence transversale, <b>applicable dans de nombreux domaines</b> tels que la gestion de projet, le marketing, l'ingénierie, et même dans des projets personnels nécessitant une allocation efficace des ressources. La gestion de budget implique également une communication claire et efficace avec toutes les parties prenantes, pour s'assurer que les objectifs financiers sont compris et respectés par tous.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -522,7 +522,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Pour le projet YourNight, un projet personnel sous la forme d’une application mobile destinée à faciliter l'organisation de soirées entre amis, j'ai également assuré une gestion rigoureuse du budget, en établissant un <b>budget prévisionnel</b> et en suivant de près les dépenses. Compte tenu du budget limité, il était impératif de faire des choix stratégiques d'investissement pour maximiser l'efficacité de chaque euro dépensé. Pour cela, j'ai utilisé l'outil <b>Notion</b>, qui a servi de plateforme centralisée pour le suivi budgétaire et la prise de décision financière. Le budget prévisionnel a pris en compte tous les coûts initiaux et récurrents nécessaires au lancement et au suivi de l'application. Parmi les dépenses clés figuraient le prix d'entrée sur les stores d'applications, tels que Google Play et l'App Store d'Apple, ainsi que les coûts associés à l'hébergement du serveur sur un VPS (Virtual Private Server) après un benchmark des différentes offres disponibles correspondant à mon cas d’usage. Ces dépenses étaient essentielles pour assurer la disponibilité et la performance de l'application pour les utilisateurs finaux. En plus de ces coûts opérationnels, j'ai également <b>planifié les potentiels revenus générés</b> par les publicités intégrées dans l'application. Cette source de revenus était particulièrement importante pour le modèle économique de YourNight, car elle représentait ma principale voie de monétisation dans la phase initiale du projet. L'objectif était de <b>couvrir les coûts d'exploitation</b> grâce aux revenus publicitaires et, à terme, d'atteindre la rentabilité. L'utilisation de l’outil Notion pour la gestion de budget a offert plusieurs avantages, notamment une grande flexibilité dans la mise à jour des informations financières et la possibilité de visualiser rapidement l'état des dépenses par rapport au budget prévisionnel à l’aide de tableurs et graphiques. Cette approche m'a permis d'ajuster dynamiquement ma stratégie d'investissement en fonction de l'évolution du projet, en optimisant l'allocation des ressources financières pour assurer le succès et la croissance de l'application. À l'heure actuelle, la gestion financière de YourNight se trouve <b>en adéquation avec les prévisions initiales</b>, une réussite qui souligne ma capacité à ne pas reproduire les erreurs passées et à planifier et à ajuster les dépenses de manière relativement efficace. Cette gestion budgétaire rigoureuse et proactive a non seulement permis d’anticiper efficacement les coûts nécessaires au lancement et au fonctionnement de YourNight, mais a également posé les bases d'une croissance soutenue, en alignant les dépenses avec les objectifs à long terme du projet.
                     `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -534,7 +534,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Par ailleurs, l'expérience pratique, à travers la gestion de projets de plus grande envergure et diversifiés, contribuera indéniablement à affiner mes compétences en gestion de budget. L'exposition à différents types de projets et défis budgétaires me permettra d'acquérir une expérience précieuse, d'apprendre de mes erreurs et de mieux anticiper les pièges potentiels.
             `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -548,7 +548,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Bien que la gestion de budget ne soit pas ma priorité absolue à l'instant présent, je suis conscient de son importance et je m'engage à intégrer progressivement cette compétence dans mon bagage professionnel.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `Mat’ Moi Ca, YourNight`
@@ -567,7 +567,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 La maîtrise de cette compétence permet de <b>gérer efficacement les projets</b> en assurant une communication fluide et continue entre tous les membres de l'équipe et les parties prenantes, favorisant ainsi une meilleure réactivité aux changements et une optimisation des temps de livraison. Elle souligne également l'importance de la planification flexible, de l'estimation des tâches, de la gestion des priorités et du suivi des progrès grâce à des outils comme les tableaux Scrum et les réunions quotidiennes (Daily Scrum). En outre, la compétence en gestion de projet Agile Scrum met en évidence la capacité à créer un environnement de travail collaboratif et transparent, où l'amélioration continue et l'apprentissage mutuel sont encouragés, alignant ainsi étroitement les objectifs du projet avec les besoins du client.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -575,7 +575,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     Avant mon arrivée en stage dans l’entreprise Holis Consulting, celle-ci ne suivait pas de méthode de gestion de projet structurée, ce qui pouvait entraîner des inefficacités et des difficultés dans le suivi des progrès. Convaincu des avantages de la méthode Agile Scrum, <b>j'ai proposé son adoption pour le projet ISIS</b>, une application web développée pour répondre aux besoins internes de l'entreprise. La mise en œuvre de Scrum a commencé par l'organisation de <b>sprints bi-hebdomadaires</b>, au cours desquels nous présentions les avancées du projet au product owner interne. Cette approche itérative a non seulement permis un <b>meilleur suivi des développements</b> mais a également facilité l'adaptation rapide aux changements, en veillant à ce que le projet reste aligné sur les objectifs commerciaux de l'entreprise. Les daily meetings, ou réunions quotidiennes, ont été adoptées pour renforcer la communication au sein de l'équipe, permettant à chacun d'exprimer les progrès réalisés et les obstacles rencontrés. Cette pratique a encouragé <b>une atmosphère de transparence et de collaboration</b>, essentielle au succès d'un projet Agile. L'introduction de la gestion par user stories a également permis de mieux définir les attentes et les besoins, en focalisant le développement sur la création de valeur pour l'utilisateur final. Cela a amélioré la qualité des livrables et la satisfaction du product owner, tout en optimisant le processus de développement. L'adoption de la méthode Scrum au sein de l'entreprise, à l'initiative de ma participation au projet ISIS, a non seulement eu un impact positif sur ce projet spécifique mais a également <b>laissé une empreinte durable sur les pratiques de gestion de projet de l'entreprise</b>.
                     `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -587,7 +587,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Cette prise de conscience souligne un domaine dans lequel je vois un potentiel d'amélioration et d'apprentissage. Bien que confiant dans ma capacité à naviguer et à contribuer efficacement à des projets gérés selon les principes Scrum, <b>je suis désireux d'élargir mon expérience en participant à des projets plus vastes</b> et plus diversifiés. Cela comprend le travail au sein d'équipes plus grandes, la gestion de parties prenantes multiples avec des intérêts variés, et l'adaptation de la méthodologie Agile à des contextes où les défis de communication et de coordination sont plus prononcés.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -597,7 +597,7 @@ export const skills: ISkill[] = [
                     <br/><br/>
                     En regardant vers l'avenir, je souhaite non seulement <b>appliquer Scrum dans mes projets de groupe</b> mais aussi approfondir ma compréhension et ma maîtrise de cette méthodologie. Cela inclut une exploration plus poussée des différents rôles au sein d'une équipe Scrum, une meilleure utilisation des outils et techniques pour maximiser l'efficacité des sprints, et une réflexion constante sur la manière dont les principes Agile peuvent être adaptés pour répondre au mieux aux défis uniques de chaque projet.
                     `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `Hypotech, ISIS`
@@ -618,7 +618,7 @@ export const skills: ISkill[] = [
                 <br/><br/>
                 Dans un environnement de travail de plus en plus agile et collaboratif, savoir s'organiser et gérer son temps n'est pas seulement bénéfique à l'individu, mais aussi à l'équipe et à l'organisation dans son ensemble. Cela permet d'<b>aligner les efforts individuels avec les objectifs globaux de l'entreprise</b>, de respecter les engagements pris envers les clients et les collègues, et de contribuer à une culture de travail respectueuse du bien-être de chacun.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Contexte d’utilisation",
                 content: `
@@ -667,7 +667,7 @@ export const skills: ISkill[] = [
                     professionnelles, a été une période intense d'apprentissage et de croissance dans ma compétence en
                     gestion du temps et organisation.                    
                 `,
-                illustration: ""
+                
             }, {
                 element: "Regard critique",
                 content: `
@@ -685,7 +685,7 @@ export const skills: ISkill[] = [
                     moyens d'optimiser encore plus mon organisation et ma gestion du temps, en intégrant peut-être de
                     nouveaux outils ou méthodologies qui pourraient améliorer mon efficacité et ma productivité.
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Evolution",
                 content: `
@@ -703,7 +703,7 @@ export const skills: ISkill[] = [
                     terme, je suis déterminé à continuer son développement pour devenir encore plus efficace dans la
                     gestion de mes projets et responsabilités.            
                 `,
-                illustration: "/images/projects/yournight.png"
+                
             }, {
                 element: "Réalisations liées",
                 content: `YourNight, PREMIS DM, ISIS, Mat’ Moi Ca, Hypotech`

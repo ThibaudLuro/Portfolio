@@ -5,7 +5,8 @@ export interface IProject {
     technologies: string[];
     icon: string;
     link: string;
-    explanation: {element: string, content: string, illustration?: string}[];
+    illustrations?: string[];
+    explanation: {element: string, content: string}[];
 }
 
 export interface ISkill {
@@ -13,7 +14,7 @@ export interface ISkill {
     percentageOfMastery: number;
     icon: string;
     category: 'technical' | 'soft';
-    explanation: {element: string, content: string, illustration?: string}[];
+    explanation: {element: string, content: string}[];
 }
 
 export interface IPersonnalPresentation {
