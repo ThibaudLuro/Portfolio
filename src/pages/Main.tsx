@@ -1,5 +1,4 @@
 import MainInfos from "../components/parts/MainInfos";
-import Footer from "../components/common/Footer";
 
 import { FiChevronsDown } from "react-icons/fi";
 import InfoCard from "../components/cards/InfoCard";
