@@ -88,7 +88,7 @@ export default function ProjectDetails() {
 
                 <div className="">
                     <h1 className="font-bold text-xl uppercase">{project.explanation[5]?.element}</h1>
-                    <div className="md:text-justify flex space-x-2 mt-4 overflow-x-auto">
+                    <div className="md:text-justify flex space-x-2 mt-4 overflow-x-auto no-scrollbar">
                         {project.explanation[5]?.content.split(',').map((item, index) => (
                             <Link to={`/skills/${item.trim()}`} key={index} style={{ textDecoration: 'none' }}>
                                 <Badge className="whitespace-nowrap" key={index}>{item}</Badge>

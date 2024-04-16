@@ -15,7 +15,7 @@ interface IProps {
 
 export default function GridDisplay({ items, itemType }: IProps) {
     return (
-        <div className="w-full h-full flex flex-col items-center justify-center px-20">
+        <div className="w-full h-full flex flex-col items-center justify-center md:px-20">
 
             <h1 className="text-lg font-semibold w-full my-10">TECHNIQUES</h1>
             <div className="w-full grid justify-items-center grid-cols-1 xl:grid-cols-3 gap-4">
