@@ -85,7 +85,7 @@ export const projects: IProject[] = [
                     `,
             }, {
                 element: "Compétences liées",
-                content: `React, Docker, Express JS, Base de données, Communication Digitale`
+                content: `React, Docker, Express JS, Base de données, Git, Communication Digitale`
             }
         ]
     }, {
@@ -170,7 +170,7 @@ export const projects: IProject[] = [
                     `,
             }, {
                 element: "Compétences liées",
-                content: `React, Gestion de Projet Agile et Scrum, Express JS, Base de données, Gestion du Temps et Organisation`
+                content: `React, Gestion de Projet Agile et Scrum, Express JS, Base de données, Git`
             }
         ]
     }, {
@@ -269,7 +269,7 @@ export const projects: IProject[] = [
                     `,
             }, {
                 element: "Compétences liées",
-                content: `React, Intégration continue, Express JS, Base de données`
+                content: `React, Intégration continue, Express JS, Base de données, Git`
             }
         ]
     }, {
