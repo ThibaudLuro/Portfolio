@@ -10,33 +10,33 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                React (également connu sous le nom de React.js ou ReactJS) est une <b>bibliothèque JavaScript</b> frontale à code source ouvert permettant de créer des interfaces utilisateur ou des composants d'interface utilisateur. Elle est maintenue par Facebook et une communauté de développeurs individuels et d'entreprises. Son importance est particulièrement soulignée dans le contexte professionnel, où la rapidité de développement, la performance et la réactivité des applications sont essentielles.
+                React (également connu sous le nom de React.js ou ReactJS) est une <b>bibliothèque JavaScript</b> FrontEnd permettant de créer des interfaces utilisateur. Elle est maintenue par Facebook et une communauté de développeurs individuels et d'entreprises.
                 <br/><br/>
-                L'actualité récente dans la presse spécialisée en technologie et les médias met en évidence <b>l'adoption croissante</b> de React par les grandes entreprises et les startups innovantes, attestant de sa popularité et de sa pertinence dans l'écosystème du développement web. Cette tendance est également reflétée dans mes réalisations, où l'utilisation de React a transformé mon approche du développement frontend, en me permettant de répondre plus efficacement aux exigences changeantes du marché et aux besoins des utilisateurs.       
+                L'actualité récente dans les médias montre <b>l'adoption croissante</b> de React par les entreprises et les startups ce qui traduit sa popularité et sa pertinence dans l'écosystème du développement web.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Lorsque j’ai travaillé sur <a>PREMIS DM</a> qui est une application web ayant pour but de gérer de grands volumes de données liés au domaine de l’industrie afin de les consulter, de les analyser et les visualiser sous forme de graphiques. J’ai eu comme première tâche de <b>concevoir l’architecture frontend</b>. J'ai conçu des composants réutilisables pour minimiser la redondance du code, tout en développant des fonctionnalités classiques et courantes au sein d’applications web (Comme par exemple un <b>Dashboard d’analyse de données</b> sous forme de graphiques ou bien un système de routes protégées par rôles utilisateurs) en totale autonomie. Le projet nécessitant d’énormes volumes de données pour pouvoir fonctionner, j’ai dû mettre en place des solutions moins communes que les implémentations classiques de React. Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage <b>l’implémentation de Workers</b> qu’il a tout de suite acquiescée. L'implémentation de Workers est arrivée comme une solution ingénieuse à un problème de performance critique que nous avons rencontré lors du développement de Premis. En travaillant sur ce projet au sein de Holis Consulting, le traitement et l'analyse de données massives, extraites de fichiers Excel, étaient au cœur de l'application. Cependant, lors de tests avec des volumes de données importants, nous avons été confrontés à un obstacle majeur : le front-end de l'application, malgré une conception initialement robuste, la mémoire était rapidement saturé et se retrouvait en état de crash en raison de surcharge. L'adoption de cette approche a marqué un tournant dans le développement de Premis. En déléguant le lourd traitement des données des fichiers Excel à des Workers, j’ai non seulement <b>résolu le problème de surcharge de mémoire</b> mais j’ai également amélioré significativement les performances de l'application. L’application était à ce moment-là fonctionnelle et performante pour le volume de données que nous connaissions.
+                    Lorsque j’ai travaillé sur <a>PREMIS DM</a> qui est une application web ayant pour but de gérer de grands volumes de données liés au domaine de l’industrie afin de les consulter, de les analyser et les visualiser sous forme de graphiques. J’ai eu comme première tâche de <b>concevoir l’architecture frontend</b>. J'ai réalisé des composants réutilisables pour éviter la redondance du code et j'ai développé des fonctionnalités classiques au sein d’applications web (Comme par exemple un <b>Dashboard d’analyse de données</b> sous forme de graphiques ou bien un système de routes protégées par rôles utilisateurs) en totale autonomie. Le projet nécessitait d’énormes volumes de données pour pouvoir fonctionner ce qui fait que j’ai dû mettre en place des solutions moins communes que les implémentations classiques de React. Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage <b>l’implémentation de Workers</b> qu’il a tout de suite acquiescée. Cette implémentation a été une solution à un problème de performance critique que nous avons rencontré lors du développement de Premis. En travaillant sur ce projet au sein de Holis Consulting, le traitement et l'analyse de données en masse, extraites de fichiers Excel, étaient une étape centrale pour le fonctionnement de l'application. Sauf que lors de tests avec des volumes de données importants nous avons été confrontés à un obstacle majeur : Le front-end de l'application voyait sa mémoire rapidement saturé et se retrouvait en état de crash pour des raisons de surcharge. J'ai donc délégué le lourd traitement des données des fichiers Excel à des Workers ce qui a <b>résolu le problème de surcharge de mémoire</b> mais aussi amélioré les performances globales de l'application. L’application était donc à ce moment-là fonctionnelle et performante pour le volume de données de l'époque.
                     <br/><br/>
-                    Toujours sur <a>PREMIS DM</a>, nous avons eu plus tard l’injection de données supplémentaires qui mettaient en péril les performances existantes. La gestion de volumes de données massifs a été un défi particulier, me permettant de démontrer ma capacité à mettre en œuvre des solutions efficaces avec React pour assurer une performance optimale de l'application. Les clés m'autorisant à surmonter ce défi ont été la mise en place d’un <b>environnement de test</b>, l'utilisation judicieuse de la virtualisation des listes pour gérer efficacement l'affichage de grands ensembles de données, et l'implémentation du <b>lazy loading</b> pour charger les composants uniquement quand ils sont nécessaires. J'ai également optimisé les rendus en utilisant React.memo pour éviter les re-rendus inutiles, et en appliquant le debouncing sur les événements de saisie pour réduire les calculs superflus. J'ai également exploité le <b>Context API</b> pour une gestion globale de l'état plus performante, évitant ainsi les prop drilling inutiles. L'adoption de hooks personnalisés m'a permis de réutiliser la logique d'état complexe à travers différents composants, contribuant ainsi à une meilleure organisation et à des performances accrues. Ces améliorations techniques, combinées à une analyse régulière des performances via les outils de profilage de React, ont joué un rôle crucial dans l'optimisation de l'application pour gérer les grands volumes de données avec efficacité. Aujourd’hui <b>l’application web est globalement solide et performante</b>. Elle possède une marge qui favorise l’acceptation de données supplémentaires sans problème.
+                    Toujours sur <a>PREMIS DM</a> nous avons eu plus tard l’injection de données supplémentaires qui a bousculé la fluidité de l'application. Pour contrer ce problème j'ai mis en place d’un <b>environnement de test</b>, j'ai aussi utilisé de la virtualisation des listes pour gérer l'affichage de grands volumes de données et l'implémentation du <b>lazy loading</b> pour charger les composants uniquement quand ils sont nécessaires pour l'utilisateur. J'ai aussi optimisé les rendus en utilisant React.memo pour éviter les re-rendus inutiles et en mettant en place le debouncing sur les événements de saisie pour réduire les calculs inutiles. Il y aussi eu l'adoption de hooks personnalisés qui m'a permis de réutiliser la logique d'état complexe à travers différents composants ce qui a grandement contribué à de meilleures performances. Aujourd’hui <b>l’application web est globalement solide et performante</b>. Elle possède une marge qui permet l’acceptation de données supplémentaires sans problème.
                     <br/><br/>
-                    Mon projet personnel <a>YourNight</a> est une application mobile qui a pour but de faciliter l’organisation de soirées. Il m'a donné l'occasion d'approfondir ma maîtrise de React à travers l'utilisation de React Native. J'ai développé l'interface utilisateur complète de l'application en utilisant React Native, ce qui comprenait la <b>conception des divers écrans de l’application</b> et des composants réutilisables, la gestion de l'état de l'application, l'intégration avec des <b>APIs externes</b> pour la création de playlist musicales (API de Spotify), et la mise en œuvre d'un système de <b>chat en temps réel</b> pour les utilisateurs. Pour assurer une expérience utilisateur fluide et réactive, j'ai utilisé le contexte et les hooks de React Native pour gérer efficacement l'état global de l'application, permettant ainsi des mises à jour en temps réel sans rechargement. L'une des plus grandes réussites techniques du projet a été l'optimisation des performances de l'application sur les dispositifs mobiles. J'ai mis en œuvre le <b>lazy loading</b> pour les images et les données, ce qui a considérablement réduit le temps de chargement initial de l'application et qui a amélioré l'expérience utilisateur sur les appareils avec des connexions internet lentes. De plus, j'ai utilisé <b>Redux</b> pour une gestion d'état plus avancée, qui contribue à une synchronisation efficace entre les différents composants de l'application et assurant une expérience utilisateur cohérente. Aujourd'hui, YourNight <b>fonctionne extrêmement bien</b> pour le nombre actuel d'utilisateurs actifs. Les retours des utilisateurs sont positifs. Ils mettent en avant la facilité d'utilisation et la réactivité de l'application.
+                    Mon projet personnel <a>YourNight</a> est une application mobile qui a pour but de faciliter l’organisation de soirées. Il m'a donné l'occasion d'approfondir ma maîtrise de React à travers l'utilisation de React Native. J'ai développé l'interface utilisateur complète de l'application en utilisant React Native, ce qui comprenait la <b>conception des divers écrans de l’application</b> et des composants réutilisables, la gestion de l'état de l'application, l'intégration avec des <b>APIs externes</b> pour la création de playlist musicales (API de Spotify), et la mise en œuvre d'un système de <b>chat en temps réel</b> pour les utilisateurs. Mon but principal était d'avoir une expérience utilisateur fluide et réactive ce qui fait que j'ai utilisé le contexte et les hooks de React Native pour gérer l'état global de l'application. L'une de mes plus grandes réussites techniques du projet, ça a été l'optimisation de l'application sur les téléphones mobiles. J'ai mis en place le <b>lazy loading</b> pour les images et les données ce qui a permis en autre de réduire le temps de chargement initial de l'application et ce qui a amélioré l'expérience utilisateur sur les appareils avec des connexions internet lentes (ce qui peut arriver lorsque l'on est en ville par exemple). Aujourd'hui, YourNight <b>fonctionne extrêmement bien</b> pour le nombre actuel d'utilisateurs actifs. Les retours des utilisateurs sont positifs. Ils mettent en avant la facilité d'utilisation et la réactivité de l'application.
                     `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                Ma maîtrise de React, actuellement à un <b>niveau intermédiaire avancé</b>, reconnaît une marge de progression, en particulier dans l'optimisation des performances des applications. L'efficacité de mon intégration de React dans mon arsenal de compétences a été particulièrement visible lors de ma rapide adaptation au projet ISIS chez Holis Consulting. En moins de deux semaines, j'étais déjà en train de contribuer de manière significative au code, résolvant des bugs complexes et proposant des améliorations fonctionnelles. Cette <b>capacité d'apprentissage et d'adaptation rapide a été reconnue par mon entreprise elle-même</b>, qui a salué mon approche proactive et ma compréhension rapide des exigences du projet. Cependant, en tant qu'autocritique constructive, je reconnais le besoin constant de me perfectionner, notamment dans les aspects avancés tels que le state management et le rendering conditionnel complexe, pour atteindre un niveau d'expertise.
+                Ma maîtrise de React est actuellement à un <b>niveau intermédiaire avancé</b>. Je reconnais qu'il existe bien sûr une marge de progression surtout dans l'optimisation des performances des applications. J'ai tout de même rapidement pris en main la compétence ce qui s'est vu lors de ma rapide adaptation au projet ISIS chez Holis Consulting. En moins de deux semaines,j'étais déjà capable de contribuer au code en résolvant des bugs et en proposant des améliorations fonctionnelles. Ma <b>capacité d'apprentissage et d'adaptation rapide a été reconnue par mon entreprise</b> qui a salué ma compréhension rapide des différents aspects du projet. Cependant je reconnais le besoin de me perfectionner notamment dans les aspects avancés tels que le state management ou même le rendering conditionnel pour atteindre un niveau d'expertise.
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                    React occupe une <b>place centrale dans mon profil</b> et je suis déterminé à continuer à développer mes compétences dans cette technologie. Elle joue un rôle significatif dans mes activités et responsabilités actuelles, et je suis motivé à l'explorer davantage, à suivre son évolution et à adopter les meilleures pratiques pour rester à la pointe.
+                    React occupe une <b>place centrale dans mon profil</b> et je suis déterminé à développer mes compétences dans cette technologie. Elle est extrêmement présente dans mes responsabilités actuelles, c'est pour cette raison que je vais continuer à suivre son évolution.
                     <br/><br/>
-                    Si je devais me prodiguer un conseil, ce serait de continuer à chercher des opportunités qui me poussent hors de ma zone de confort avec React en réalisant de nouveaux projets personnels toujours plus techniques et passionnants. C'est dans la résolution des défis les plus complexes que je trouve les leçons les plus précieuses et que je peux vraiment mesurer la profondeur de ma compréhension de React. Ceci, combiné à une veille technologique régulière, assurera que ma courbe de progression reste ascendante et que ma compétence reste pertinente dans un environnement technologique qui évolue rapidement.
+                    Si je devais me donner un conseil ce serait de continuer à me pousser hors de ma zone de confort avec React en réalisant de nouveaux projets personnels encore plus techniques. Je vais également continuer une veille technologique pour que ma compétence reste d'actualité dans cet environnement qui évolue rapidement.
                     `,
                 
             }, {
@@ -55,43 +55,39 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                Docker est une <b>plateforme de conteneurisation</b> à code source ouvert qui automatise le déploiement d'applications au sein de conteneurs logiciels, qui autorise ainsi une plus grande portabilité et efficacité. Elle est largement reconnue pour sa capacité à simplifier et à accélérer le processus de développement en fournissant des environnements de développement, de test et de production cohérents. Docker est soutenu par une vaste communauté de développeurs et d'entreprises, et sa popularité continue de croître dans le milieu professionnel.
+                Docker est une <b>plateforme de conteneurisation</b> qui automatise le déploiement d'applications au sein de conteneurs logiciels ce qui permet une plus grande portabilité. Elle est largement reconnue pour simplifier le processus de développement en délivrant des environnements de développement ou de production facilement. Docker est soutenu par une grande communauté de développeurs et d'entreprises et sa popularité ne cesse d'augmenter dans le milieu professionnel.
                 <br/><br/>
-                Dans les actualités récentes et les publications spécialisées en technologie, Docker est souvent mentionné pour son <b>adoption croissante</b> par les grandes entreprises technologiques et les startups innovantes. Cette tendance souligne l'importance et la pertinence de Docker dans le domaine de l'ingénierie logicielle moderne, en particulier pour le développement, la livraison et l'exploitation d'applications de manière efficace et scalable.
+                Dans les actualités récentes Docker est souvent mentionné pour son <b>adoption croissante</b> par les grandes entreprises et les startups.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Pour mon premier projet en entreprise qui a été <a>ISIS</a> (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), j’ai été amené à utiliser Docker comme un <b>environnement de développement</b> était mis en place sur le projet. Ma première installation de Docker pour cette application a été marquée par une journée entière de défis techniques inattendus. La mise en place de la technologie étant relativement récente, il y avait certains problèmes tels que la la non-initialisation des données essentielles dans la base de données, telles qu'un compte utilisateur nécessaire pour se connecter à l'application. Armé des connaissances acquises, j'ai modifié les fichiers docker-compose.yml et Dockerfile pour assurer l'initialisation correcte des données dans la base de données. Cela incluait <b>l'ajout de scripts d'initialisation et la configuration des volumes persistants</b> pour sauvegarder les données essentielles. Un autre problème que j'ai dû affronter concernait la connectivité réseau entre les conteneurs, empêchant l'application de communiquer correctement avec la base de données. J'ai une fois de plus modifié le fichier docker-compose.yml pour <b>définir un réseau personnalisé</b> et assurer que tous les conteneurs nécessaires (application et base de données) soient attachés à ce réseau. Cela impliquait d'utiliser la section networks de Docker Compose pour en créer un et le spécifier dans la configuration de chaque service concerné. Pour faciliter la communication entre les conteneurs, j'ai également <b>défini des noms de domaine internes</b> spécifiques à chaque conteneur dans le réseau Docker, en utilisant la propriété hostname dans le docker-compose.yml. Cela a permis à l'application de se référer à la base de données par son nom de domaine interne, simplifiant ainsi la résolution des noms et la connectivité. Après une journée de recherche, de tests, et d'ajustements constants de la configuration, j'ai finalement réussi à surmonter ces obstacles. Cette expérience, bien que frustrante sur le moment, s'est avérée extrêmement bénéfique. Elle m'a non seulement permis de <b>résoudre les problèmes initiaux</b> mais également de les voir disparaître pour les futures installations du Docker de ce projet.
+                    Pour mon premier projet en entreprise qui a été <a>ISIS</a> (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), j’ai utilisé Docker comme un <b>environnement de développement</b>. Ma première installation de Docker pour cette application a été le résultat d'une journée entière de résolution de bugs. La mise en place de la technologie était récente dans l'entreprise et il y avait certains problèmes comme la non-initialisation des données essentielles dans la base de données. Avec mes compétences de l'époque j'ai pu modifier les fichiers docker-compose.yml et Dockerfile pour permettre l'initialisation des données dans la base de données. J'ai ajouté <b>des scripts d'initialisation et la configuration des volumes</b> pour sauvegarder les données. Un autre problème que j'ai eu concernait la connectivité réseau entre les conteneurs ce qui empêchait l'application de communiquer avec la base de données. J'ai encore une fois modifié le fichier docker-compose.yml pour <b>définir un réseau personnalisé</b> et assurer que tous les conteneurs (application et base de données) soient reliés à ce réseau. J'ai pour ce faire utilisé la section networks de Docker Compose pour en créer un et le rensigner dans la configuration de chaque service concerné. Pour faciliter la communication entre les conteneurs j'ai également <b>défini des noms de domaine internes</b> pour chaque conteneur dans le réseau Docker en utilisant "hostname" dans le docker-compose.yml. Le but ici c'était de simplifier la résolution des noms. Au final, après une journée de recherche j'ai pu surmonter les différents obstacles. Ça m'a permis dès mon premier jour de corriger des problèmes pour toutes les futures installations du Docker de ce projet.
                     <br/><br/>
-                    Lorsque j’ai travaillé sur mon projet personnel <a>YourNight</a> qui est une application mobile destinée à fluidifier l’organisation de soirées, est venu le moment où j’ai voulu <b>héberger</b> le serveur et la base de données de l’application <b>sur un VPS via Docker</b>. Il faut savoir que cette application fonctionnait sur trois technologies clés : React Native pour le frontend, ExpressJS pour le backend et MongoDB comme système de gestion de base de données. Pour relever ce défi, j'ai mis en place <b>Docker Compose</b>, un outil qui permet de définir et de gérer des applications multi-conteneurs. J'ai créé un fichier <b>docker-compose.yml</b> pour orchestrer ces trois services, en m'assurant que chaque composant était correctement configuré pour interagir avec les autres. Dans ce fichier, j'ai défini les services, les volumes et les réseaux nécessaires, en veillant à ce que chaque service soit construit à partir de son propre Dockerfile et qu’ils soient instanciés dans le bon ordre en faisant attention aux “depends_on”. Pour le service React Native, j'ai configuré un Dockerfile pour construire une image contenant le code source du frontend, tandis que pour ExpressJS, j'ai fait en sorte que le Dockerfile comprenne toutes les dépendances requises pour exécuter le serveur backend. Pour MongoDB, j'ai utilisé une image standard de Docker Hub, en m'assurant de configurer les <b>variables d'environnement</b> nécessaires pour chaque service et en permettant leur extériorisation pour me permettre de les modifier à ma guise à l’intérieur de <b>fichiers .env</b>. J'ai également configuré des réseaux Docker pour faciliter la communication entre les conteneurs de manière sécurisée. Je suis ensuite passé à l'aspect le plus crucial de ce projet qu’a été le déploiement de l'application que j’ai effectué moi-même sur un serveur privé virtuel (VPS) Linux. Docker a joué un rôle essentiel dans ce processus, en me permettant de déployer facilement l'application sur le serveur. En utilisant Docker, j'ai pu garantir que l'environnement de production sur le VPS était identique à l'environnement de développement sur mon ordinateur local, évitant ainsi les problèmes courants liés aux différences d'environnement. Après <b>une soirée d’implémentation</b> j’ai pu me servir de mon serveur et base de données hébergé sur le VPS pour faire des premiers tests de l’application avec mes amis.
+                    Lorsque j’ai travaillé sur mon projet personnel <a>YourNight</a> qui est une application mobile destinée à fluidifier l’organisation de soirées, j'ai voulu à un moment <b>héberger</b> le serveur et la base de données de l’application <b>sur un VPS via Docker</b>. Il faut savoir que cette application fonctionnait sur trois technologies : React Native pour le frontend, ExpressJS pour le backend et MongoDB comme système de gestion de base de données. J'ai donc mis en place <b>Docker Compose</b>. J'ai aussi créé un fichier <b>docker-compose.yml</b> pour faire fonctionner ensemble ces trois services ensemble et pour qu'ils intéragissent entre eux. Dans ce fichier j'ai défini les services, les volumes et les réseaux, en faisant attention à ce qu'ils soient instanciés dans le bon ordre grâce aux “depends_on”. Je suis ensuite passé à l'aspect le plus important de ce projet qui a été le déploiement de l'application que j’ai effectué moi-même sur un serveur privé virtuel (VPS) Linux. Docker était donc mon élément pilier dans ce processus en me permettant de déployer facilement l'application sur le serveur. L'avantage de Docker était le fait que l'environnement de production sur le VPS était identique à l'environnement de développement sur mon ordinateur ce qui m'a permis d'éviter les problèmes courants liés aux différents environnements. C'est après <b>une soirée d’implémentation</b> que j’ai pu me servir de mon serveur et base de données hébergé sur le VPS pour faire des premiers tests de l’application avec mes amis.
                     `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                En réfléchissant de manière critique sur mes compétences en Docker, je reconnais que bien que j'aie réussi à conteneuriser deux types de projets (une application web et une application mobile) ma maîtrise de cette technologie reste quelque peu limitée, je la jugerai comme étant <b>intermédiare avancé</b>. Mon expérience actuelle avec Docker, bien qu'efficace dans le contexte de mes projets chez Holis Consulting et mon application personnelle YourNight, se concentre principalement sur des <b>scénarios assez basiques de conteneurisation</b> et ne couvre pas l'ensemble des capacités et des pratiques avancées que Docker offre.
+                En prenant du recul sur mes compétences en Docker je constate que ma maîtrise de cette technologie reste encore limitée. Je la jugerai comme étant <b>intermédiare avancé</b>. Mon expérience actuelle avec Docker se concentre surtout sur des <b>implémentations assez basiques de conteneurisation</b> et ne me permet pas encore des réaliser des pratiques avancées via Docker.
                 <br/><br/>
-                Docker représente tout de même une <b>place centrale dans mon profil</b>, puisque la majorité de mes projets utilisent cette technologie. <b>J'ai très vite compris son utilité et fonctionnement</b> et j'ai pu l'intégrer dans mes projets de manière autonome en peu de temps.
+                Docker représente tout de même une <b>place importante dans mon profil d'expert</b> puisque la majorité de mes projets utilisent cette technologie.
                 <br/><br/>
-                Je suis conscient qu'il existe des possibilités d'optimisation bien plus avancées, en particulier avec des outils comme <b>Kubernetes, que je ne maîtrise pas encore</b>. Kubernetes, en tant qu'orchestrateur de conteneurs, offre des fonctionnalités pour la gestion à grande échelle des applications conteneurisées, permettant une automatisation plus poussée, une mise à l'échelle et une gestion des ressources plus efficaces. Mon expérience actuelle ne m'a pas encore permis d'explorer ces aspects plus complexes, ce qui représente une opportunité significative d'apprentissage et d'amélioration.
-                <br/><br/>
-                Je reconnais également que Docker, utilisé en <b>combinaison avec des outils d'intégration</b> et de déploiement continus, peut offrir une pipeline de développement et de production encore plus robuste et automatisée. Cela souligne un besoin pour moi de continuer à apprendre et à explorer les meilleures pratiques et les outils complémentaires à Docker pour améliorer mon efficacité en tant que développeur et pour rester à jour avec les tendances actuelles du développement logiciel.
-                <br/><br/>
-                En somme, bien que j'aie acquis une base solide dans l'utilisation de Docker pour le développement et le déploiement d'applications, je suis conscient de <b>l'étendue de ce que je dois encore apprendre</b> pour maîtriser pleinement cette technologie et pour l'exploiter de manière optimale dans une variété de contextes de projet. Cela représente pour moi une voie claire pour le développement professionnel et une motivation pour continuer à explorer et à maîtriser les aspects avancés de la conteneurisation et de l'orchestration des applications.
+                Aujourd'hui je sais qu'il existe des possibilités d'optimisation plus avancées avec des outils comme <b>Kubernetes, que je ne maîtrise pas encore</b>. Mon expérience actuelle ne m'a pas encore permis de m'avanturer dans ce genre d'implémentation plus complexe alors que ce sont des aspects qui m'intéressent et qui me permettraient d'en apprendre plus au global.
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                    Mon parcours avec Docker, bien qu'encore dans ses débuts, a été profondément enrichissant et a suscité en moi un <b>vif intérêt pour les technologies de conteneurisation</b>. La facilité d'utilisation, la portabilité et l'efficacité de Docker ont fait de cette technologie un élément essentiel pour moi, et je suis déterminé à continuer à l'explorer et à l'appliquer dans mes futurs projets.
+                    Mon parcours avec Docker a généré en moi un <b>intérêt pour les technologies de conteneurisation</b>. La facilité d'utilisation et l'efficacité de Docker m'ont surpris et m'ont encouragé à développer cette technologie.
                     <br/><br/>
-                    Regardant vers l'avenir, mon ambition est de non seulement <b>approfondir ma compréhension de Docker</b> mais aussi d'explorer les horizons étendus que Kubernetes offre. Kubernetes représente le prochain niveau dans la gestion de conteneurs, en particulier pour les applications à grande échelle et distribuées. Son écosystème, sa capacité à gérer des clusters de conteneurs, et ses fonctionnalités d'automatisation et de mise à l'échelle sont des aspects que je désire maîtriser.
+                    Mon ambition est d' <b>approfondir ma compréhension de Docker</b> mais aussi de m'intéresser à d'autres aspects comme Kubernetes.
                     <br/><br/>
-                    Je prévois d'aborder <b>l'apprentissage de Kubernetes</b>, en commençant par des tutoriels, et en progressant vers l’implémentation dans mes futurs projets personnels. Mon objectif est de développer une expertise en Kubernetes qui complète et renforce ma maîtrise de Docker, me permettant ainsi de construire des infrastructures de développement et de production plus robustes, scalables et efficaces.
+                    Je prévois de commencer <b>l'apprentissage de Kubernetes</b> par des tutoriels et en arrivant vers l’implémentation dans mes futurs projets personnels. Mon objectif est de développer une certaine expérience en Kubernetes qui complèterait ma maîtrise de Docker.
                     <br/><br/>
-                    En conclusion, Docker a déjà façonné de manière significative mon approche du développement logiciel, et avec l'ajout de Kubernetes à mon ensemble de compétences, je m'attends à franchir de nouvelles frontières dans le domaine de la conteneurisation et de l'orchestration d'applications.
+                    En conclusion, Docker a déjà transformé de manière d'aborder le développement d'une solution et avec l'ajout de Kubernetes à mes compétences je m'attends à réaliser des applications toujours plus scalables et sécurisées.
                 `,
                 
             }, {
@@ -110,41 +106,39 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                ExpressJS est un <b>framework web pour Node.js</b>, reconnu pour sa flexibilité et sa minimalité. Il permet de construire des applications web et des API de manière rapide et efficace. En tant que middleware et système de routage, ExpressJS facilite la création d'applications web robustes et scalables en offrant un ensemble de fonctionnalités essentielles pour le développement backend. Il est particulièrement apprécié pour sa facilité d'utilisation et pour sa capacité à s'intégrer avec d'autres technologies et frameworks.
+                ExpressJS est un <b>framework web pour Node.js</b>. Il permet de réaliser des applications web et des API. Avec son système de middleware et de routage, ExpressJS permet de faciliter la création d'applications web scalables avec un ensemble de fonctionnalités dédiées au développement backend. Il est apprécié pour sa facilité d'utilisation et sa capacité à s'intégrer avec d'autres technologies.
                 <br/><br/>
-                La popularité d'ExpressJS <b>continue de croître</b> dans le milieu professionnel, comme en témoignent les nombreuses références dans les médias spécialisés en technologie. Son adoption par de grandes entreprises technologiques ainsi que par des startups innovantes souligne son importance dans l'écosystème du développement logiciel. ExpressJS est souvent choisi pour sa rapidité de mise en œuvre et pour sa grande adaptabilité, ce qui en fait un outil de choix pour le développement d'applications web modernes, en particulier dans des environnements où la performance et l'efficacité sont primordiales.
+                La popularité d'ExpressJS <b>continue de croître</b> dans le milieu professionnel avec ce que l'on peut voir dans les médias spécialisés. Son adoption par de grandes entreprises ainsi que par des startups montre sa place importante dans l'écosystème du développement logiciel.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Pour mon premier projet en entreprise qui a été <a>ISIS</a> (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), mon travail avec ExpressJS s'est concentré sur le développement de fonctionnalités assez classiques sur un projet déjà existant. J'ai intégré et j'ai mis en place des modèles de données en utilisant <b>l'ORM Sequelize</b>. J’ai également créé une variété de <b>contrôleurs et de routes</b> pour gérer les requêtes entrantes. Cela incluait des routes pour <b>l'authentification</b> des utilisateurs, la manipulation des données, et la réponse aux requêtes spécifiques liées à l'application. La <b>mise en œuvre de middleware</b> pour la gestion des erreurs et la validation des requêtes a également été un aspect important de mon travail, renforçant la sécurité et la fiabilité de l'application (notamment pour vérifier si sur des requêtes réservées aux administrateurs, l’utilisateur faisant l’appel possédait bien ce statut). J’ai pu délivrer une api comportant toutes les fonctionnalités au bout de deux mois, celle-ci comprenait quelques problèmes qui ont été résolus par mes soins les jours suivant la livraison finale. Mes supérieurs qui représentaient les clients du projet étaient <b>satisfaits du résultat</b>.
+                    Pour mon premier projet en entreprise qui a été <a>ISIS</a> (une application web visant l’automatisation de certaines tâches chronophages pour les ingénieurs salariés de l’entreprise), mon travail avec ExpressJS s'est surtout basé sur le développement de fonctionnalités assez classiques. J'ai intégré des modèles de données en utilisant <b>l'ORM Sequelize</b>. J’ai également créé des <b>contrôleurs et des routes</b> pour gérer les requêtes entrantes. Il y avait des routes pour <b>l'authentification</b> des utilisateurs, la manipulation des données, et la réponse aux différentes requêtes liées à l'application. La <b>mise en œuvre de middleware</b> pour la gestion des erreurs et la validation des requêtes a également représenté une grande partie de mon travail dans un but de renforcer la sécurité et la fiabilité de l'application (notamment pour vérifier si sur des requêtes réservées aux administrateurs, l’utilisateur faisant l’appel possédait bien ce statut). J’ai pu réaliser une api comportant toutes les fonctionnalités au bout de deux mois. Celle-ci avait quelques problèmes qui ont été résolus par moi-même les jours qui ont suivi la livraison finale. Mes supérieurs qui étaient les clients du projet étaient <b>satisfaits du résultat</b>.
                     <br/><br/>
-                    Sur un autre projet professionnel nommé <a>PREMIS DM</a> qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, j’ai été chargé <b>d’imaginer et de développer l’architecture backend complète</b>. Pour ce faire je me suis inspiré de l’architecture d’ISIS qui avait des similarités avec le fonctionnement futur de PREMIS DM. Cependant je devais anticiper certains détails étant donné que l’application allait fonctionner avec d’énormes volumes de données. Une fois la première version fonctionnelle avec les routes et modèles essentiels au fonctionnement de l’application mis en place, j’ai implémenté une solution de <b>stockage en cache</b> pour améliorer les performances globales de la délivrance et traitement général des données (je devais initialement utiliser le service Redis mais après un benchmark le cache nodeJS de base suffisait). J’ai également pensé et mis en place un <b>système de pagination des résultats</b>. Cela a permis de limiter le nombre de données chargées et affichées simultanément, réduisant ainsi la charge sur le navigateur. Le dernier atout majeur influant dans la performance du backend que j’ai pu mettre en place a été la mise en place d'un <b>système de files d'attente</b> pour les tâches lourdes. Certaines opérations, comme l’insertion des massifs volumes de données, ont été déplacées vers des files d'attente de tâches asynchrones grâce à un système de token permettant le bloquage de tâches similaires simultanément. Cela a permis de ne pas geler les processus principaux de l'application pendant ces opérations gourmandes en ressource et à éviter toute saturation du système. <b>L’API a bien répondu aux besoins initiaux</b>. Cette dernière connaitra des améliorations pour permettre encore plus de performance qu’actuellement.
+                    Sur un autre projet professionnel nommé <a>PREMIS DM</a> qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, j’ai du <b>imaginer et développer l’architecture backend complète</b>. Pour ce faire je me suis inspiré de l’architecture d’ISIS qui avait des similarités avec le fonctionnement de PREMIS DM. Mais je devais anticiper certains détails vu que l’application allait fonctionner avec d’énormes volumes de données. Une fois que la première version fonctionnelle était mise en place, j’ai décidé d'implémenter une solution de <b>stockage en cache</b> pour améliorer les performances globales de la gestion des données (je devais initialement utiliser le service Redis mais après un benchmark le cache nodeJS de base suffisait). J’ai également mis en place un <b>système de pagination des résultats</b>. Cela a permis de limiter le nombre de données chargées et affichées simultanément pour réduire la charge sur le navigateur. J'ai finalement mis en place d'un <b>système de files d'attente</b> pour les tâches lourdes. Notamment pour certaines opérations comme l’insertion des massifs volumes de données que j'ai déplacé vers des files d'attente grâce à un système de token permettant le bloquage de cette même tâche en simultané. Cela a permis de ne pas bloquer les processus principaux de l'application pendant ces opérations demandantes en ressource et à éviter toute saturation du système. <b>L’API a bien répondu aux besoins</b>. Il y aura bien sûr des améliorations pour permettre encore plus de performance qu’actuellement.
                     <br/><br/>
-                    Au cours des mes réalisations professionnelles j’ai développé un attrait pour cette technologie. C'est cette attirance pour ExpressJS qui m'a motivé à choisir cette technologie pour mon projet personnel, <a>YourNight</a> qui est un projet personnel d’application mobile destiné à fluidifier l’organisation de soirées. Pour YourNight, j'ai assumé la responsabilité complète de construire l'architecture et la logique backend de l'application. Travaillant seul sur ce projet, j'ai eu l'occasion de mettre en pratique mes compétences en conception et en développement de manière indépendante. La mise en place de l’API a été assez succincte avec une première version fonctionnelle robuste et sans bug au bout d’une semaine en raison de l’expérience acquise au cours des projets réalisés en entreprise. Sa réalisation n’a pas énormément différencié de celle de PREMIS DM même si moins technique. J’ai cependant dû penser à des problèmes différents tels que la mise en place d’un <b>bouclier anti DDOS</b> en limitant le nombre d’appels API par adresses IP. J’ai également mis des <b>notifications push</b> côté backend en interrogeant l’API expo push et l’une des choses les plus importantes a été une attention particulière portée à <b>l'authentification des utilisateurs</b> et à la sécurité des données. Des protocoles d'authentification robustes ont été mis en place pour protéger les comptes utilisateurs et les informations sensibles, notamment le <b>protocole JWT</b> (JSON Web Tokens). Lorsqu'un utilisateur se connecte avec succès, le serveur génère un token JWT signé avec une clé secrète. Ce token contient des informations d'identification de l'utilisateur ainsi qu'une date d'expiration. Pour l’instant <b>mon API est fonctionnelle et amplement suffisante</b> pour les besoins actuels de l’application mobile.
+                    Lorsque je travaillais sur mes réalisations professionnelles j’ai développé un attrait pour cette technologie. C'est cette attirance pour ExpressJS qui a fait que j'ai choisi cette technologie pour mon projet personnel <a>YourNight</a> qui est un projet personnel d’application mobile destiné à fluidifier l’organisation de soirées. Pour YourNight j'ai construit l'architecture et la logique backend de l'application. Étant donné que j'ai travaillé seul sur ce projet, j'ai pu de mettre en pratique mes compétences et me tester. La mise en place de l’API a été assez rapide avec une première version fonctionnelle robuste et sans bug au bout d’une semaine avec l’expérience que j'avais acquise au cours des projets réalisés en entreprise. J’ai par contre dû penser à des problèmes différents comme la mise en place d’un <b>bouclier anti DOS</b> en limitant le nombre d’appels API par adresses IP. J’ai également mis des <b>notifications push</b> côté backend en interrogeant l’API expo push et l’une des choses les plus importantes a été <b>l'authentification des utilisateurs</b> et la sécurité des données. J'ai mis en place des protocoles d'authentification robustes pour protéger les comptes utilisateurs et les informations sensibles, notamment le <b>protocole JWT</b> (JSON Web Tokens). Lorsqu'un utilisateur se connecte à l'application le serveur génère un token JWT signé avec une clé secrète. Ce token contient les informations d'identification de l'utilisateur avec une date d'expiration. Pour l’instant <b>mon API est fonctionnelle et amplement suffisante</b> pour les besoins actuels de l’application mobile.
                 `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                    En évaluant de manière critique mes compétences en ExpressJS, je me sens globalement à l'aise avec cette technologie m'attriburant <b>un niveau avancé</b>, bien que conscient de ne pas la maîtriser entièrement. Mon expérience avec ExpressJS, à la fois chez Holis Consulting et sur mon projet personnel YourNight, m'a permis de développer une bonne compréhension de la construction et de la gestion des architectures backend. Cela inclut la création de routes API, la gestion des sessions, et l'implémentation de mesures de sécurité telles que l'authentification avec token JWT et la validation des données.
+                    En prenant du recul sur mes compétences en ExpressJS je me sens à l'aise avec cette technologie et je m'attribuerai <b>un niveau avancé</b>. Mon expérience avec ExpressJS, à la fois chez Holis Consulting et sur mon projet personnel YourNight, m'a permis de bien comprendre la construction des architectures backend ainsi que la création de routes API, la gestion des sessions, et l'implémentation de mesures de sécurité comme l'authentification avec token JWT.
                     <br/><br/>
-                    Cette technologie occupe <b>une place centrale au sein de mon profil professionnel</b> car la majorité de mes projets utilisent ExpressJS. J'ai pu rapidement assimiler les concepts clés et les meilleures pratiques de cette technologie, ce qui m'a permis de contribuer de manière significative aux projets en entreprise et de réaliser mon projet personnel avec succès.
+                    Cette technologie occupe <b>une place importante au sein de mon profil professionnel</b> car la majorité de mes projets utilisent ExpressJS.
                     <br/><br/>
-                    Cependant, je reconnais qu'il existe des aspects d'ExpressJS que je n'ai pas encore explorés en profondeur. Par exemple, les subtilités de <b>l'optimisation des performances</b> et de la <b>gestion avancée des erreurs</b> sont des domaines où je vois un <b>potentiel de croissance</b>. De plus, bien que j'aie réussi à implémenter un certain nombre de fonctionnalités, je n'ai pas eu l'occasion de travailler sur des projets qui nécessitent une utilisation très avancée d'ExpressJS, comme l'intégration avec des systèmes complexes ou la gestion de charges de travail très importantes.
-                    <br/><br/>
-                    Je suis également conscient que le domaine du développement backend évolue rapidement, avec de nouvelles pratiques et technologies émergentes. Pour atteindre une maîtrise complète d'ExpressJS, je dois continuer à me former, à expérimenter et à rester à jour avec les dernières tendances et meilleures pratiques.
+                    Cependant je sui conscient qu'il existe des aspects d'ExpressJS que je ne maitrise pas encore. Par exemple tout ce qui concerne <b>l'optimisation des performances</b> en détails et de la <b>gestion avancée des erreurs</b>. Ce sont des domaines où je possède un <b>potentiel de croissance</b>.
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                    Ma relation avec ExpressJS, enrichie par mes expériences passées, est marquée par une affection particulière pour cette technologie. Sa flexibilité, sa simplicité et son efficacité m'ont convaincu de son potentiel et de sa valeur dans le développement de projets backend. Dans mes projets futurs, <b>je prévois de continuer à utiliser ExpressJS</b>, tirant parti de sa robustesse et de sa capacité à faciliter le développement rapide et efficace d'applications web et mobiles.
+                    Aujourd'hui je suis très satisfait de l'utilisation d'ExpressJS. Sa flexibilité, sa simplicité et son efficacité m'ont convaincu pour l'utiliser à nouveau dans le développement de projets backend. Dans mes projets futurs <b>je prévois de continuer à utiliser ExpressJS</b>.
                     <br/><br/>
-                    Toutefois, reconnaissant l'importance de l'évolution constante dans le domaine du développement logiciel, je suis également <b>déterminé à explorer de nouveaux frameworks backend</b> basés sur Node.js. Un exemple de cela est AdonisJS, un framework qui offre une expérience de développement plus structurée et qui est souvent comparé à Laravel dans le monde PHP. AdonisJS, avec ses fonctionnalités avancées telles que l'injection de dépendances, le système ORM intégré, et les outils de test complets, représente une opportunité pour moi d'élargir mes horizons et d'acquérir de nouvelles compétences.
+                    Cependant je suis également ouvert <b>à explorer de nouveaux frameworks backend</b> basés sur Node.js. Un exemple de cela est AdonisJS qui est un framework qui offre une expérience de développement plus stricte et qui est souvent comparé à Laravel chez PHP.
                     <br/><br/>
-                    L'apprentissage de frameworks comme AdonisJS me permettra non seulement de rester à jour avec les dernières innovations dans le développement backend, mais aussi <b>d'approfondir ma compréhension des architectures d'applications</b> et de découvrir de nouvelles manières de résoudre des problèmes complexes. Cela enrichira mes outils de développement, me rendant plus polyvalent et adaptable dans mes projets futurs. Cette démarche s'inscrit dans mon engagement à long terme pour l'apprentissage continu dans le développement logiciel, me permettant de rester pertinent et efficace dans un domaine technologique en constante évolution.
+                    L'apprentissage de frameworks comme AdonisJS me permettra de rester à jour avec les dernières nouveautés dans le développement backend mais aussi <b>d'approfondir ma compréhension des architectures d'applications</b> et de découvrir de nouvelles manières de résoudre des problèmes.
                 `,
                 
             }, {
@@ -163,124 +157,111 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                Les bases de données jouent un rôle fondamental dans le monde de la technologie, en servant de <b>pilier pour le stockage</b>, la gestion et la récupération d'informations. Elles peuvent être relationnelles, comme MySQL ou PostgreSQL, ou non relationnelles (NoSQL), comme MongoDB. Les bases de données relationnelles utilisent un modèle structuré avec des tables et des relations, tandis que les bases de données NoSQL offrent une flexibilité accrue avec des modèles de données variés comme le document, le graphique ou la clé-valeur.
+                Les bases de données servent de <b>pilier pour le stockage</b>. Elles peuvent être relationnelles comme MySQL ou PostgreSQL ou non relationnelles (NoSQL), comme MongoDB. Les bases de données relationnelles utilisent un modèle structuré avec des tables et des relations tandis que les bases de données NoSQL permettent plus de flexibilité avec des modèles de données variés comme le document, le graphique ou la clé-valeur.
                 <br/><br/>
-                La <b>pertinence</b> des bases de données dans le milieu professionnel est <b>indéniable</b>. Elles sont essentielles pour une multitude d'applications, allant des systèmes de gestion de contenu aux réseaux sociaux et aux applications mobiles. Leur choix et leur utilisation dépendent fortement des besoins spécifiques du projet, notamment en termes de volume de données, de vitesse d'accès et de la complexité des requêtes.
+                La <b>pertinence</b> des bases de données dans le milieu professionnel est <b>inconstestable</b>. Elles sont obligatoires pour la majorité des applications.
                 <br/><br/>
-                Leur <b>popularité n'est plus à prouver</b>, comme en témoigne l'intérêt constant dans les médias spécialisés en technologie. Les grandes entreprises technologiques et les startups innovantes adoptent des bases de données avancées pour gérer d'énormes volumes de données, assurer des performances élevées et maintenir la scalabilité. Dans les environnements où la gestion des données est critique, le choix de la base de données appropriée est crucial pour la réussite du projet.
+                Leur <b>popularité n'est plus à prouver</b>. Les grandes entreprises et les startups adoptent des bases de données pour gérer d'énormes volumes de données et maintenir la scalabilité.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                        Mon initiation aux bases de données a débuté il y a environ cinq ans, dans le cadre de mes projets
-                        réalisés durant mes études. J'ai principalement travaillé avec <b>MySQL</b>, un système de base de données
-                        relationnelle répandu. Cette expérience m'a permis de me familiariser avec les fondements des bases de
-                        données SQL, notamment en appliquant les <b>opérations CRUD</b> (Créer, Lire, Mettre à jour, Supprimer) de
-                        manière classique, en imaginant mes premiers modèles de base de données et mes premières <b>gestions
-                        d’utilisateurs</b>, ce qui a constitué la base de ma compréhension dans ce domaine.                    
+                        Mon début avec les bases de données a débuté il y a environ cinq ans, dans le cadre des projets
+                        réalisés durant mes études. J'ai travaillé avec <b>MySQL</b>, un système de base de données
+                        relationnelle. Ça m'a permis de me familiariser avec les bases de
+                        données SQL en utilisant les <b>opérations CRUD</b> (Créer, Lire, Mettre à jour, Supprimer) de
+                        manière classique et en imaginant mes premiers modèles de base de données et mes premières <b>gestions
+                        d’utilisateurs</b>.                    
                     <br/><br/>
-                        Mon utilisation des bases de données a pris une toute autre ampleur lorsque j’ai travaillé en entreprise
+                        Mon utilisation des bases de données a évolué lorsque j’ai travaillé en entreprise
                         lors de mon alternance sur le projet <a>PREMIS DM</a>, qui est une application web ayant pour but pour de
                         gérer de grands volumes de données liés au domaine de l’industrie afin de les consulter, de les analyser
-                        et les visualiser sous forme de graphiques. J’ai notamment travaillé en totale autonomie avec
-                        <b>PostgreSQL</b> pour mettre en place des <b>vues complexes</b> afin d’assembler sous une même forme, des
-                        données venant de plusieurs tables différentes. Le défi était ici de transformer le besoin client exprimé
-                        verbalement, en requête SQL, étant donné le grand nombres de conditions spécifiques et techniques. Il
-                        était question de faire cohabiter les opérations classiques (ORDER BY, COUNT, HAVING, WHERE,
+                        et les visualiser sous forme de graphiques. J’ai notamment travaillé en autonomie avec
+                        <b>PostgreSQL</b> pour mettre en place des <b>vues complexes</b> afin d’assembler sous une même réponse, des
+                        données venant de plusieurs tables différentes. Le but était ici de transformer le besoin client exprimé
+                        à l'oral, en requête SQL, en prenant en compte le grand nombres de conditions spécifiques qu'elles comportaient. Il
+                        était question de faire fonctionner ensemble les opérations classiques (ORDER BY, COUNT, HAVING, WHERE,
                         JOIN...) avec des <b>opérations plus complexes</b> (CASE, split_part, regexp_split_to_array, OVER,
-                        PARTITION...) pour répondre aux besoins précis nécessaires au bon fonctionnement de l’application. La
-                        création de ces vues s’inscrivait dans une optique d’optimisation globale de vitesse d’exécution et de
+                        PARTITION...) pour répondre aux demandes de l’application. La
+                        création de ces vues servaient pour une optimisation globale de vitesse d’exécution et de
                         traitement des nombreuses données liées à l’application web. Je devais donc travailler en me servant du
-                        gestionnaire visuel de base de données <b>pgAdmin</b> afin de mesurer la performance des requêtes ce qui
-                        représentait un défi supplémentaire. Après une semaine de travail j’ai pu fournir un premier jet
-                        fonctionnel d’une vingtaine de requêtes plus ou moins complexes que j’ai introduit dans l’application. Les
-                        premiers tests ont été concluants et la majeure partie de ces requêtes sont restées plus tard telles
-                        quelles, sans subir d’optimisation ou d’amélioration nécessaire d’autres s’en sont vu attribuées par mes
-                        soins car moins performantes avec d’encore plus gros volumes de données. L’objectif initial était tout de
+                        gestionnaire visuel de base de données <b>pgAdmin</b> pour mesurer la performance des requêtes. 
+                        Après une semaine de travail j’ai pu fournir un premier jet
+                        d’une vingtaine de requêtes plus ou moins complexes que j’ai introduit dans l’application. Les
+                        premiers tests ont été positifs et la majeure partie de ces requêtes sont restées plus tard telles
+                        quelles, sans avoir d’optimisation ou d’amélioration nécessaire d’autres en ont eu par mes
+                        soins car moins performantes avec d’encore plus gros volumes de données. L’objectif initial était quand
                         même accompli avec <b>une base de données beaucoup plus légère et efficace</b>.
                     <br/><br/>
                         Toujours dans le cadre de l’optimisation de l’application web <a>PREMIS DM</a>, nous avions un autre
-                        problème majeur qui est survenu lors d'un test crucial, avec un volume de données plus conséquent que
-                        d'habitude : la mémoire du système se retrouvait parfois saturé, et l'application venait à <b>crash sous le
-                        poids de l'énorme quantité de données</b> à traiter lors de l’exécution de certaines fonctionnalités au sein de
-                        l’application. Face à ce problème, j'ai initié une discussion avec mon maître d'apprentissage pour trouver
-                        une solution. C'est alors que l'idée d'optimiser le processus de <b>traitement de données en utilisant des
-                        index</b> est apparue. J'ai plongé dans une analyse approfondie de la structure des données, déterminant
-                        les points de goulot d'étranglement et conceptualisant une stratégie pour alléger la charge sur le
-                        système à la suite de nombreux tests. Je mesurais les temps d’arrivée des données dans chaque page
-                        de l’application web en prenant en compte les requêtes et modèles appelés. À la suite de ces tests est
+                        problème qui est survenu lors d'un test avec un volume de données plus conséquent que
+                        d'habitude. La mémoire du système se retrouvait parfois saturé et l'application venait à <b>crash face à
+                        une énorme quantité de données</b> à traiter lors de l’exécution de certaines fonctionnalités.
+                        J'en ai parlé avec mon maître d'apprentissage pour trouver
+                        une solution. C'est comme ça que nous avons eu l'idée d'optimiser le processus de <b>traitement de données en utilisant des
+                        index</b>. J'ai réaliser une analyse de la base de données pour trouver les
+                        points de goulot d'étranglement. Je mesurais les temps d’arrivée des données dans chaque page
+                        de l’application web. C'est à la suite de ces tests qu'est
                         venue ma <b>première implémentation d’index sur des propriétés</b> que j’ai identifiées comme <b>centrales</b> aux
-                        cœur des requêtes les plus problématiques. Cette implémentation a été une révélation, réduisant
-                        significativement les temps de réponse et permettant à l'application de gérer des volumes de données
-                        bien plus importants sans faillir. Cette intervention n'a pas seulement <b>résolu le problème immédiat</b> mais a
-                        également servi de tremplin pour réévaluer et améliorer l'ensemble du système de gestion de données
-                        de l'application.
+                        coeur des requêtes les plus problématiques. C'était une réussite puisque ça a permis de réuidre
+                        les temps de réponse et de permettre à l'application de gérer des volumes de données
+                        bien plus importants.
                     <br/><br/>
-                        Parallèlement à mon travail avec des bases de données relationnelles, j'ai également exploré le monde
-                        des bases de données non SQL avec <b>MongoDB</b> dans mon projet personnel <a>YourNight</a> qui est une
+                        J'ai également exploré
+                        les bases de données non SQL avec <b>MongoDB</b> dans mon projet personnel <a>YourNight</a> qui est une
                         application mobile permettant de faciliter l’organisation de soirées. J’ai <b>imaginé et mis en place mon
-                        schéma de données</b> en une soirée, relativement facilement et sans être perdu car je me sentais très vite
+                        schéma de données</b> en une soirée relativement facilement et sans être perdu car je me sentais très vite
                         familier avec MongoDB de par mon expérience déjà solide avec les bases de données relationnelles. Je
                         l’ai premièrement imaginé et hébergé sur Atlas avant de plus tard le faire fonctionner localement. J’ai tout
                         de même pris un peu plus de temps par la suite pour améliorer mon schéma de données malgré qu’il soit
                         fonctionnel pour <b>anticiper un potentiel gros volume de données</b> et solidifier l’ensemble (une leçon que j’ai
-                        tirée du projet PREMIS DM) à l’aide de l'indexation, à la suite d’une analyse approfondie du flux de
-                        donnée de manière similaire à ce que j’avais pu faire sur PREMIS DM. Mes essais faits localement avec
+                        tirée du projet PREMIS DM) à l’aide de l'indexation à l'aide d'une étude de la base de donénes 
+                        similaire à ce que j’avais pu faire sur PREMIS DM. Mes essais faits localement avec
                         de fausses données sur une base de données test ont été concluants mais du fait du faible nombre
-                        d’utilisateurs de l’application, je n’ai jamais pu constater les résultats de cette optimisation en production. Aujourd'hui
+                        d’utilisateurs de l’application, je n’ai jamais pu voir les résultats de cette optimisation en production. Aujourd'hui
                         ma base de données <b>fonctionne extrêmement bien</b> pour le volume de données actuel.
                     `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                    En réfléchissant de manière critique à mes compétences en bases de données, je reconnais que j'ai
-                    établi de <b>solides fondations</b> tant en SQL qu'en NoSQL. Mes expériences avec MySQL, PostgreSQL, et
-                    MongoDB m'ont fourni une bonne compréhension des opérations et des structures de bases de
-                    données, ainsi que de la logique nécessaire pour leur manipulation efficace.
+                    En prenant du recul par rapoort à mes compétences en bases de données, je constate que j'ai
+                    établi de <b>solides fondations</b> tant en SQL qu'en NoSQL.
                 <br/><br/>
-                    Cette compétence représente <b>plus qu'une place importante au sein de mon profil</b> technique étant donné
-                    que j'utilise des bases de données pour tous mes projets. J'ai eu du mal à comprendre les fondements
-                    du fonctionnement des requêtes SQL à mes débuts mais après quelques projets et de l'entrainement sur
-                    des outils tels que MySQL Workbench, j'ai pu assimiler les concepts clés et les meilleures pratiques.
+                    Cette compétence représente <b>plus qu'une place importante au sein de mon profil d'expert</b>
+                    technique étant donné
+                    que j'utilise des bases de données pour tous mes projets. J'ai eu du mal au début à bien comprendre
+                    le fonctionnement des requêtes SQL mais après quelques projets et de l'entrainement sur
+                    des outils tels que MySQL Workbench tout était plus clair et ne réprésente plus aucune difficulté pour moi.
                 <br/><br/>
-                    Cependant, je suis conscient que pour atteindre un niveau supérieur de maîtrise, je dois encore
-                    <b>approfondir mes connaissances</b> et compétences, en particulier dans <b>l'optimisation des bases de
+                    Cependant si je veux atteindre un niveau supérieur de maîtrise, je dois encore
+                    <b>approfondir mes connaissances</b> dans <b>l'optimisation des bases de
                     données</b> pour la manipulation d'énormes volumes de données.
                 <br/><br/>
-                    Bien que j'aie acquis une certaine expérience dans l'optimisation des requêtes et la création de vues
-                    complexes avec PostgreSQL, et que j'aie exploré la flexibilité des modèles de données avec MongoDB,
-                    je suis conscient que la gestion et l'optimisation des bases de données à grande échelle représentent un
-                    défi bien plus complexe. Cela implique une compréhension avancée des index, des stratégies de
-                    partitionnement des données, du tuning des performances et de la gestion efficace des transactions,
-                    surtout dans des environnements où la rapidité d'accès et la cohérence des données sont primordiales.
+                    Je suis conscient que la gestion et l'optimisation des bases de données à grande échelle représentent un
+                    défi bien plus complexe que ce que j'ai pu connaitre jusqu'à présent. 
+                    Il me manque encore une compréhension avancée des index, des stratégies de
+                    partitionnement des données et de la gestion efficace des transactions.
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                    Ma trajectoire avec les technologies de bases de données a été une aventure constante d'apprentissage
-                    et d'adaptation. Reconnaissant leur rôle essentiel dans le développement de toute application moderne,
-                    je suis résolu à continuer à les utiliser activement dans mes projets futurs. <b>Pour les petits projets</b>, je
-                    prévois de continuer à utiliser <b>MongoDB</b> en raison de sa flexibilité et de sa facilité d'implémentation. Le
-                    fonctionnement par schéma de MongoDB et sa capacité à gérer des données de forme libre la rendent
-                    idéale pour des projets agiles et innovants.
+                    Je suis déterminé à continuer d'utiliser les bases de données dans mes projets futurs. <b>Pour les petits projets</b>, je
+                    prévois de continuer à utiliser <b>MongoDB</b> pour sa facilité d'implémentation.
                 <br/><br/>
-                    <b>Pour les projets plus importants et complexes</b>, les <b>bases de données SQL</b> resteront mon choix privilégié,
-                    compte tenu de leur robustesse, de leur fiabilité et de leur capacité à gérer efficacement de grandes
-                    quantités de données structurées. Toutefois, j'ai une forte envie de développer davantage mes
-                    compétences en NoSQL. Mon expérience avec MongoDB m'a particulièrement impressionné et a suscité
-                    un intérêt marqué pour explorer d'autres bases de données NoSQL, chacune ayant ses propres forces et
-                    cas d'utilisation spécifiques.
+                    <b>Pour les projets plus importants et complexes</b>, les <b>bases de données SQL</b> resteront mon choix privilégié
+                    pour leur robustesse, leur fiabilité et de leur capacité à gérer efficacement de grandes
+                    quantités de données. J'ai tout de même une forte envie de développer davantage mes
+                    compétences en NoSQL. Mon expérience avec MongoDB m'a beaucoup plu et m'a donné envie
+                    d'explorer d'autres bases de données NoSQL.
                 <br/><br/>
-                    Parallèlement à mon intérêt croissant pour les bases de données NoSQL, je suis également conscient
-                    de l'importance croissante du cloud computing dans la gestion des données. Le cloud offre une flexibilité,
-                    une scalabilité et une efficacité inégalée, ce qui en fait un élément crucial dans la stratégie de gestion
-                    des données modernes. Mon objectif est de <b>m'intégrer davantage dans le cloud</b>, en apprenant à utiliser
-                    des services de bases de données cloud comme Amazon RDS, Google Cloud SQL ou Azure SQL
-                    Database pour les solutions basées sur SQL, ainsi que des services comme MongoDB Atlas pour les
-                    solutions NoSQL.
+                    Je suis également conscient
+                    de l'importance du cloud computing dans la gestion des données. Le cloud offre
+                    une scalabilité beaucoup plus importante que ce que j'ai connu jusqu'à présent.
+                    Un de mes objectifs est donc également de <b>m'intégrer davantage dans le cloud</b>, en apprenant à utiliser
+                    des services de bases de données cloud comme Azure SQL.
                 `,
                 
             }, {
@@ -297,97 +278,83 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                GIT est un système de <b>contrôle de version décentralisé</b>, largement reconnu pour sa robustesse et sa flexibilité. Il est conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité. GIT facilite le suivi des modifications dans les fichiers, permettant aux développeurs de collaborer sur le code de manière coordonnée et sécurisée. Il fournit des outils pour naviguer et visualiser l'historique des modifications, et gère efficacement les branches et les fusions.
+                GIT est un système de <b>contrôle de version décentralisé</b>. Il est conçu pour gérer les petits et très grands projets. GIT facilite le suivi des modifications dans les fichiers ce qui permet aux développeurs de collaborer sur le code. Il fournit des outils pour visualiser l'historique des modifications et gère efficacement les branches et les fusions de code.
                 <br/><br/>
-                La <b>popularité</b> de GIT dans le milieu professionnel est <b>indéniable</b>, comme le montrent les nombreuses références dans les médias spécialisés en technologie. Sa présence est omniprésente dans le monde du développement logiciel, adoptée par des grandes entreprises technologiques et des startups innovantes. L'importance de GIT réside dans sa capacité à faciliter la collaboration entre les développeurs et à gérer efficacement les versions du code dans un environnement de développement moderne.
+                La <b>popularité</b> de GIT dans le milieu professionnel est <b>incontestable</b>. Git est présent partout dans le monde du développement logiciel.
                 <br/><br/>
-                GIT est souvent choisi pour sa capacité à <b>gérer efficacement les projets de développement logiciel</b> de toutes tailles, offrant une solution fiable et évolutive pour le contrôle de version. Sa facilité d'intégration avec d'autres outils de développement et sa capacité à s'adapter à divers workflows en font un élément essentiel dans les pratiques modernes de développement logiciel, en particulier dans des environnements où la collaboration et la gestion efficace du code sont primordiales.
+                GIT est souvent choisi car il est capable de <b>gérer efficacement les projets de développement logiciel</b> de toutes tailles. Il est également facile à intégrer avec d'autres outils de développement.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Depuis mes débuts dans le monde de la programmation, il y a environ cinq ans, GIT a été un outil
-                    constant dans mon parcours de développement. J'ai utilisé GIT dans divers contextes, que ce soit à
-                    l'école ou en entreprise, en adoptant GitLab comme plateforme principale pour les projets académiques
-                    et professionnels, et GitHub pour mes projets personnels ou ceux réalisés en collaboration avec mes
+                    Lorsque j'ai débuté la programmation il y a environ cinq ans, j'ai directement utilisé GIT pour mes premiers projets.
+                    J'ai utilisé GitLab comme plateforme pour les projets scolaires
+                    et professionnels et GitHub pour mes projets personnels ou ceux réalisés en collaboration avec mes
                     amis.
                 <br/><br/>
-                    Lorsque j’ai travaillé dans le cadre scolaire sur le projet de groupe <a>Hypotech</a> qui est une application
+                    Lorsque j’ai travaillé dans le cadre scolaire sur le projet <a>Hypotech</a> qui est une application
                     mobile Android ayant pour objectif de fluidifier la gestion de projets de vente immobilière, notre gestion
-                    du gitlab était quelque peu laborieuse notamment due au fait que nous n’utilisions que très peu le
-                    système de branche. C’est à ce moment que j’ai énormément progressé sur la technologie et compris le
-                    réel intérêt et la puissance de GIT. Au vu de la situation nous avons rencontré des <b>conflits de fusion
-                    complexes</b> qui ont nécessité plusieurs heures pour être résolus. Ces situations ont été des occasions
-                    d'apprentissage précieuses, me poussant à développer une compréhension plus profonde de la
-                    résolution de conflits avec <b>git merge</b>. Je me portais souvent volontaire pour résoudre ces conflits, car je
-                    commençais à bien appréhender le problème et ils ne représentaient plus un si grand défi pour moi. À la
-                    suite de ce genre de problèmes il n’était plus question pour nous de continuer comme ça. J'ai décidé
-                    d’aller de l’avant et de commencer une discussion autour du problème pour trouver une solution et nous
-                    avons par conséquent <b>adopté une nouvelle approche consistant à faire une branche par User Story</b> (que
+                    du gitlab n'était pas optimale étant donné que nous n’utilisions que très peu le
+                    système de branche. C’est surtout à ce moment là que j’ai énormément progressé sur la technologie et compris le
+                    réel intérêt et la puissance de GIT. Nous avions donc bien évidemment rencontré des <b>conflits de merge
+                    complexes</b> qui ont eu besoin de plusieurs heures pour être résolus.
+                    Je me portais souvent volontaire pour résoudre ces conflits car je
+                    commençais à bien appréhender le problème et ça ne représentait plus un si grand défi pour moi. Malgré tout ces problèmes nous faisaient perdre trop de temps
+                    et j'ai décidé
+                    de commencer une discussion autour du problème pour trouver une solution c'est à ce moment que nous avons
+                    <b>adopté une nouvelle approche consistant à faire une branche par User Story</b> (que
                     l’on peut définir grossièrement de fonctionnalité) et à venir merge ces branches dans la branche
-                    principale qui était en l’occurrence “master”. Au démarrage d'une nouvelle User Story nous devions créer une 
-                    brance à partir de master et la nommer en référence avec la User Story pour que tout le monde puisse s’y retrouver.
-                    Lors de modifications sur master nous devions <b>rebase</b> nos branches pour éviter les conflits de fusion. Cette
-                    approche a <b>considérablement amélioré notre flux de travail</b>, réduisant les conflits et les erreurs de
-                    fusion.
+                    principale qui était chez nous la brache “master”. Lorsque l'on commençait le développement d'une nouvelle User Story nous devions créer une 
+                    brance à partir de master et la nommer par rapport à la User Story pour que tout le monde puisse s’y retrouver.
+                    Lors de modifications sur master nous devions <b>rebase</b> nos branches pour éviter les conflits. C'est cette
+                    approche qui a <b>amélioré notre flux de travail</b> en réduisant les conflits et les différentes erreurs.
                 <br/><br/>
-                    Au-delà des commandes classiques et de la gestion par branche j’ai découvert et adopté de nouveaux
+                    J’ai découvert et adopté de nouveaux
                     principes au cours du développement de <a>YourNight</a>. J’ai voulu trouver un moyen d’automatiser le
-                    lancement de mes tests unitaires car je savais que c’était possible. C’est à ce moment que j’ai
-                    implémenté les <b>git hooks</b> sans difficulté particulière et qui se sont avérés comme étant un aspect crucial
-                    du projet. En mettant en place ce système j’ai considérablement <b>amélioré la qualité du code et la fiabilité
-                    de l'application</b>, sachant que le code était systématiquement validé par ces tests à chaque commit. J’ai
+                    lancement de mes tests unitaires car je savais que c’était possible. J’ai donc découvert et
+                    implémenté les <b>git hooks</b> sans difficulté particulière. 
+                    C'est la mise en place de ce système qui a <b>amélioré la qualité du code et la fiabilité
+                    de l'application</b> puisque maintenant le code était validé par ces tests à chaque commit. C'est de cette manière que j’ai
                     pu détecter rapidement les erreurs et les bugs avant qu'ils n'atteignent la branche principale et même
-                    plus globalement cette approche a contribué à une <b>meilleure discipline de développement</b>,
-                    m'encourageant à écrire des tests unitaires complets et à penser davantage aux potentiels impacts des
+                    plus de manière générale cela m'a forcé à avoir une <b>meilleure discipline de développement</b>
+                    en m'encourageant à écrire des tests unitaires et à penser davantage aux potentiels impacts des
                     changements de code.
                 `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                    En évaluant mes compétences et mon expérience avec GIT, je dispose de
-                    <b>connaissances solides</b>, particulièrement en ce qui concerne l'utilisation de GitHub. J'ai rapidement acquis
-                    une <b>bonne maîtrise des opérations de base et avancées de GIT</b>, comme la gestion des branches, la
-                    résolution de conflits, l'utilisation de hooks pour l'automatisation des tests, et la collaboration efficace via
-                    les pull requests. Git est aujourd'hui un outil que j'utilise pour tous mes projets, qu'ils soient personnels
+                    En prenant du recul par rapport à mon expérience avec GIT je possède aujourd'hui des
+                    <b>connaissances solides</b> sur l'utilisation de GIT. J'ai rapidement acquis
+                    une <b>bonne maîtrise des opérations de base et avancées de GIT</b> comme la gestion des branches, la
+                    résolution de conflits, l'utilisation de hooks pour l'automatisation des tests, et l'utilisation des pull requests. 
+                    Git est aujourd'hui un outil que j'utilise pour tous mes projets, qu'ils soient personnels
                     ou professionnels.
                 <br/><br/>
-                    Cependant, en regardant de manière critique, je reconnais qu'il existe des <b>domaines où je peux encore
-                    m'améliorer</b>, surtout en ce qui concerne l'utilisation de GitLab et la mise en place de workflows complets
+                    Cependant je suis conscient qu'il existe des <b>domaines où je peux encore
+                    m'améliorer</b> comme l'utilisation de GitLab et la mise en place de workflows complets
                     de <b>CI/CD</b> (Continuous Integration/Continuous Deployment).
                 <br/><br/>
-                    GitLab offre des fonctionnalités étendues pour le CI/CD, permettant une automatisation plus poussée du
-                    processus de développement et de déploiement. Jusqu'à présent, <b>mon expérience avec ces aspects de
-                    GitLab reste limitée</b>. Je vois une opportunité significative d'amélioration dans la compréhension et la
-                    mise en œuvre de pipelines de CI/CD complets, qui comprennent non seulement l'exécution
-                    automatique des tests, mais aussi l'intégration de l'analyse de code, le déploiement automatique dans
-                    différents environnements et la gestion efficace des versions.
+                    GitLab offre des fonctionnalités avancées pour le CI/CD qui permettent d'automatiser par exemple les processus de déploiement. 
+                    Pour l'instant <b>mon expérience avec ces aspects de
+                    GitLab reste limitée</b>. 
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                        Ma trajectoire avec GIT a été un voyage d'apprentissage constant, marqué par une appréciation
-                        croissante pour cet outil puissant et polyvalent. J'ai développé un <b>attachement fort à GIT</b>, le trouvant
-                        fantastique pour sa capacité à gérer efficacement les versions de code et à faciliter la collaboration. Cela
-                        me motive à <b>explorer</b> encore plus profondément ses possibilités, en particulier dans le domaine de
-                        l'intégration et du <b>déploiement continus</b> (CI/CD) via GitLab.
+                        J'ai développé un <b>attachement fort à GIT</b> pour sa capacité à faciliter la collaboration. Je l'utilise pour tous mes projets même si je travaille seul dessus.
                     <br/><br/>
-                        En regardant vers l'avenir, je suis déterminé à <b>maîtriser les concepts de CI/CD</b>, reconnaissant leur
-                        importance cruciale dans les cycles de développement logiciel modernes. Mon objectif est de gagner
-                        une compréhension approfondie des pipelines de CI/CD dans GitLab, allant de la configuration initiale
-                        des pipelines à la mise en œuvre de stratégies de déploiement automatisé et d'assurance qualité. Je
-                        prévois de me plonger dans la documentation de GitLab, d'explorer les tutoriels en ligne et de participer
-                        à des projets pratiques pour renforcer cette compétence.
+                        Je suis aujourd'hui déterminé à <b>maîtriser les concepts de CI/CD</b>. Mon objectif est d'avoir une 
+                        compréhesion approfondie des pipelines de CI/CD dans GitLab. Je
+                        prévois de me plonger dans la documentation de GitLab, et de consulter les tutoriels en ligne.
                     <br/><br/>
-                        Je vois cette évolution comme une étape naturelle dans ma croissance en tant que développeur. La
-                        maîtrise des flux de travail de CI/CD me permettra non seulement <b>d'optimiser le processus de
-                        développement</b> dans mes projets, mais aussi de garantir une qualité de code plus élevée et une
-                        distribution plus efficace. Cela augmentera ma valeur en tant que professionnel du développement
-                        logiciel, me rendant plus compétent dans la gestion de projets complexes et dans la réponse aux
-                        besoins des environnements de développement dynamiques.
+                        Cette évolution est une étape dans ma carrière de développeur. Cela 
+                        me permettra <b>d'optimiser le processus de
+                        développement</b> dans mes projets tout en garantissant une qualité de code plus élevée.
+                        Cela renforcera mon profil en tant que développeur logiciel
+                        logiciel, me rendant plus compétent dans la gestion de projets complexes.
                     `,
                 
             }, {
@@ -404,43 +371,37 @@ export const skills: ISkill[] = [
             {
                 element: "Définition",
                 content: `
-                L'intégration continue (CI) est une pratique de développement logiciel qui consiste à <b>automatiser l'intégration du code</b> dans un dépôt partagé plusieurs fois par jour. Cette approche permet aux équipes de détecter rapidement les erreurs, de les corriger en amont et d'améliorer la qualité du logiciel, tout en réduisant le temps nécessaire pour publier de nouvelles mises à jour. La CI encourage une culture de tests fréquents, ce qui aide à identifier et à résoudre les conflits entre les branches de développement dès qu'ils se présentent, facilitant ainsi un processus de développement plus fluide et plus rapide.
+                L'intégration continue est une pratique de développement logiciel pour <b>automatiser l'intégration du code</b> dans un dépôt partagé plusieurs fois par jour. Cette approche permet aux équipes de détecter rapidement des erreurs, de les corriger et d'améliorer la qualité du logiciel.
                 <br/><br/>
-                Au cœur de l'intégration continue se trouve l'automatisation du <b>processus de build et de test</b>, qui exécute une série de scripts ou de tâches automatiquement à chaque soumission de code. Cela inclut la compilation du code, l'exécution des tests unitaires et d'intégration, et parfois la vérification du respect des normes de codage. Si le processus détecte des erreurs ou des tests échoués, il alerte l'équipe de développement, permettant une intervention rapide avant que le problème ne s'aggrave ou ne se propage.
-                <br/><br/>
-                L'adoption de l'intégration continue dans les projets de développement logiciel apporte plusieurs avantages, notamment une <b>diminution significative des conflits de fusion</b>, une détection précoce des bugs, une réduction des risques liés à la publication, et une augmentation de la confiance dans le code qui est livré. De plus, la CI favorise les livraisons de logiciels plus fréquentes et plus fiables, ce qui est essentiel dans un environnement de développement agile.
-                <br/><br/>
-                En résumé, l'intégration continue est une pierre angulaire des pratiques de développement moderne, permettant aux équipes de maintenir un rythme de développement élevé tout en assurant la qualité et la stabilité du logiciel produit.
+                Son adoption apporte plusieurs avantage comme par exemple une <b>diminution significative des conflits de fusion de code</b>, une détection des bugs et une réduction des risques liés au déploiement de la solution.
                 `,
                 
             }, {
                 element: "Contexte d’utilisation",
                 content: `
-                    Dans le contexte de l'application web <a>PREMIS DM</a> qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, l’implémentation d’une première intégration continue était essentielle en raison du nombre de <b>déploiement faits manuellement</b> par semaine à des fins de tests. La solution jusqu'à ce moment, ne disposait d'aucun système automatisé pour le déploiement, c'était le chef de projet qui était chargé de diriger les déploiements de l'application. Sans une compréhension approfondie des processus sous-jacents, il suivait un ensemble de commandes fournies par mon maître d'apprentissage, exécutées séquentiellement sans véritable assurance de cohérence entre les déploiements. Ma responsabilité a été de <b>mettre en place une chaîne d'intégration continue via GitHub</b>, un outil que je maîtrisais déjà pour la gestion du code source. L'objectif était de créer un processus automatisé de déploiement qui faciliterait et accélérerait la mise en production des nouvelles versions de l'application. Cela impliquait la <b>configuration de webhooks GitHub</b> pour déclencher des scripts de déploiement que j'avais imaginé en me basant sur les commandes exécutées manuellement, sur le serveur chaque fois que des modifications étaient poussées vers la branche principale du dépôt. Le processus d'intégration continue que j'ai mis en place comprenait plusieurs étapes clés : <b>la compilation du code</b>, <b>l'exécution des tests automatiques</b> pour vérifier l'intégrité et la fonctionnalité de l'application, et enfin le <b>déploiement automatique</b> sur le serveur de production. Ce workflow a non seulement permis de garantir que chaque nouvelle version déployée était stable et prête pour la production, mais il a également significativement réduit le temps nécessaire pour publier des mises à jour, permettant ainsi à l'équipe de se concentrer davantage sur le développement de nouvelles fonctionnalités et l'amélioration de l'application. En automatisant le processus de déploiement avec l'intégration continue, j'ai contribué à instaurer une <b>pratique de développement plus agile et plus réactive</b> au sein de l'équipe. Cette expérience a été enrichissante, me permettant de renforcer mes compétences en gestion de serveur, en automatisation, et en travail collaboratif grâce à GitHub, tout en répondant efficacement aux exigences techniques et opérationnelles du projet PREMIS DM. La transition vers un système d'intégration continue que j'ai initialement mise en place a marqué un tournant significatif dans notre façon de travailler. Cependant, la véritable évolution est venue plus tard, lorsqu'un collègue a pris l'initiative de développer un workflow d'intégration continue et de déploiement continu (CI/CD) encore plus robuste, en utilisant notre propre instance GitLab. 
+                    Lorsque j'ai travaillé sur l'application web <a>PREMIS DM</a> qui est une application web ayant pour but pour de gérer de grands volumes de données liées au domaine de l’industrie afin de les consulter, de les analyser et de les visualiser sous forme de graphiques, l’implémentation d’une première intégration continue était obligatoire pour nous au vu du nombre de <b>déploiement faits manuellement</b> par semaine. Nous n'avions jusqu'à ce moment aucun système automatisé pour le déploiement, c'était le chef de projet qui était chargé de diriger les déploiements de l'application ce qui était problématique d'autant plus qu'il suivait un ensemble de commandes fournies par mon maître d'apprentissage. Ces lignes de commandes étaient exécutées dans un ordre précis sans que le chef de projet ne sache réellement ce qu'il étaient en train de faire. C'est pour cette raison que j'ai eu pour responsabilité de <b>mettre en place une chaîne d'intégration continue via GitHub</b>. Je maitrisais déjà l'outil pour la gestion du code source. Mon objectif était donc de créer un processus automatisé de déploiement accélérerait la mise en production des nouvelles versions de l'application et surtout beaucoup plus simplement sans se préocuper de le faire manuellement. J'ai donc <b>configuré des webhooks GitHub</b> pour déclencher des scripts de déploiement que j'avais imaginé à partir des commandes exécutées manuellement. Il y avait le déclanchmenet de plusieurs étapes clés : <b>La compilation du code</b>, <b>l'exécution des tests automatiques</b> pour vérifier l'intégrité et la fonctionnalité de l'application, et enfin le <b>déploiement automatique</b> sur le serveur de production. J'a par conséquent contribué à mettre en place une <b>pratique de développement plus agile</b> au sein de l'équipe en évitant notre problème principal. Cependant, la véritable évolution est venue plus tard, lorsqu'un collègue a développé un workflow d'intégration continue et de déploiement continu (CI/CD) encore plus robuste en utilisant notre propre instance GitLab. 
                     <br/><br/>
-                    Pour mon projet personnel <a>YourNight</a> qui est une application mobile visant à fluidifier l’organisation de soirées, j'ai également pris l'initiative de mettre en place un <b>système d'intégration continue automatisé, en utilisant GitHub</b> pour gérer le code source et automatiser les déploiements de mon API sur un VPS Ubuntu. Ce workflow incluait <b>l'exécution automatique de tests</b> pour assurer la qualité du code, ainsi que <b>l'application de ESLint</b> pour maintenir une cohérence de style de codage et détecter les erreurs potentielles avant le déploiement. Cependant à chaque déploiement de l'application, un problème récurrent entraînait la perte des photos de profil des utilisateurs. Après investigation, il s'est avéré que le problème était lié à la gestion des volumes dans Docker. En effet, lors du déploiement de nouvelles versions de l'application via Docker, les données stockées localement dans le conteneur, y compris les photos de profil, étaient effacées, car le volume contenant ces données n'était pas correctement configuré pour persister au-delà du cycle de vie du conteneur. La mise en place d'un système d'intégration continue automatisé pour YourNight a considérablement <b>transformé ma façon de gérer les déploiements</b>, les rendant non seulement <b>plus fiables mais aussi beaucoup moins stressants</b>. L'automatisation du processus de déploiement, incluant l'exécution des tests, l'application de ESLint, et la gestion correcte des volumes Docker, a éliminé une grande part d'incertitude et de tâches manuelles qui pouvaient auparavant mener à des erreurs ou à des oublis. Ce gain de temps est non négligeable, il me permet désormais de me concentrer davantage sur le développement de nouvelles fonctionnalités et l'amélioration de l'expérience utilisateur, plutôt que de me préoccuper des détails techniques du déploiement. La confiance accrue dans la fiabilité et la stabilité des déploiements automatisés a également réduit le stress associé à la mise en ligne de nouvelles versions de l'application. <b>Je peux maintenant effectuer des mises à jour fréquentes et réactives</b>, en réponse aux besoins des utilisateurs ou pour corriger des bugs, avec l'assurance que chaque déploiement est préalablement testé et vérifié.
+                    Pour mon projet personnel <a>YourNight</a> qui est une application mobile visant à fluidifier l’organisation de soirées, j'ai également décidé de mettre en place un <b>système d'intégration continue automatisé, en utilisant GitHub</b> pour automatiser les déploiements de mon API sur un VPS Ubuntu. Ce workflow était composé de <b>l'exécution automatique de tests</b> ainsi que <b>l'application de ESLint</b> pour maintenir un style de codage et détecter les erreurs potentielles avant le déploiement. Cependant à chaque déploiement de l'application il y avait un problème qui entraînait la perte des photos de profil des utilisateurs. Il s'est en fait avéré que le problème était du à la gestion des volumes dans Docker puisque lors du déploiement de nouvelles versions de l'application les données stockées localement dans le conteneur comme du coup les photos de profil étaient effacées car le volume contenant ces données n'était pas correctement configuré pour stocker les données localement sur la machine hôte. C'est la mise en place d'un système d'intégration continue pour YourNight qui a <b>transformé ma façon de gérer les déploiements</b> en les rendant <b>plus fiables mais aussi beaucoup moins stressants</b>. Ça a aussi été un gain de temps est non négligeable, ça permet aujourd'hui de me concentrer sur le développement de nouvelles fonctionnalités plutôt que de me préoccuper des détails liés au déploiement. <b>Je peux maintenant effectuer des mises à jour fréquentes</b> par rapport aux demandes des utilisateurs ou pour corriger des bugs.
                     `,
                 
             }, {
                 element: "Regard critique",
                 content: `
-                Mon regard critique sur ma compétence en intégration continue reflète <b>une appréciation nuancée de mes acquis</b> et des domaines nécessitant une amélioration. Bien que je dispose de bases solides dans la mise en œuvre de workflows d'intégration continue, notamment grâce à mes expériences avec GitHub et la gestion de déploiements automatisés sur des VPS Linux, je reconnais que <b>mon expérience reste limitée</b>, surtout quand il s'agit d'outils et de pratiques plus avancés.
+                Mon regard critique sur ma compétence en intégration continue montre <b>un bilan un peu nuancé sur mes acquis</b>. Je reconnais que <b>mon expérience reste limitée</b>, surtout quand il s'agit d'outils et de pratiques plus avancés.
                 <br/><br/>
-                L'intégration continue ne représente qu'un <b>faible pourcentage de mon profil professionnel</b>, je ne l'utilise que lorsque j'en ai besoin avec des outils relativement basiques me permettant de répondre à mes besoins. J'ai tout de même rapidement saisi son importance et son potentiel pour améliorer la qualité du code et la fiabilité des applications. J'ai pu constater les avantages de l'intégration continue dans mes projets, notamment en termes de détection précoce des erreurs et de réduction des risques liés aux déploiements.
+                L'intégration continue ne représente qu'un <b>faible pourcentage de mon profil d'expert</b>, je ne l'utilise que lorsque j'en ai besoin avec des outils basiques me permettant de répondre à mes besoins. J'ai tout de même rapidement compris son importance pour améliorer la fiabilité des applications. J'ai constaté les avantages de l'intégration continue dans mes projets surtout pour tout ce qui concerne la détection des erreurs.
                 <br/><br/>
-                Je n'ai pas encore eu l'opportunité d'utiliser des outils d'intégration continue et de déploiement continu (CI/CD) plus poussés comme Jenkins ou Travis CI dans un contexte GitLab. Ces plateformes offrent des fonctionnalités et une flexibilité supplémentaires pour gérer des pipelines CI/CD complexes, permettant une automatisation encore plus grande et plus sophistiquée des tests, des builds, et des déploiements.
+                Je n'ai pas encore pu utiliser des outils d'intégration continue et de déploiement continu (CI/CD) plus poussés comme Jenkins, ce que j'aimerai découvrir dans le futur.
                 <br/><br/>
-                Mon manque d'expérience avec ces outils avancés <b>limite ma capacité à tirer pleinement parti des potentialités de l'intégration continue</b>, en particulier pour des projets de grande envergure ou nécessitant une configuration de déploiement complexe. Cette lacune souligne un besoin pour moi de continuer à me former et à explorer ces technologies pour enrichir ma maîtrise de l'intégration et du déploiement continu.
-                <br/><br/>
-                En somme, bien que je sois capable de gérer efficacement les déploiements et d'apprécier les avantages de l'intégration continue avec les outils que j'ai utilisés jusqu'à présent, je reste conscient de l'étendue de ce que j'ai encore à apprendre.
+                Mon manque d'expérience avec ces outils avancés <b>limite ma capacité dans l'implémentation de chaine d'intégration continue</b> surtout pour des projets importants qui nécessitent une configuration de déploiement complexe.
                 `,
                 
             }, {
                 element: "Evolution",
                 content: `
-                    <b>Mon intérêt pour la compétence en intégration continue (CI/CD) est plus que présent</b>, et je suis résolu à approfondir ma compréhension et ma maîtrise de cette discipline essentielle au développement logiciel moderne. Conscient de l'importance cruciale des outils d'intégration continue avancés pour optimiser et sécuriser le processus de développement et de déploiement des applications, <b>je m'engage à me former de manière plus approfondie</b> sur des plateformes telles que Jenkins, Travis CI, et d'autres solutions GitLab CI/CD.
+                    <b>Je ressens un grand intérêt pour la compétence en intégration continue (CI/CD)</b>, j'ai vraiment envie d'approfondir ma compréhension et ma maîtrise de cette compétence puisque je suis conscient de l'importance de ces outils pour optimiser et sécuriser le processus de développement et de déploiement des applications.
                     <br/><br/>
-                    Cette formation se fera au travers de contenus en ligne, tels que des tutoriels, des cours, et des webinaires dédiés, qui me permettront d'acquérir les connaissances et compétences nécessaires pour implémenter des pipelines CI/CD plus complexes et plus efficaces. Mon objectif est de pouvoir non seulement appliquer ces compétences accrues à mes futurs projets personnels, en maximisant leur efficacité et leur fiabilité, mais aussi de contribuer de manière plus significative à l'entreprise où je réalise mon alternance. En aidant à résoudre des problèmes liés à l'intégration et au déploiement continu, je souhaite apporter une valeur ajoutée à mon équipe et améliorer les processus de développement au sein de l'entreprise.
+                    Je compte me former à des outils plus complexe à travers des contenus en ligne sous la forme de tutoriels qui me permettront d'acquérir les compétences nécessaires pour implémenter des pipelines CI/CD plus complexes et plus efficaces. Mon objectif est de pouvoir appliquer ces compétences à mes futurs projets personnels mais aussi à contribuer dans la gestion CI/CD de l'entreprise où je réalise mon alternance en aidant à résoudre des problèmes liés à l'intégration et au déploiement continu.
                     `,
                 
             }, {
